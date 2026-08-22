@@ -1,10 +1,9 @@
 "use client";
 
-import { useEffect, useState, useCallback, useRef } from "react";
+import { useEffect, useState, useCallback, useRef, useMemo } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, Flag01, LayoutGrid02, Zap, LogOut01 } from "@untitledui/icons";
+import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, ChevronRight, LayoutGrid02, Zap, LogOut01 } from "@untitledui/icons";
 import { Button } from "../../components/base/buttons/button";
-import { Input } from "../../components/base/input/input";
 import { FeaturedIcon } from "../../components/foundations/featured-icon/featured-icon";
 import { ProgressBar } from "../../components/base/progress-indicators/progress-indicators";
 import { QuestionOptions } from "../../components/exam/question-options";
@@ -15,8 +14,6 @@ import { useExamStore, useActiveExam, Question } from "../../store/use-exam-stor
 import { useConfigStore } from "../../store/use-config-store";
 import { cx } from "../../utils/cx";
 import { Markdown } from "../../components/shared-assets/markdown";
-import { Dialog, DialogTrigger, Modal, ModalOverlay } from "../../components/application/modals/modal";
-import { Heading as AriaHeading } from "react-aria-components";
 import { useToast } from "@/contexts/use-toast";
 import { useAuthStore } from "@/store/use-auth-store";
 import { UserDropdown } from "@/components/layout/user-dropdown";
@@ -24,6 +21,9 @@ import { Badge } from "@/components/base/badges/badges";
 import Image from "next/image";
 import { AdsModal } from "@/components/shared-assets/ads-modal";
 import { ADS, PAID_PLAN_IDS } from "@/data/ads";
+import ConfirmationModal from "@/components/layout/confirmation-modal";
+
+const PAGE_SIZE = 50;
 
 export const PlaygroundScreen = () => {
     const router = useRouter();
@@ -38,6 +38,8 @@ export const PlaygroundScreen = () => {
     const showAds = !user?.planId || !PAID_PLAN_IDS.includes(user.planId);
     const [adsModalAd, setAdsModalAd] = useState<(typeof ADS)[number] | null>(null);
     const pendingStartRef = useRef(false);
+    const [currentPage, setCurrentPage] = useState(0);
+
     const {
         selectExam,
         setQuestions,
@@ -58,12 +60,7 @@ export const PlaygroundScreen = () => {
     const [error, setError] = useState<string | null>(null);
     const [isRecording, setIsRecording] = useState(false);
     const isGenerating = useRef(false);
-    // Initialize loadingExam=true when exam is not in store yet, to prevent premature redirect
-    const [loadingExam, setLoadingExam] = useState(() => {
-        // We can't check exams here in useState init, so we just start with false;
-        // the fix is in the effect order and isFetchingRef
-        return false;
-    });
+    const [loadingExam, setLoadingExam] = useState(false);
     const isFetchingRef = useRef(false);
     const [fetchError, setFetchError] = useState<string | null>(null);
 
@@ -73,6 +70,14 @@ export const PlaygroundScreen = () => {
         customApiKeys,
         usePersonalKey
     } = useConfigStore();
+
+    // Keep sidebar page in sync with current question index
+    useEffect(() => {
+        if (activeExam?.currentQuestionIndex !== undefined) {
+            const pageIndex = Math.floor(activeExam.currentQuestionIndex / PAGE_SIZE);
+            setCurrentPage(pageIndex);
+        }
+    }, [activeExam?.currentQuestionIndex]);
 
     const generateAllQuestions = useCallback(async () => {
         if (isGenerating.current || !activeExam) return;
@@ -164,12 +169,10 @@ export const PlaygroundScreen = () => {
         }
     }, [activeExam, setStatus, setQuestions, toastError, toastWarning, router, deleteExam, provider, modelName, customApiKeys, usePersonalKey]);
 
-    // Fetch exam from DB if not in local store — fixes race condition using isFetchingRef
     useEffect(() => {
         if (!hasHydrated || !id) return;
 
         const exists = exams.some((e) => e.id === id);
-        // If it's a demo exam stored locally, don't attempt to fetch from server
         if (!exists && !id.startsWith("demo-") && !isFetchingRef.current) {
             isFetchingRef.current = true;
             setLoadingExam(true);
@@ -192,14 +195,12 @@ export const PlaygroundScreen = () => {
         }
     }, [id, hasHydrated, addOrUpdateExam, exams]);
 
-    // Sync active exam with URL
     useEffect(() => {
         if (hasHydrated && id && id !== activeExam?.id && exams.some((e) => e.id === id)) {
             selectExam(id);
         }
     }, [id, activeExam?.id, selectExam, hasHydrated, exams]);
 
-    // Only redirect if hydrated, not loading, not fetching, exam not found, and no fetch in progress
     useEffect(() => {
         if (
             hasHydrated &&
@@ -213,7 +214,6 @@ export const PlaygroundScreen = () => {
         }
     }, [id, exams, router, hasHydrated, loadingExam, fetchError]);
 
-    // Handle initial generation if status is idle
     useEffect(() => {
         if (activeExam?.status === "idle" && (activeExam?.config?.questionCount || 0) > 0) {
             generateAllQuestions();
@@ -225,7 +225,6 @@ export const PlaygroundScreen = () => {
     if (loadingExam || !hasHydrated) {
         return (
             <div className="flex min-h-dvh flex-col bg-primary animate-pulse">
-                {/* Header skeleton */}
                 <header className="sticky top-0 z-30 border-b border-secondary bg-primary px-4 py-3 md:px-8">
                     <div className="mx-auto flex w-full max-w-container items-center justify-between">
                         <div className="flex items-center gap-2 md:gap-4">
@@ -244,9 +243,7 @@ export const PlaygroundScreen = () => {
                     </div>
                 </header>
 
-                {/* Main area skeleton */}
                 <main className="mx-auto flex w-full max-w-container flex-1 flex-col gap-6 px-4 py-6 md:flex-row md:gap-8 md:px-8 md:py-8">
-                    {/* Left Sidebar skeleton */}
                     <aside className="hidden h-fit w-64 shrink-0 flex-col gap-4 rounded-xl border border-secondary p-4 md:flex">
                         <div className="h-4 w-24 rounded bg-secondary mb-2" />
                         <div className="grid grid-cols-5 gap-2">
@@ -256,7 +253,6 @@ export const PlaygroundScreen = () => {
                         </div>
                     </aside>
 
-                    {/* Central main question content skeleton */}
                     <section className="flex flex-1 flex-col gap-8">
                         <div className="flex flex-col gap-6 rounded-2xl border border-secondary bg-primary p-5 shadow-xs md:p-10">
                             <div className="flex items-center justify-between">
@@ -269,7 +265,6 @@ export const PlaygroundScreen = () => {
                                 <div className="h-5 w-2/3 rounded bg-secondary" />
                             </div>
 
-                            {/* Options skeleton or input skeleton */}
                             <div className="mt-6 flex flex-col gap-3">
                                 <div className="h-12 w-full rounded-xl bg-secondary" />
                                 <div className="h-12 w-full rounded-xl bg-secondary" />
@@ -278,7 +273,6 @@ export const PlaygroundScreen = () => {
                             </div>
                         </div>
 
-                        {/* Footer buttons skeleton */}
                         <div className="flex items-center justify-between gap-4 mt-auto">
                             <div className="h-10 w-28 rounded-lg bg-secondary" />
                             <div className="h-10 w-28 rounded-lg bg-secondary" />
@@ -345,7 +339,6 @@ export const PlaygroundScreen = () => {
         );
     }
 
-    // Safety fallback for empty questions after loading
     if (questions.length === 0) return null;
 
     const isLastQuestion = currentQuestionIndex === questions.length - 1;
@@ -365,18 +358,25 @@ export const PlaygroundScreen = () => {
         Listening: "success",
     };
 
+    const totalPages = Math.ceil(questions.length / PAGE_SIZE);
+    const startIdx = currentPage * PAGE_SIZE;
+    const endIdx = Math.min(questions.length, startIdx + PAGE_SIZE);
+    const paginatedQuestions = questions.slice(startIdx, endIdx);
+
     if (activeExam.startTime === null) {
         return (
             <div className="flex min-h-dvh flex-col bg-primary animate-in fade-in duration-300">
                 <header className="sticky top-0 z-30 border-b border-secondary bg-primary px-4 py-3 md:px-8">
                     <div className="mx-auto flex w-full max-w-container items-center justify-between">
                         <div className="flex items-center gap-2 md:gap-4">
-                            <button
+                            <Button
+                                color="tertiary"
+                                size="sm"
                                 onClick={handleExit}
-                                className="flex items-center gap-2 rounded-lg p-1.5 hover:bg-secondary transition-colors"
+                                className="!p-1.5"
                             >
                                 <Image src="/logo.png" className="object-contain" alt="LMS Keliling Logo" width={28} height={28} />
-                            </button>
+                            </Button>
                             <hr className="h-4 w-px bg-border-secondary md:h-6" />
                             <span className="text-xs font-semibold text-primary md:text-sm">
                                 Persiapan Ujian
@@ -437,7 +437,6 @@ export const PlaygroundScreen = () => {
                                 className="flex-1"
                                 onClick={() => {
                                     if (showAds) {
-                                        // Pick a random ad and show modal, then start after dismiss
                                         const randomAd = ADS[Math.floor(Math.random() * ADS.length)];
                                         pendingStartRef.current = true;
                                         setAdsModalAd(randomAd);
@@ -452,7 +451,6 @@ export const PlaygroundScreen = () => {
                     </div>
                 </main>
 
-                {/* Ads Modal - fullscreen, shows once when user clicks Mulai Ujian */}
                 {adsModalAd && (
                     <AdsModal
                         ad={adsModalAd}
@@ -474,12 +472,14 @@ export const PlaygroundScreen = () => {
             <header className="sticky top-0 z-30 border-b border-secondary bg-primary px-4 py-3 md:px-8">
                 <div className="mx-auto flex w-full max-w-container items-center justify-between">
                     <div className="flex items-center gap-2 md:gap-4">
-                        <button
+                        <Button
+                            color="tertiary"
+                            size="sm"
                             onClick={() => setIsExitModalOpen(true)}
-                            className="flex items-center gap-2 rounded-lg p-1.5 hover:bg-secondary transition-colors"
+                            className="!p-1.5"
                         >
                             <Image src="/logo.png" className="object-contain animate-in fade-in zoom-in duration-200" alt="LMS Keliling Logo" width={28} height={28} />
-                        </button>
+                        </Button>
                         <hr className="h-4 w-px bg-border-secondary md:h-6" />
                         <span className="text-xs font-semibold text-primary md:text-sm">
                             {currentQuestionIndex + 1}/{questions.length}
@@ -508,56 +508,123 @@ export const PlaygroundScreen = () => {
                 <div className="fixed inset-0 z-40 flex items-end justify-center bg-overlay/40 backdrop-blur-sm md:hidden">
                     <div className="w-full bg-primary rounded-t-3xl p-6 shadow-2xl animate-in slide-in-from-bottom duration-300">
                         <div className="mx-auto mb-4 h-1 w-12 rounded-full bg-secondary" onClick={() => setIsMobileMenuOpen(false)} />
-                        <div className="flex items-center justify-between mb-6">
+                        <div className="flex items-center justify-between mb-4">
                             <h3 className="text-lg font-semibold text-primary">Jump to Question</h3>
                             <Button size="sm" color="tertiary" onClick={() => setIsMobileMenuOpen(false)}>Close</Button>
                         </div>
-                        <div className="grid grid-cols-5 gap-3 max-h-[60vh] overflow-y-auto pb-8">
-                            {questions.map((_, idx) => (
-                                <button
-                                    key={idx}
-                                    onClick={() => {
-                                        goToQuestion(idx);
-                                        setIsMobileMenuOpen(false);
-                                    }}
-                                    className={cx(
-                                        "flex aspect-square items-center justify-center rounded-xl text-sm font-semibold transition-all",
-                                        currentQuestionIndex === idx
-                                            ? "bg-brand-solid text-white shadow-md scale-105"
-                                            : userAnswers[questions[idx].id]
-                                                ? "bg-brand-soft text-brand-700 font-bold"
-                                                : "bg-secondary text-secondary hover:bg-tertiary"
-                                    )}
-                                >
-                                    {idx + 1}
-                                </button>
-                            ))}
+                        {totalPages > 1 && (
+                            <div className="flex items-center justify-between gap-2 mb-4 border-b border-secondary pb-3">
+                                <Button
+                                    size="sm"
+                                    color="secondary"
+                                    iconLeading={ChevronLeft}
+                                    isDisabled={currentPage === 0}
+                                    onClick={() => setCurrentPage((p) => Math.max(0, p - 1))}
+                                />
+                                <span className="text-xs font-medium text-tertiary">
+                                    Soal {startIdx + 1}–{endIdx} dari {questions.length}
+                                </span>
+                                <Button
+                                    size="sm"
+                                    color="secondary"
+                                    iconLeading={ChevronRight}
+                                    isDisabled={currentPage >= totalPages - 1}
+                                    onClick={() => setCurrentPage((p) => Math.min(totalPages - 1, p + 1))}
+                                />
+                            </div>
+                        )}
+                        <div className="grid grid-cols-5 gap-3 max-h-[50vh] overflow-y-auto pb-8">
+                            {paginatedQuestions.map((_, pIdx) => {
+                                const idx = startIdx + pIdx;
+                                return (
+                                    <Button
+                                        key={idx}
+                                        size="sm"
+                                        color={
+                                            currentQuestionIndex === idx
+                                                ? "primary"
+                                                : userAnswers[questions[idx].id]
+                                                    ? "secondary"
+                                                    : "tertiary"
+                                        }
+                                        onClick={() => {
+                                            goToQuestion(idx);
+                                            setIsMobileMenuOpen(false);
+                                        }}
+                                        className={cx(
+                                            "!p-0 flex aspect-square items-center justify-center rounded-xl text-sm font-semibold transition-all",
+                                            userAnswers[questions[idx].id] && currentQuestionIndex !== idx && "bg-brand-soft text-brand-700 border border-brand-300"
+                                        )}
+                                    >
+                                        {idx + 1}
+                                    </Button>
+                                );
+                            })}
                         </div>
                     </div>
                 </div>
             )}
 
             <main className="mx-auto flex w-full max-w-container flex-1 flex-col gap-6 px-4 py-6 md:flex-row md:gap-8 md:px-8 md:py-8">
-                <aside className="hidden h-fit w-64 shrink-0 flex-col gap-4 rounded-xl border border-secondary p-4 md:flex">
-                    <h3 className="text-sm font-semibold text-secondary uppercase tracking-wider">Questions</h3>
-                    <div className="grid grid-cols-5 gap-2">
-                        {questions.map((_, idx) => (
-                            <button
-                                key={idx}
-                                onClick={() => goToQuestion(idx)}
-                                className={cx(
-                                    "flex size-9 items-center justify-center rounded-lg text-sm font-medium transition-colors cursor-pointer",
-                                    currentQuestionIndex === idx
-                                        ? "bg-brand-solid text-white shadow-sm"
-                                        : userAnswers[questions[idx].id]
-                                            ? "bg-brand-soft text-brand-700"
-                                            : "bg-secondary text-secondary hover:bg-tertiary"
-                                )}
-                            >
-                                {idx + 1}
-                            </button>
-                        ))}
+                {/* Sticky Sidebar Navigation Card */}
+                <aside className="hidden h-fit w-64 shrink-0 flex-col gap-4 rounded-xl border border-secondary bg-primary p-4 md:flex sticky top-20 shadow-xs">
+                    <div className="flex items-center justify-between">
+                        <h3 className="text-xs font-semibold text-secondary uppercase tracking-wider">QUESTIONS</h3>
+                        <span className="text-xs font-medium text-tertiary">
+                            {startIdx + 1}–{endIdx} / {questions.length}
+                        </span>
                     </div>
+
+                    <div className="grid grid-cols-5 gap-2 max-h-[60vh] overflow-y-auto pr-1">
+                        {paginatedQuestions.map((_, pIdx) => {
+                            const idx = startIdx + pIdx;
+                            return (
+                                <Button
+                                    key={idx}
+                                    size="sm"
+                                    color={
+                                        currentQuestionIndex === idx
+                                            ? "primary"
+                                            : userAnswers[questions[idx].id]
+                                                ? "secondary"
+                                                : "tertiary"
+                                    }
+                                    onClick={() => goToQuestion(idx)}
+                                    className={cx(
+                                        "!p-0 flex size-9 items-center justify-center rounded-lg text-sm font-medium transition-colors cursor-pointer",
+                                        userAnswers[questions[idx].id] && currentQuestionIndex !== idx && "bg-brand-soft text-brand-700 border border-brand-300"
+                                    )}
+                                >
+                                    {idx + 1}
+                                </Button>
+                            );
+                        })}
+                    </div>
+
+                    {/* Pagination Controls per 50 Items */}
+                    {totalPages > 1 && (
+                        <div className="flex items-center justify-between border-t border-secondary pt-3 mt-1">
+                            <Button
+                                size="sm"
+                                color="secondary"
+                                iconLeading={ChevronLeft}
+                                isDisabled={currentPage === 0}
+                                onClick={() => setCurrentPage((p) => Math.max(0, p - 1))}
+                                title="Halaman Sebelumnya"
+                            />
+                            <span className="text-xs font-medium text-tertiary">
+                                Hal {currentPage + 1}/{totalPages}
+                            </span>
+                            <Button
+                                size="sm"
+                                color="secondary"
+                                iconLeading={ChevronRight}
+                                isDisabled={currentPage >= totalPages - 1}
+                                onClick={() => setCurrentPage((p) => Math.min(totalPages - 1, p + 1))}
+                                title="Halaman Selanjutnya"
+                            />
+                        </div>
+                    )}
                 </aside>
 
                 <section className="flex flex-1 flex-col gap-8">
@@ -572,7 +639,6 @@ export const PlaygroundScreen = () => {
                                     {currentQuestion.skill}
                                 </Badge>
                             </div>
-                            {/* <Button color="tertiary" size="sm" iconLeading={Flag01} className="max-md:px-2" /> */}
                         </div>
 
                         <div className="flex flex-col gap-4 md:gap-6">
@@ -582,11 +648,9 @@ export const PlaygroundScreen = () => {
                                 <div className="flex flex-col gap-6">
                                     <div className="text-md md:text-lg font-medium text-primary leading-relaxed">
                                         {(() => {
-                                            // Split by [blank] OR a sequence of 3 or more underscores
                                             const parts = currentQuestion.description.split(/\[blank\]|_{3,}/g);
                                             if (parts.length === 1) return <Markdown content={currentQuestion.description} />;
 
-                                            // Handle multiple blanks
                                             const currentAnswers = (() => {
                                                 try {
                                                     const parsed = JSON.parse(userAnswers[currentQuestion.id] || "[]");
@@ -605,7 +669,6 @@ export const PlaygroundScreen = () => {
                                                             value={currentAnswers[index] || ""}
                                                             onChange={(e) => {
                                                                 const newAnswers = [...currentAnswers];
-                                                                // Ensure array is large enough
                                                                 while (newAnswers.length <= index) newAnswers.push("");
                                                                 newAnswers[index] = e.target.value;
                                                                 setAnswer(currentQuestion.id, JSON.stringify(newAnswers));
@@ -651,7 +714,6 @@ export const PlaygroundScreen = () => {
                         </div>
                     </div>
 
-
                     <div className="flex items-center justify-between mt-auto gap-4">
                         <Button
                             color="secondary"
@@ -689,92 +751,48 @@ export const PlaygroundScreen = () => {
                     </div>
                 </section>
             </main>
-            <ModalOverlay isDismissable isOpen={isConfirmModalOpen} onOpenChange={setIsConfirmModalOpen}>
-                <Modal>
-                    <Dialog>
-                        <div className="relative w-full overflow-hidden rounded-2xl bg-primary shadow-xl sm:max-w-md">
-                            <div className="flex flex-col gap-4 px-4 pt-5 sm:flex-row sm:px-6 sm:pt-6">
-                                <div className="flex-shrink-0">
-                                    <FeaturedIcon icon={CheckCircle} color="brand" theme="light" size="lg" />
-                                </div>
-                                <div className="flex flex-col gap-1">
-                                    <AriaHeading slot="title" className="text-lg font-semibold text-primary">
-                                        Finish Exam?
-                                    </AriaHeading>
-                                    <p className="text-sm text-tertiary">
-                                        Are you sure you want to finish the exam? You won't be able to change your answers after this.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex flex-col-reverse gap-3 p-4 pt-6 sm:flex-row sm:px-6 sm:pb-6">
-                                <Button color="secondary" size="lg" onClick={() => setIsConfirmModalOpen(false)} className="flex-1">
-                                    Cancel
-                                </Button>
-                                <Button
-                                    color="primary"
-                                    size="lg"
-                                    onClick={() => {
-                                        setIsConfirmModalOpen(false);
-                                        finishExam();
-                                        if (isAuthenticated && !activeExam.isDemo) {
-                                            fetch(`/api/exams/${activeExam.id}/submit`, {
-                                                method: "POST",
-                                                headers: { "Content-Type": "application/json" },
-                                                body: JSON.stringify({
-                                                    userAnswers: activeExam.userAnswers,
-                                                    status: "completed"
-                                                })
-                                            }).catch((err) => console.error("Failed to submit exam:", err));
-                                        }
-                                        router.push(`/result/${activeExam.id}`);
-                                    }}
-                                    className="flex-1"
-                                >
-                                    Yes, Finish
-                                </Button>
-                            </div>
-                        </div>
-                    </Dialog>
-                </Modal>
-            </ModalOverlay>
 
-            <ModalOverlay isDismissable isOpen={isExitModalOpen} onOpenChange={setIsExitModalOpen}>
-                <Modal>
-                    <Dialog>
-                        <div className="relative w-full overflow-hidden rounded-2xl bg-primary shadow-xl sm:max-w-md animate-in fade-in duration-200">
-                            <div className="flex flex-col gap-4 px-4 pt-5 sm:flex-row sm:px-6 sm:pt-6">
-                                <div className="flex-shrink-0">
-                                    <FeaturedIcon icon={LogOut01} color="error" theme="light" size="lg" />
-                                </div>
-                                <div className="flex flex-col gap-1">
-                                    <AriaHeading slot="title" className="text-lg font-semibold text-primary">
-                                        Keluar dari Ujian?
-                                    </AriaHeading>
-                                    <p className="text-sm text-tertiary">
-                                        Apakah kamu yakin ingin keluar? Ujian ini akan otomatis disimpan dan kamu dapat melanjutkannya nanti di Playground.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex flex-col-reverse gap-3 p-4 pt-6 sm:flex-row sm:px-6 sm:pb-6">
-                                <Button color="secondary" size="lg" onClick={() => setIsExitModalOpen(false)} className="flex-1">
-                                    Batal
-                                </Button>
-                                <Button
-                                    color="primary-destructive"
-                                    size="lg"
-                                    onClick={() => {
-                                        setIsExitModalOpen(false);
-                                        handleExit();
-                                    }}
-                                    className="flex-1 font-semibold"
-                                >
-                                    Ya, Keluar
-                                </Button>
-                            </div>
-                        </div>
-                    </Dialog>
-                </Modal>
-            </ModalOverlay>
+            <ConfirmationModal
+                isOpen={isConfirmModalOpen}
+                onClose={() => setIsConfirmModalOpen(false)}
+                onConfirm={() => {
+                    setIsConfirmModalOpen(false);
+                    finishExam();
+                    if (isAuthenticated && !activeExam.isDemo) {
+                        fetch(`/api/exams/${activeExam.id}/submit`, {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({
+                                userAnswers: activeExam.userAnswers,
+                                status: "completed"
+                            })
+                        }).catch((err) => console.error("Failed to submit exam:", err));
+                    }
+                    router.push(`/result/${activeExam.id}`);
+                }}
+                title="Finish Exam?"
+                description="Are you sure you want to finish the exam? You won't be able to change your answers after this."
+                confirmLabel="Yes, Finish"
+                cancelLabel="Cancel"
+                confirmColor="primary"
+                iconColor="brand"
+            />
+
+            <ConfirmationModal
+                isOpen={isExitModalOpen}
+                onClose={() => setIsExitModalOpen(false)}
+                onConfirm={() => {
+                    setIsExitModalOpen(false);
+                    handleExit();
+                }}
+                title="Keluar dari Ujian?"
+                description="Apakah kamu yakin ingin keluar? Ujian ini akan otomatis disimpan dan kamu dapat melanjutkannya nanti di Playground."
+                confirmLabel="Ya, Keluar"
+                cancelLabel="Batal"
+                confirmColor="primary-destructive"
+                iconColor="error"
+            />
         </div>
     );
 };
+
