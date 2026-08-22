@@ -51,8 +51,9 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
                 skills: selectedSkills,
             }, undefined, true); // isDemo = true
 
-            // Generate demo questions
-            const demoQuestions = getRandomDemoQuestions(questionCount, selectedSkills);
+            // Generate demo questions according to chosen language
+            const demoQuestions = getRandomDemoQuestions(questionCount, selectedSkills, language);
+
 
             // Select exam and set questions immediately
             selectExam(examId);

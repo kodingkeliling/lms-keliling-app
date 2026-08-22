@@ -362,6 +362,8 @@ export const PlaygroundScreen = () => {
     const startIdx = currentPage * PAGE_SIZE;
     const endIdx = Math.min(questions.length, startIdx + PAGE_SIZE);
     const paginatedQuestions = questions.slice(startIdx, endIdx);
+    const answeredCount = Object.values(userAnswers).filter((v) => v && v.trim() !== "").length;
+    const answeredPercent = questions.length > 0 ? Math.round((answeredCount / questions.length) * 100) : 0;
 
     if (activeExam.startTime === null) {
         return (
@@ -482,13 +484,13 @@ export const PlaygroundScreen = () => {
                         </Button>
                         <hr className="h-4 w-px bg-border-secondary md:h-6" />
                         <span className="text-xs font-semibold text-primary md:text-sm">
-                            {currentQuestionIndex + 1}/{questions.length}
+                            {answeredCount}/{questions.length} dijawab
                         </span>
                     </div>
 
                     <div className="hidden items-center gap-2 md:flex">
-                        <ProgressBar value={((currentQuestionIndex + 1) / questions.length) * 100} className="w-40" />
-                        <span className="text-xs font-medium text-tertiary">{Math.round(((currentQuestionIndex + 1) / questions.length) * 100)}%</span>
+                        <ProgressBar value={answeredPercent} className="w-40" />
+                        <span className="text-xs font-medium text-tertiary">{answeredPercent}%</span>
                     </div>
 
                     <div className="flex items-center gap-2.5">
@@ -521,8 +523,8 @@ export const PlaygroundScreen = () => {
                                     isDisabled={currentPage === 0}
                                     onClick={() => setCurrentPage((p) => Math.max(0, p - 1))}
                                 />
-                                <span className="text-xs font-medium text-tertiary">
-                                    Soal {startIdx + 1}–{endIdx} dari {questions.length}
+                                <span className="text-xs font-medium text-green-600">
+                                    {answeredCount}/{questions.length} dijawab
                                 </span>
                                 <Button
                                     size="sm"
@@ -570,8 +572,8 @@ export const PlaygroundScreen = () => {
                 <aside className="hidden h-fit w-64 shrink-0 flex-col gap-4 rounded-xl border border-secondary bg-primary p-4 md:flex sticky top-20 shadow-xs">
                     <div className="flex items-center justify-between">
                         <h3 className="text-xs font-semibold text-secondary uppercase tracking-wider">QUESTIONS</h3>
-                        <span className="text-xs font-medium text-tertiary">
-                            {startIdx + 1}–{endIdx} / {questions.length}
+                        <span className="text-xs font-medium text-green-600">
+                            {answeredCount}/{questions.length} dijawab
                         </span>
                     </div>
 

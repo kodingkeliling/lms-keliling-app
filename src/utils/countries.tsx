@@ -1331,6 +1331,23 @@ export const countries = [
     },
 ];
 
+/**
+ * Phone code options for the select component.
+ */
+export const phoneCodeOptions: SelectItemType[] = countries.map((country) => ({
+    id: country.code,
+    label: country.code,
+}));
+
+/**
+ * Country options for the select component.
+ */
+export const countriesOptions: SelectItemType[] = countries.map((country) => ({
+    id: country.code,
+    label: country.name,
+    icon: (props: HTMLAttributes<HTMLImageElement>) => <img {...props} src={country.flag} alt={`${country.name} flag`} />,
+}));
+
 export const languageOptions: SelectItemType[] = [
     {
         id: "English",
@@ -1433,4 +1450,5 @@ export const languageOptions: SelectItemType[] = [
 ];
 
 export default countries;
+
 

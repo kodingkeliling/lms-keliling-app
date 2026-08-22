@@ -4,6 +4,7 @@ import { Microphone01, StopCircle, Zap } from "@untitledui/icons";
 import { useState, useRef, useEffect } from "react";
 import { cx } from "@/utils/cx";
 import { useToast } from "@/contexts/use-toast";
+import { Button } from "@/components/base/buttons/button";
 
 interface SpeakingInputProps {
     value: string;
@@ -69,17 +70,17 @@ export const SpeakingInput = ({ value, onChange, language, isRecording, setIsRec
                 const audioBlob = new Blob(chunksRef.current, { type: "audio/webm" });
                 const url = URL.createObjectURL(audioBlob);
                 setAudioUrl(url);
-                
+
                 // Automatically transcribe once recording stops
                 handleTranscription(audioBlob);
-                
+
                 // Stop all tracks in the stream
                 stream.getTracks().forEach(track => track.stop());
             };
 
             mediaRecorder.start();
             setIsRecording(true);
-            onChange(""); 
+            onChange("");
         } catch (err: any) {
             console.error("Failed to start recording:", err);
             toastError("Could not access microphone. Please check your permissions.", "Microphone Error");
@@ -134,30 +135,38 @@ export const SpeakingInput = ({ value, onChange, language, isRecording, setIsRec
     return (
         <div className="flex flex-col items-center gap-6 py-8">
             <div className="relative">
-                <button
+                {/* Pulsing rings rendered behind the button */}
+                {isRecording && (
+                    <>
+                        <span className="absolute -inset-4 rounded-full bg-brand-500/20 animate-ping pointer-events-none" />
+                        <span className="absolute -inset-2 rounded-full bg-brand-500/25 animate-pulse pointer-events-none" />
+                    </>
+                )}
+                <Button
+                    type="button"
                     onClick={toggleRecording}
-                    disabled={isTranscribing}
+                    isDisabled={isTranscribing}
+                    color="primary"
                     className={cx(
-                        "relative w-28 h-28 rounded-full flex items-center justify-center transition-all duration-500 shadow-xl",
+                        // Force circle shape & large icon-only size — override default padding/rounding
+                        "!size-24 md:!size-28 !rounded-full !p-0 before:hidden transition-transform duration-300 shadow-lg",
                         isRecording
-                            ? "bg-error-500 text-white scale-110 ring-8 ring-error-100"
+                            ? "ring-4 ring-brand-300 dark:ring-brand-700 scale-105 hover:scale-105"
                             : isTranscribing
-                            ? "bg-brand-100 text-brand-600 cursor-not-allowed"
-                            : "bg-white text-brand-600 border-2 border-brand-200 hover:border-brand-500 hover:scale-105"
+                                ? "opacity-60 cursor-not-allowed"
+                                : "hover:scale-105"
                     )}
                 >
-                    {isRecording && (
-                        <span className="absolute inset-0 rounded-full bg-error-500 animate-ping opacity-20" />
-                    )}
                     {isTranscribing ? (
-                        <div className="animate-spin rounded-full h-10 w-10 border-4 border-brand-600 border-t-transparent" />
+                        <div className="animate-spin rounded-full size-8 border-[3px] border-white border-t-transparent" />
                     ) : isRecording ? (
-                        <StopCircle className="w-12 h-12 relative z-10" />
+                        <StopCircle className="size-10 md:size-12 text-white" />
                     ) : (
-                        <Microphone01 className="w-12 h-12 relative z-10" />
+                        <Microphone01 className="size-10 md:size-12 text-white" />
                     )}
-                </button>
+                </Button>
             </div>
+
 
             <div className="flex flex-col items-center gap-2 text-center">
                 <p className="text-md font-semibold text-primary">
@@ -167,32 +176,39 @@ export const SpeakingInput = ({ value, onChange, language, isRecording, setIsRec
                     {isRecording
                         ? "Click the red button when you're finished."
                         : isTranscribing
-                        ? "Wait a moment while we process your voice..."
-                        : value
-                        ? "Click the mic again to replace your recording."
-                        : "Click the mic and wait for the red circle."}
+                            ? "Wait a moment while we process your voice..."
+                            : value
+                                ? "Click the mic again to replace your recording."
+                                : "Click the mic and wait for the red circle."}
                 </p>
             </div>
 
             {(isRecording || isTranscribing || value) && (
-                <div className="w-full max-w-lg rounded-2xl border-2 border-dashed border-secondary bg-secondary/30 p-6 transition-all duration-300">
+                <div className={cx(
+                    "w-full max-w-lg rounded-2xl border-2 border-dashed p-6 transition-all duration-300",
+                    isRecording
+                        ? "border-brand-300 bg-brand-50 dark:border-brand-700 dark:bg-brand-950/30"
+                        : isTranscribing
+                            ? "border-brand-300 bg-brand-50 dark:border-brand-800 dark:bg-brand-950/30"
+                            : "border-brand-200 bg-brand-50/50 dark:border-brand-800 dark:bg-brand-950/20"
+                )}>
                     <div className="flex items-start gap-3">
-                        <Zap className={cx("size-5 mt-0.5", (isRecording || isTranscribing) ? "text-brand-500 animate-pulse" : "text-tertiary")} />
+                        <Zap className={cx("size-5 mt-0.5 shrink-0", (isRecording || isTranscribing) ? "text-brand-500 animate-pulse" : "text-brand-400")} />
                         <div className="flex-1">
-                            <p className="text-xs font-bold uppercase tracking-wider text-tertiary mb-2">
+                            <p className="text-xs font-bold uppercase tracking-wider mb-2 text-brand-600 dark:text-brand-400">
                                 {isRecording ? "Recording..." : isTranscribing ? "AI is transcribing..." : "Transcript"}
                             </p>
                             <div className={cx(
                                 "text-lg font-medium leading-relaxed min-h-[1.5em]",
-                                isTranscribing ? "text-tertiary italic" : "text-primary"
+                                isTranscribing ? "text-brand-400 italic" : "text-primary"
                             )}>
                                 {isRecording ? (
                                     <div className="flex flex-col gap-2">
-                                        <p className="text-brand-600 font-semibold animate-pulse">Listening to your voice...</p>
+                                        <p className="text-brand-600 dark:text-brand-400 font-semibold animate-pulse">Listening to your voice...</p>
                                         {value && <p className="text-sm text-tertiary opacity-60 italic">Previous: {value}</p>}
                                     </div>
                                 ) : isTranscribing ? (
-                                    <div className="flex items-center gap-2">
+                                    <div className="flex items-center gap-2 text-brand-500">
                                         <div className="flex gap-1">
                                             <div className="w-1 h-4 bg-brand-500 animate-bounce [animation-delay:-0.3s]" />
                                             <div className="w-1 h-4 bg-brand-500 animate-bounce [animation-delay:-0.15s]" />
@@ -209,5 +225,6 @@ export const SpeakingInput = ({ value, onChange, language, isRecording, setIsRec
                 </div>
             )}
         </div>
+
     );
 };
