@@ -7,12 +7,15 @@ import { Dropdown } from "@/components/base/dropdown/dropdown";
 import { ChevronDown, Play, HomeLine, LayoutGrid02, LogOut01 } from "@untitledui/icons";
 import { cx } from "@/utils/cx";
 
+import { useExamStore } from "@/store/use-exam-store";
+
 export function UserDropdown() {
     const pathname = usePathname() ?? "";
     const { user, logout } = useAuthStore();
 
     const handleLogout = async () => {
         await fetch("/api/auth/logout", { method: "POST" });
+        useExamStore.getState().clearLocalExams();
         logout();
         window.location.href = "/";
     };

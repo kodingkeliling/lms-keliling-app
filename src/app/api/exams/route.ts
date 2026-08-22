@@ -21,7 +21,7 @@ export async function GET(req: NextRequest) {
         // Fetch all exams for the user (original exams or cloned attempts)
         const exams = await prisma.exam.findMany({
             where: { userId: dbUser.id },
-            include: { questions: true },
+            include: { questions: true, user: { select: { name: true, email: true } } },
             orderBy: { createdAt: "desc" }
         });
 
@@ -58,7 +58,8 @@ export async function GET(req: NextRequest) {
             currentQuestionIndex: 0,
             startTime: null,
             endTime: null,
-            isPublic: exam.isPublic ?? false
+            isPublic: exam.isPublic ?? false,
+            ownedBy: exam.user?.name || exam.user?.email || exam.userId
         }));
 
         return NextResponse.json({ exams: mapped });

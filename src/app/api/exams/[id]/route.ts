@@ -102,6 +102,14 @@ export async function GET(
             };
         });
 
+        // Try to find original owner info
+        const originalExam = exam!.originalExamId
+            ? await prisma.exam.findUnique({ where: { id: exam!.originalExamId }, include: { user: true } })
+            : exam;
+
+        const ownerUser = await prisma.user.findUnique({ where: { id: originalExam?.userId || exam!.userId } });
+        const ownerDisplayName = ownerUser?.name || ownerUser?.email?.split("@")[0] || "Pengguna";
+
         const examAttempt = {
             id: exam!.id,
             createdAt: exam!.createdAt.getTime(),
@@ -112,7 +120,6 @@ export async function GET(
             },
             questions: mappedQuestions,
             userAnswers: exam!.questions.reduce((acc: any, q) => {
-                // If they have already answered questions, populate them
                 if (q.answer) {
                     acc[q.id] = q.answer;
                 }
@@ -122,7 +129,8 @@ export async function GET(
             currentQuestionIndex: 0,
             startTime: null,
             endTime: null,
-            ownedBy: exam!.userId === dbUser?.id ? undefined : exam!.userId // mark as invited if not owner
+            isPublic: exam!.isPublic ?? false,
+            ownedBy: (exam!.userId === dbUser?.id && !exam!.originalExamId) ? undefined : ownerDisplayName
         };
 
         return NextResponse.json({ exam: examAttempt });

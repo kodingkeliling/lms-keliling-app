@@ -57,6 +57,7 @@ interface ExamState {
     retryActiveExam: () => void;
     startExam: () => void;
     addOrUpdateExam: (exam: ExamAttempt) => void;
+    clearLocalExams: () => void;
 }
 
 export const useExamStore = create<ExamState>()(
@@ -196,9 +197,11 @@ export const useExamStore = create<ExamState>()(
                         exams: [exam, ...state.exams],
                     };
                 }),
+
+            clearLocalExams: () => set({ exams: [], activeExamId: null }),
         }),
         {
-            name: "inggris-ai-v2-storage",
+            name: "fraise-exam-storage",
             onRehydrateStorage: () => (state) => {
                 state?.setHasHydrated(true);
             },

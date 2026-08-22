@@ -51,10 +51,11 @@ const SKILL_COLORS: Record<string, string> = {
 interface ExamCardProps {
     exam: ExamAttempt;
     currentEmail?: string;
+    currentUserId?: string;
     onInvite: (id: string) => void;
 }
 
-function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
+function ExamCard({ exam, currentEmail, currentUserId, onInvite }: ExamCardProps) {
     const router = useRouter();
     const { deleteExam, togglePublicExam } = useExamStore();
     const { toastSuccess } = useToast();
@@ -74,7 +75,8 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
         toastSuccess("Link ujian berhasil disalin!", "Link Tersalin");
     };
 
-    const isOwner = !exam.ownedBy || exam.ownedBy === currentEmail;
+    const isOwner = !exam.ownedBy || exam.ownedBy === currentEmail || exam.ownedBy === currentUserId;
+    const isSharedExam = Boolean(exam.ownedBy && exam.ownedBy !== currentEmail && exam.ownedBy !== currentUserId);
 
     const statusLabel =
         exam.status === "completed" ? "Selesai"
@@ -142,8 +144,8 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
                         </BadgeWithIcon>
                     )}
 
-                    {/* Copy Share Link Badge Button if Public */}
-                    {exam.isPublic && (
+                    {/* Copy Share Link Badge Button - visible whenever public OR shared */}
+                    {(exam.isPublic || isSharedExam) && (
                         <button
                             type="button"
                             onClick={handleCopyShareLink}
@@ -188,7 +190,7 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
             </div>
 
             {/* Info */}
-            <div className="flex flex-col gap-1.5">
+            <div className="flex flex-col gap-1.5 pb-2">
                 <p className="text-sm font-semibold text-primary">
                     {exam.config.questionCount} Soal · {exam.config.language}
                 </p>
@@ -215,7 +217,7 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
             </div>
 
             {/* Meta + actions */}
-            <div className="flex items-center justify-between pt-1 border-t border-secondary gap-2 flex-wrap">
+            <div className="flex items-center justify-between pt-4 border-t border-secondary gap-2 flex-wrap">
                 <div className="flex items-center gap-3 text-xs text-tertiary flex-wrap">
                     <span className="flex items-center gap-1">
                         <Calendar className="size-3" />
@@ -226,14 +228,14 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
                         {new Date(exam.createdAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
                     </span>
 
-                    {/* Owner Badge */}
-                    {!isOwner && exam.ownedBy && (
+                    {/* Owner Badge - shows inviter's name/email */}
+                    {isSharedExam && exam.ownedBy && (
                         <Badge
                             type="color"
                             size="sm"
                             color="blue"
                         >
-                            Undangan: {exam.ownedBy.split("@")[0]}
+                            Undangan: {exam.ownedBy.includes("@") ? exam.ownedBy.split("@")[0] : exam.ownedBy}
                         </Badge>
                     )}
                 </div>
@@ -327,8 +329,18 @@ export const PlaygroundExamList = () => {
             .then((res) => res.json())
             .then((data) => {
                 if (data.exams && Array.isArray(data.exams)) {
-                    data.exams.forEach((exam: any) => {
-                        useExamStore.getState().addOrUpdateExam(exam);
+                    // Replace state exams with server exams + keep only active demo exams
+                    useExamStore.setState((state) => {
+                        const demoExams = state.exams.filter((e) => e.isDemo);
+                        const serverExamIds = new Set(data.exams.map((e: any) => e.id));
+                        // Retain demo exams and override non-demos with server list
+                        const mergedServerExams = data.exams.map((serverExam: any) => {
+                            const localMatch = state.exams.find((e) => e.id === serverExam.id);
+                            return localMatch ? { ...localMatch, ...serverExam } : serverExam;
+                        });
+                        return {
+                            exams: [...mergedServerExams, ...demoExams.filter((d) => !serverExamIds.has(d.id))],
+                        };
                     });
                 }
             })
@@ -428,7 +440,7 @@ export const PlaygroundExamList = () => {
             </div>
 
             {/* Filters */}
-            <div className="flex flex-col gap-2.5">
+            <div className="flex flex-col">
                 {/* Source filter */}
                 <div className="flex items-center justify-between gap-1.5 flex-wrap">
                     <div className="flex items-center gap-1.5 flex-wrap">
@@ -464,10 +476,10 @@ export const PlaygroundExamList = () => {
 
                 {/* Collapsible filters container */}
                 <div className={cx(
-                    "grid transition-all duration-300 ease-in-out",
+                    "grid transition-all duration-300 ease-in-out overflow-hidden",
                     isFiltersExpanded
-                        ? "grid-rows-[1fr] opacity-100 mt-2.5 md:mt-0.5"
-                        : "grid-rows-[1fr] opacity-100 md:grid-rows-[0fr] md:opacity-0 md:overflow-hidden mt-2.5 md:mt-0"
+                        ? "grid-rows-[1fr] opacity-100 mt-2.5"
+                        : "grid-rows-[0fr] opacity-0"
                 )}>
                     <div className="min-h-0 flex flex-col gap-2.5">
                         {/* Status filter */}
@@ -573,6 +585,7 @@ export const PlaygroundExamList = () => {
                             key={exam.id}
                             exam={exam}
                             currentEmail={user?.email}
+                            currentUserId={user?.id}
                             onInvite={(id) => setInviteExamId(id)}
                         />
                     ))}

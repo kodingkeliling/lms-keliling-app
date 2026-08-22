@@ -27,6 +27,34 @@ export const ResultScreen = () => {
         }
     }, [id, activeExam?.id, selectExam]);
 
+    // Sync local exam to database if user just logged in after taking an exam anonymously
+    useEffect(() => {
+        if (user && activeExam && !activeExam.isDemo) {
+            fetch("/api/exams", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    id: activeExam.id,
+                    createdAt: activeExam.createdAt,
+                    config: activeExam.config,
+                    questions: activeExam.questions,
+                    status: activeExam.status || "completed"
+                })
+            }).then(() => {
+                if (Object.keys(activeExam.userAnswers || {}).length > 0) {
+                    fetch(`/api/exams/${activeExam.id}/submit`, {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            userAnswers: activeExam.userAnswers,
+                            status: "completed"
+                        })
+                    }).catch((err) => console.error("Failed to submit exam:", err));
+                }
+            }).catch((err) => console.error("Failed to sync local exam to server:", err));
+        }
+    }, [user, activeExam?.id]);
+
     if (!activeExam || (activeExam.id !== id && exams.find(e => e.id === id))) {
         return <div className="flex h-dvh items-center justify-center">Memuat hasil...</div>;
     }
