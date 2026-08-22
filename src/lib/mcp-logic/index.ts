@@ -79,7 +79,7 @@ export const TOOLS_LIST = [
     },
     {
         name: "save_approved_language_quiz",
-        description: `Saves a finalized language quiz to LMS Keliling. MANDATORY WORKFLOW — you MUST follow these steps in order, NO EXCEPTIONS:\n\nSTEP 1: When user asks to create a quiz, call 'get_language_quiz_template' first to understand the format.\n\nSTEP 2: Ask the user for: Language, Skills (Reading/Writing/Speaking/Listening), and number of questions.\n\nSTEP 3: GENERATE ALL QUESTIONS IN FULL IN THE CHAT. Do NOT summarize. Do NOT show a plan or outline. Do NOT skip to saving. Write every single question completely — with its full description text, all 4 answer choices (for Reading/Listening), and the correct answer — so the user can read, review, and request changes.\n\nSTEP 4: After showing all questions, tell the user: 'Ketik simpan jika sudah oke, atau beritahu saya jika ada yang ingin diubah.'\n\nSTEP 5: ONLY after the user explicitly says 'simpan' or 'save', call this tool to persist the quiz.\n\nSTEP 6: Each question MUST use structured fields: description (string), options (array of 4 strings for Reading/Listening, null for Writing/Speaking), answer (string), type (reading/writing/speaking/listening).`,
+        description: `Saves a finalized language quiz to LMS Keliling. MANDATORY WORKFLOW — you MUST follow these steps in order, NO EXCEPTIONS:\n\nSTEP 1: When user asks to create a quiz, call 'get_language_quiz_template' first to understand the format.\n\nSTEP 2: Ask the user for the LMS Keliling parameters: 1. Bahasa yang diuji (e.g. English, Japanese, Spanish, etc.), 2. Skill yang diuji (Reading, Writing, Speaking, Listening), 3. Jumlah soal.\n\nSTEP 3: GENERATE ALL QUESTIONS IN FULL IN THE CHAT. Do NOT summarize. Do NOT show a plan or outline. Do NOT skip to saving. Write every single question completely — with its full description text, all 4 answer choices (for Reading/Listening), and the correct answer — so the user can read, review, and request changes.\n\nSTEP 4: After showing all questions, tell the user: 'Ketik simpan jika sudah oke, atau beritahu saya jika ada yang ingin diubah.'\n\nSTEP 5: ONLY after the user explicitly says 'simpan' or 'save', call this tool to persist the quiz.\n\nSTEP 6: Each question MUST use structured fields: description (string), options (array of 4 strings for Reading/Listening, null for Writing/Speaking), answer (string), type (reading/writing/speaking/listening).`,
         inputSchema: {
             type: "object",
             properties: {
@@ -165,7 +165,15 @@ export async function executeTool(
                         type: "text",
                         text: `LMS Keliling Quiz Question Format Guide
 
-Use this guide BEFORE generating any quiz questions. All questions saved to LMS Keliling MUST follow this exact structure for them to render correctly in the playground.
+PENTING: Ketika pengguna ingin membuat ujian LMS Keliling, mintalah informasi sesuai form LMS Keliling berikut:
+1. Bahasa yang Diuji (contoh: English, Japanese, Mandarin, Spanish, dsb.)
+2. Skill yang Diuji (Pilih satu atau lebih: Reading, Writing, Speaking, Listening)
+3. Jumlah Soal (contoh: 5, 10, 20)
+
+Contoh format balasan cepat yang bisa Anda berikan ke pengguna:
+"English, Reading & Listening, 10 soal"
+
+Format Soal di LMS Keliling:
 
 Each question in the 'questions' array of 'save_approved_language_quiz' must be an object with these fields:
   - description (string): The full question content — HTML supported (<b>, <i>, <br/>)
