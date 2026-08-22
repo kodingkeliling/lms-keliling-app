@@ -484,7 +484,7 @@ export const PlaygroundScreen = () => {
                         </Button>
                         <hr className="h-4 w-px bg-border-secondary md:h-6" />
                         <span className="text-xs font-semibold text-primary md:text-sm">
-                            {answeredCount}/{questions.length} dijawab
+                            {currentQuestionIndex + 1}/{questions.length}
                         </span>
                     </div>
 
