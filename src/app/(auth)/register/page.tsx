@@ -3,8 +3,8 @@ import { Suspense } from "react";
 import { RegisterPage } from "@/components/auth/register-page";
 
 export const metadata: Metadata = {
-    title: "Daftar – GatrAI",
-    description: "Buat akun GatrAI dan mulai perjalanan belajar bahasa Anda.",
+    title: "Daftar – LMS Keliling",
+    description: "Buat akun LMS Keliling dan mulai perjalanan belajar bahasa Anda.",
 };
 
 export default function RegisterRoute() {

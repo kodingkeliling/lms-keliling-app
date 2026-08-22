@@ -138,8 +138,8 @@ async function callOpenRouter(prompt: string, model: string, customKey?: string)
         headers: {
             "Content-Type": "application/json",
             "Authorization": `Bearer ${apiKey}`,
-            "HTTP-Referer": "https://gatrai.id",
-            "X-Title": "GatrAI Exam Generator",
+            "HTTP-Referer": "https://lmskeliling.id",
+            "X-Title": "LMS Keliling Exam Generator",
         },
         body: JSON.stringify({
             model: model || "openrouter/auto",

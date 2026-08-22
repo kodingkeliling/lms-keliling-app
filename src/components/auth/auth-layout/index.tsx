@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft } from "@untitledui/icons";
 import { APP_NAME, APP_LOGO } from "@/config";
+import { LogoWithTitle } from "@/components/shared-assets/logo-with-title";
 
 interface AuthLayoutProps {
     children: React.ReactNode;
@@ -67,17 +68,8 @@ export const AuthLayout = ({ children, rightPanelContent }: AuthLayoutProps) => 
                 </div>
 
                 {/* Top-left: logo + app name */}
-                <div className="absolute top-8 left-8 flex items-center gap-2.5 z-10">
-                    <Image
-                        src={APP_LOGO}
-                        alt={`${APP_NAME} Logo`}
-                        width={28}
-                        height={28}
-                        className="object-contain"
-                    />
-                    <span className="text-base font-semibold text-white tracking-tight">
-                        {APP_NAME}
-                    </span>
+                <div className="absolute top-8 left-8 z-10">
+                    <LogoWithTitle size="sm" forceTheme="dark" />
                 </div>
 
                 {/* Bottom-left: tagline + features */}

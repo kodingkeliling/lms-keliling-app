@@ -9,7 +9,7 @@ export const PROTECTED_TOOLS = [
     "analyze_exam_participants"
 ];
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://gatrai.kodingkeliling.com";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://lmskeliling.kodingkeliling.com";
 
 export const TOOLS_LIST = [
     {
@@ -22,7 +22,7 @@ export const TOOLS_LIST = [
     },
     {
         name: "get_ai_status",
-        description: "Check the connection status of AI providers configured in GatrAI",
+        description: "Check the connection status of AI providers configured in LMS Keliling",
         inputSchema: {
             type: "object",
             properties: {
@@ -65,7 +65,7 @@ export const TOOLS_LIST = [
     },
     {
         name: "get_users",
-        description: "List users registered in GatrAI (Protected, Admin-only)",
+        description: "List users registered in LMS Keliling (Protected, Admin-only)",
         inputSchema: {
             type: "object",
             properties: {
@@ -79,7 +79,7 @@ export const TOOLS_LIST = [
     },
     {
         name: "save_approved_language_quiz",
-        description: `Saves a finalized language quiz to GatrAI. MANDATORY WORKFLOW — you MUST follow these steps in order, NO EXCEPTIONS:\n\nSTEP 1: When user asks to create a quiz, call 'get_language_quiz_template' first to understand the format.\n\nSTEP 2: Ask the user for: Language, Skills (Reading/Writing/Speaking/Listening), and number of questions.\n\nSTEP 3: GENERATE ALL QUESTIONS IN FULL IN THE CHAT. Do NOT summarize. Do NOT show a plan or outline. Do NOT skip to saving. Write every single question completely — with its full description text, all 4 answer choices (for Reading/Listening), and the correct answer — so the user can read, review, and request changes.\n\nSTEP 4: After showing all questions, tell the user: 'Ketik simpan jika sudah oke, atau beritahu saya jika ada yang ingin diubah.'\n\nSTEP 5: ONLY after the user explicitly says 'simpan' or 'save', call this tool to persist the quiz.\n\nSTEP 6: Each question MUST use structured fields: description (string), options (array of 4 strings for Reading/Listening, null for Writing/Speaking), answer (string), type (reading/writing/speaking/listening).`,
+        description: `Saves a finalized language quiz to LMS Keliling. MANDATORY WORKFLOW — you MUST follow these steps in order, NO EXCEPTIONS:\n\nSTEP 1: When user asks to create a quiz, call 'get_language_quiz_template' first to understand the format.\n\nSTEP 2: Ask the user for: Language, Skills (Reading/Writing/Speaking/Listening), and number of questions.\n\nSTEP 3: GENERATE ALL QUESTIONS IN FULL IN THE CHAT. Do NOT summarize. Do NOT show a plan or outline. Do NOT skip to saving. Write every single question completely — with its full description text, all 4 answer choices (for Reading/Listening), and the correct answer — so the user can read, review, and request changes.\n\nSTEP 4: After showing all questions, tell the user: 'Ketik simpan jika sudah oke, atau beritahu saya jika ada yang ingin diubah.'\n\nSTEP 5: ONLY after the user explicitly says 'simpan' or 'save', call this tool to persist the quiz.\n\nSTEP 6: Each question MUST use structured fields: description (string), options (array of 4 strings for Reading/Listening, null for Writing/Speaking), answer (string), type (reading/writing/speaking/listening).`,
         inputSchema: {
             type: "object",
             properties: {
@@ -163,9 +163,9 @@ export async function executeTool(
                 content: [
                     {
                         type: "text",
-                        text: `GatrAI Quiz Question Format Guide
+                        text: `LMS Keliling Quiz Question Format Guide
 
-Use this guide BEFORE generating any quiz questions. All questions saved to GatrAI MUST follow this exact structure for them to render correctly in the playground.
+Use this guide BEFORE generating any quiz questions. All questions saved to LMS Keliling MUST follow this exact structure for them to render correctly in the playground.
 
 Each question in the 'questions' array of 'save_approved_language_quiz' must be an object with these fields:
   - description (string): The full question content — HTML supported (<b>, <i>, <br/>)
@@ -457,7 +457,7 @@ CRITICAL RULES:
                 content: [
                     {
                         type: "text",
-                        text: `Quiz saved successfully to GatrAI! 🎉\n\n📝 ${normalizedQuestions.length} questions saved.\n🔗 Try the quiz here: ${quizUrl}\n\nThe quiz is ready to be taken. Share the link with others to let them take the quiz too!`
+                        text: `Quiz saved successfully to LMS Keliling! 🎉\n\n📝 ${normalizedQuestions.length} questions saved.\n🔗 Try the quiz here: ${quizUrl}\n\nThe quiz is ready to be taken. Share the link with others to let them take the quiz too!`
                     }
                 ]
             };

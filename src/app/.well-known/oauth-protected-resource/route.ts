@@ -7,7 +7,7 @@ export async function GET(req: NextRequest) {
         {
             resource: origin,
             authorization_servers: [origin],
-            resource_name: "GatrAI MCP"
+            resource_name: "LMS Keliling MCP"
         },
         {
             headers: {

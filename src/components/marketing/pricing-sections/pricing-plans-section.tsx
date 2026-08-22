@@ -7,7 +7,7 @@ const WA_NUMBER = "6281257578571";
 
 const getWaLink = (planName: string, price: string) => {
     const text = encodeURIComponent(
-        `Halo Admin Koding Keliling!\n\nSaya ingin memesan paket GatrAI - *${planName}* (${price}).\n\nMohon informasi lebih lanjut mengenai cara pembayaran dan aktivasi akun.\n\nTerima kasih!`
+        `Halo Admin Koding Keliling!\n\nSaya ingin memesan paket LMS Keliling - *${planName}* (${price}).\n\nMohon informasi lebih lanjut mengenai cara pembayaran dan aktivasi akun.\n\nTerima kasih!`
     );
     return `https://wa.me/${WA_NUMBER}?text=${text}`;
 };

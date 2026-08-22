@@ -1,5 +1,5 @@
 // App-level config
-export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || "GatrAI";
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || "LMS Keliling";
 export const APP_LOGO = "/logo.png";
 
 // Server-side only (used in API routes)

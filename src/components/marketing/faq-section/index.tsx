@@ -6,20 +6,20 @@ import { cx } from "@/utils/cx";
 
 const FAQS = [
     {
-        question: "Apakah GatrAI benar-benar gratis?",
-        answer: "Ya! Kamu bisa mencoba GatrAI secara gratis untuk 10 soal pertama tanpa perlu mendaftar. Setelah itu, kamu perlu membuat akun dan memilih paket yang sesuai untuk terus menggunakan layanan.",
+        question: "Apakah LMS Keliling benar-benar gratis?",
+        answer: "Ya! Kamu bisa mencoba LMS Keliling secara gratis untuk 10 soal pertama tanpa perlu mendaftar. Setelah itu, kamu perlu membuat akun dan memilih paket yang sesuai untuk terus menggunakan layanan.",
     },
     {
         question: "Bahasa apa saja yang tersedia?",
-        answer: "Saat ini GatrAI mendukung 14+ bahasa termasuk Inggris, Jepang, Korea, Prancis, Spanyol, Mandarin, Arab, Jerman, Italia, Portugis, Rusia, Hindi, Sunda, dan Jawa. Kami terus menambahkan bahasa baru secara berkala.",
+        answer: "Saat ini LMS Keliling mendukung 14+ bahasa termasuk Inggris, Jepang, Korea, Prancis, Spanyol, Mandarin, Arab, Jerman, Italia, Portugis, Rusia, Hindi, Sunda, dan Jawa. Kami terus menambahkan bahasa baru secara berkala.",
     },
     {
         question: "Skill apa saja yang bisa diuji?",
-        answer: "GatrAI mendukung 4 skill utama pembelajaran bahasa: Reading (membaca), Writing (menulis), Speaking (berbicara), dan Listening (mendengarkan). Kamu bisa memilih satu atau kombinasi beberapa skill sekaligus.",
+        answer: "LMS Keliling mendukung 4 skill utama pembelajaran bahasa: Reading (membaca), Writing (menulis), Speaking (berbicara), dan Listening (mendengarkan). Kamu bisa memilih satu atau kombinasi beberapa skill sekaligus.",
     },
     {
         question: "Bagaimana cara kerja pembuatan soal AI?",
-        answer: "GatrAI menggunakan berbagai provider AI terkemuka (Groq, Google Gemini, OpenAI, Anthropic Claude) untuk menghasilkan soal yang unik dan relevan setiap kali kamu membuat ujian. Soal dijamin tidak pernah sama dua kali.",
+        answer: "LMS Keliling menggunakan berbagai provider AI terkemuka (Groq, Google Gemini, OpenAI, Anthropic Claude) untuk menghasilkan soal yang unik dan relevan setiap kali kamu memulai sesi belajar. Soal dijamin tidak pernah sama dua kali.",
     },
     {
         question: "Apa itu Custom API Key?",
@@ -30,8 +30,8 @@ const FAQS = [
         answer: "Untuk saat ini, pembayaran dilakukan melalui transfer manual. Setelah pembayaran dikonfirmasi, akun kamu akan langsung ditingkatkan. Hubungi kami via WhatsApp di nomor 081257578571 untuk informasi lebih lanjut.",
     },
     {
-        question: "Apakah hasil ujian tersimpan?",
-        answer: "Ya, riwayat ujian tersimpan di perangkatmu (local storage). Kamu bisa melihat kembali semua soal dan jawabanmu kapan saja melalui tombol History di halaman utama. Login diperlukan untuk melihat detail hasil ujian.",
+        question: "Apakah hasil belajar tersimpan?",
+        answer: "Ya, riwayat sesi belajar tersimpan di perangkatmu (local storage). Kamu bisa melihat kembali semua soal dan jawabanmu kapan saja melalui tombol History di halaman utama. Login diperlukan untuk melihat detail hasil sesi.",
     },
     {
         question: "Berapa lama akses paket berlaku?",

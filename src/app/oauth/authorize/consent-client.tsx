@@ -20,11 +20,11 @@ interface ConsentClientPageProps {
 const PERMISSIONS = [
     {
         icon: BarChart04,
-        label: "Melihat daftar & detail hasil ujian bahasa Anda",
+        label: "Melihat daftar & detail hasil sesi belajar bahasa Anda",
     },
     {
         icon: CheckCircle,
-        label: "Mengecek status server AI provider GatrAI",
+        label: "Mengecek status server AI provider LMS Keliling",
     },
 ];
 
@@ -115,10 +115,10 @@ export function ConsentClientPage({
                     </div>
                     <div className="flex flex-col gap-1">
                         <h1 className="text-xl font-semibold text-primary">
-                            Hubungkan ke GatrAI MCP
+                            Hubungkan ke LMS Keliling MCP
                         </h1>
                         <p className="text-sm text-tertiary leading-relaxed">
-                            Host AI meminta akses aman ke akun GatrAI Anda.
+                            Host AI meminta akses aman ke akun LMS Keliling Anda.
                         </p>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ export function ConsentClientPage({
                 <div className="px-6 py-3 bg-secondary/20 border-b border-secondary flex items-center gap-2">
                     <Shield01 className="size-3.5 shrink-0 text-tertiary" />
                     <p className="text-xs text-tertiary">
-                        GatrAI tidak akan pernah membagikan password Anda.
+                        LMS Keliling tidak akan pernah membagikan password Anda.
                     </p>
                 </div>
 

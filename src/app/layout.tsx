@@ -14,15 +14,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "GatrAI by Jamjam | AI-Powered Multilingual Proficiency Testing",
-    description: "Empower your language learning with GatrAI. Generate personalized, always-unique proficiency tests for Reading, Writing, Speaking, and Listening in 14+ languages. Practice with fresh content every time and master any language for free.",
+    title: "LMS Keliling | Language Management System untuk Belajar Bahasa",
+    description: "LMS Keliling adalah Language Management System yang membantu kamu belajar bahasa dengan soal Reading, Writing, Speaking, dan Listening bertenaga AI. Tersedia 14+ bahasa, soal unik setiap sesi, dan gratis untuk dicoba.",
     icons: {
         icon: "/logo.png",
     },
 };
 
 export const viewport: Viewport = {
-    themeColor: "#7839ee",
+    themeColor: "#ffbd59",
     colorScheme: "light dark",
 };
 

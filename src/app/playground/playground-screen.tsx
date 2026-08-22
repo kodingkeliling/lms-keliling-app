@@ -372,7 +372,7 @@ export const PlaygroundScreen = () => {
                                 onClick={handleExit}
                                 className="flex items-center gap-2 rounded-lg p-1.5 hover:bg-secondary transition-colors"
                             >
-                                <Image src="/logo.png" className="object-contain" alt="GatrAI Logo" width={28} height={28} />
+                                <Image src="/logo.png" className="object-contain" alt="LMS Keliling Logo" width={28} height={28} />
                             </button>
                             <hr className="h-4 w-px bg-border-secondary md:h-6" />
                             <span className="text-xs font-semibold text-primary md:text-sm">
@@ -475,7 +475,7 @@ export const PlaygroundScreen = () => {
                             onClick={() => setIsExitModalOpen(true)}
                             className="flex items-center gap-2 rounded-lg p-1.5 hover:bg-secondary transition-colors"
                         >
-                            <Image src="/logo.png" className="object-contain animate-in fade-in zoom-in duration-200" alt="GatrAI Logo" width={28} height={28} />
+                            <Image src="/logo.png" className="object-contain animate-in fade-in zoom-in duration-200" alt="LMS Keliling Logo" width={28} height={28} />
                         </button>
                         <hr className="h-4 w-px bg-border-secondary md:h-6" />
                         <span className="text-xs font-semibold text-primary md:text-sm">

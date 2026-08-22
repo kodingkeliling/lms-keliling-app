@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu01, X } from "@untitledui/icons";
@@ -9,6 +9,7 @@ import { Button } from "@/components/base/buttons/button";
 import { ThemeToggle } from "@/components/foundations/theme-toggle";
 import { useAuthStore } from "@/store/use-auth-store";
 import { cx } from "@/utils/cx";
+import { LogoWithTitle } from "@/components/shared-assets/logo-with-title";
 import { MCPGuideModal } from "@/components/layout/mcp-guide-modal";
 import { UserDropdown } from "@/components/layout/user-dropdown";
 
@@ -32,11 +33,7 @@ export const Navbar = () => {
                 <div className="mx-auto flex w-full max-w-container items-center justify-between px-4 py-5 md:px-8">
                     {/* Logo + Desktop nav */}
                     <div className="flex items-center gap-6">
-                        <Link href="/" className="flex items-center gap-2 shrink-0">
-                            <Image src="/logo.png" className="object-contain" alt="GatrAI Logo" width={40} height={40} />
-                            <Image src="/title-dark.png" className="object-contain dark:hidden" alt="GatrAI" width={80} height={32} />
-                            <Image src="/title-light.png" className="object-contain hidden dark:block" alt="GatrAI" width={80} height={32} />
-                        </Link>
+                        <LogoWithTitle href="/" size="lg" />
 
                         <nav className="hidden md:flex items-center gap-1">
                             {NAV_ITEMS.map((item) => {

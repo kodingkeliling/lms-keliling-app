@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Key01, Mail01, ArrowLeft } from "@untitledui/icons";
+import { ArrowLeft } from "@untitledui/icons";
 import { Button } from "@/components/base/buttons/button";
 import { Form } from "@/components/base/form/form";
 import { Input } from "@/components/base/input/input";
-import { FeaturedIcon } from "@/components/foundations/featured-icon/featured-icon";
-import { BackgroundPattern } from "@/components/shared-assets/background-patterns";
+import { AuthHeaderIcon } from "@/components/auth/auth-header-icon";
+import { LogoWithTitle } from "@/components/shared-assets/logo-with-title";
 import { AuthLayout } from "@/components/auth/auth-layout";
 
 export const ForgotPasswordPage = () => {
@@ -61,13 +61,9 @@ export const ForgotPasswordPage = () => {
             {sent ? (
                 <>
                     <div className="flex flex-col items-center gap-6 text-center">
-                        <div className="relative">
-                            <FeaturedIcon color="gray" theme="modern" size="xl" className="z-10">
-                                <Mail01 className="size-7" />
-                            </FeaturedIcon>
-                            <BackgroundPattern size="lg" pattern="grid" className="absolute top-1/2 left-1/2 z-0 hidden -translate-x-1/2 -translate-y-1/2 md:block" />
-                            <BackgroundPattern size="md" pattern="grid" className="absolute top-1/2 left-1/2 z-0 -translate-x-1/2 -translate-y-1/2 md:hidden" />
-                        </div>
+                        <AuthHeaderIcon>
+                            <LogoWithTitle size="xl" className="relative z-10 justify-center" />
+                        </AuthHeaderIcon>
 
                         <div className="z-10 flex flex-col gap-2 md:gap-3">
                             <h1 className="text-display-xs font-semibold text-primary md:text-display-sm">
@@ -113,13 +109,9 @@ export const ForgotPasswordPage = () => {
             ) : (
                 <>
                     <div className="flex flex-col items-center gap-6 text-center">
-                        <div className="relative">
-                            <FeaturedIcon color="gray" theme="modern" size="xl" className="z-10">
-                                <Key01 className="size-7" />
-                            </FeaturedIcon>
-                            <BackgroundPattern size="lg" pattern="grid" className="absolute top-1/2 left-1/2 z-0 hidden -translate-x-1/2 -translate-y-1/2 md:block" />
-                            <BackgroundPattern size="md" pattern="grid" className="absolute top-1/2 left-1/2 z-0 -translate-x-1/2 -translate-y-1/2 md:hidden" />
-                        </div>
+                        <AuthHeaderIcon>
+                            <LogoWithTitle size="xl" className="relative z-10 justify-center" />
+                        </AuthHeaderIcon>
 
                         <div className="z-10 flex flex-col gap-2 md:gap-3">
                             <h1 className="text-display-xs font-semibold text-primary md:text-display-sm">

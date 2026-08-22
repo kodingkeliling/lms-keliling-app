@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/base/buttons/button";
 import { useAuthStore } from "@/store/use-auth-store";
 import { SOCIAL_LINKS } from "@/data/social-links";
+import { LogoWithTitle } from "@/components/shared-assets/logo-with-title";
 
 const NAV_LINKS = [
     { label: "Beranda", href: "/" },
@@ -25,13 +25,9 @@ export const Footer = () => {
                 <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
                     {/* Brand */}
                     <div className="flex max-w-xs flex-col gap-4">
-                        <div className="flex items-center gap-2">
-                            <Image src="/logo.png" alt="GatrAI" width={36} height={36} className="object-contain" />
-                            <Image src="/title-dark.png" alt="GatrAI" width={70} height={28} className="object-contain dark:hidden" />
-                            <Image src="/title-light.png" alt="GatrAI" width={70} height={28} className="object-contain hidden dark:block" />
-                        </div>
+                        <LogoWithTitle size="md" />
                         <p className="text-sm text-tertiary leading-relaxed">
-                            Platform pembuatan soal bahasa bertenaga AI. Buat soal unik dalam hitungan detik untuk 14+ bahasa.
+                            LMS Keliling (Language Management System) — platform belajar bahasa dengan soal AI yang unik untuk Reading, Writing, Speaking, dan Listening dalam 14+ bahasa.
                         </p>
                     </div>
 
@@ -70,7 +66,7 @@ export const Footer = () => {
                 {/* Bottom row */}
                 <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                     <p className="text-sm text-tertiary">
-                        © {year} GatrAI oleh{" "}
+                        © {year} LMS Keliling oleh{" "}
                         <a
                             href="https://www.instagram.com/kodingkeliling/"
                             target="_blank"

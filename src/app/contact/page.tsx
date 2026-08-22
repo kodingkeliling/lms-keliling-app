@@ -3,8 +3,8 @@ import { PageLayout } from "@/components/layout/page-layout";
 import { ContactSection } from "@/components/marketing/contact-section";
 
 export const metadata: Metadata = {
-    title: "Hubungi Kami — GatrAI",
-    description: "Punya pertanyaan atau ingin berkolaborasi? Hubungi tim GatrAI melalui form atau kontak langsung kami.",
+    title: "Hubungi Kami — LMS Keliling",
+    description: "Punya pertanyaan atau ingin berkolaborasi? Hubungi tim LMS Keliling melalui form atau kontak langsung kami.",
 };
 
 export default function HubungiPage() {

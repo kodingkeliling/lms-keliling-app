@@ -16,7 +16,7 @@ export const HeroContent = () => {
                     Kuasai Bahasa Apa Saja dengan AI
                 </h1>
                 <p className="text-lg text-tertiary lg:text-xl">
-                    Buat soal ujian yang dipersonalisasi dalam hitungan detik. Latih Reading, Writing, Speaking, dan Listening dalam 14+ bahasa dengan soal yang selalu unik. Dan hasil penilaian langsung muncul tanpa harus menunggu.
+                    Temukan cara baru belajar bahasa. Di mana saja, kapan saja, dengan caramu menggunakan MCP. ⭐ <br /> <br /> Buat soal ujian lebih gampang. Latih Reading, Writing, Speaking, dan Listening dalam 14+ bahasa dengan soal yang selalu unik. Dan hasil penilaian langsung muncul tanpa harus menunggu.
                 </p>
             </div>
 
@@ -30,7 +30,7 @@ export const HeroContent = () => {
                     <span>Dibuat oleh AI</span>
                 </div>
                 <div className="flex items-center gap-2 rounded-full border border-secondary bg-primary px-3 py-1 text-sm font-medium text-secondary">
-                    <CheckVerified01 className="size-4"/>
+                    <CheckVerified01 className="size-4" />
                     <span>Gratis Percobaan</span>
                 </div>
             </div>

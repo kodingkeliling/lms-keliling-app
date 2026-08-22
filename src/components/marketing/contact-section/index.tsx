@@ -13,8 +13,8 @@ const CONTACT_INFO = [
     {
         icon: Mail01,
         label: "Email",
-        value: "gatrai.id@gmail.com",
-        href: "mailto:gatrai.id@gmail.com",
+        value: "lms.keliling@gmail.com",
+        href: "mailto:lms.keliling@gmail.com",
     },
     {
         icon: Phone,
@@ -30,7 +30,7 @@ const CONTACT_INFO = [
     },
 ];
 
-const CONTACT_EMAIL = "gatrai.id@gmail.com";
+const CONTACT_EMAIL = "lms.keliling@gmail.com";
 
 type FormState = "idle" | "success";
 
@@ -41,9 +41,9 @@ export const ContactSection = () => {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
 
-        const subject = encodeURIComponent(`Pesan dari ${form.name} — GatrAI`);
+        const subject = encodeURIComponent(`Pesan dari ${form.name} — LMS Keliling`);
         const body = encodeURIComponent(
-            `Halo GatrAI,\n\nNama: ${form.name}\nEmail: ${form.email}\n\nPesan:\n${form.message}\n\n--\nDikirim melalui form kontak di gatrai.id`
+            `Halo LMS Keliling,\n\nNama: ${form.name}\nEmail: ${form.email}\n\nPesan:\n${form.message}\n\n--\nDikirim melalui form kontak LMS Keliling`
         );
 
         window.location.href = `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;

@@ -9,12 +9,13 @@ import { Button } from "@/components/base/buttons/button";
 import { GoogleAuthButton } from "@/components/auth/google-auth-button";
 import { Form } from "@/components/base/form/form";
 import { Input } from "@/components/base/input/input";
-import { BackgroundPattern } from "@/components/shared-assets/background-patterns";
+import { AuthHeaderIcon } from "@/components/auth/auth-header-icon";
 import { FeaturedIcon } from "@/components/foundations/featured-icon/featured-icon";
 import { AlertFloating } from "@/components/application/alerts/alerts";
 import { useAuthStore } from "@/store/use-auth-store";
 import { AuthLayout } from "@/components/auth/auth-layout";
 import { APP_NAME } from "@/config";
+import { LogoWithTitle } from "@/components/shared-assets/logo-with-title";
 
 export const LoginPage = () => {
     const router = useRouter();
@@ -74,20 +75,9 @@ export const LoginPage = () => {
         return (
             <AuthLayout>
                 <div className="flex flex-col items-center gap-6 text-center">
-                    <div className="relative flex items-center justify-center">
-                        <BackgroundPattern
-                            pattern="grid"
-                            className="absolute z-0 hidden md:block"
-                            style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
-                        />
-                        <BackgroundPattern
-                            pattern="grid"
-                            size="md"
-                            className="absolute z-0 md:hidden"
-                            style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
-                        />
+                    <AuthHeaderIcon>
                         <FeaturedIcon icon={Check} color="success" theme="light" size="xl" className="z-10" />
-                    </div>
+                    </AuthHeaderIcon>
                     <div className="z-10 flex flex-col gap-2">
                         <h1 className="text-display-xs font-semibold text-primary">
                             Akun berhasil di Aktivasi
@@ -115,20 +105,9 @@ export const LoginPage = () => {
         return (
             <AuthLayout>
                 <div className="flex flex-col items-center gap-6 text-center">
-                    <div className="relative flex items-center justify-center">
-                        <BackgroundPattern
-                            pattern="grid"
-                            className="absolute z-0 hidden md:block"
-                            style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
-                        />
-                        <BackgroundPattern
-                            pattern="grid"
-                            size="md"
-                            className="absolute z-0 md:hidden"
-                            style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
-                        />
+                    <AuthHeaderIcon>
                         <FeaturedIcon icon={AlertCircle} color="error" theme="light" size="xl" className="z-10" />
-                    </div>
+                    </AuthHeaderIcon>
                     <div className="z-10 flex flex-col gap-2">
                         <h1 className="text-display-xs font-semibold text-primary">
                             Aktivasi Gagal
@@ -167,7 +146,7 @@ export const LoginPage = () => {
                         Kuasai bahasa asing dengan latihan soal AI.
                     </h2>
                     <p className="text-sm text-white/70 leading-relaxed">
-                        GatrAI membuat soal bahasa yang dipersonalisasi — Reading, Writing, Speaking & Listening — secara otomatis.
+                        LMS Keliling (Language Management System) membuatkan soal bahasa yang dipersonalisasi — Reading, Writing, Speaking & Listening — secara otomatis.
                     </p>
                     <div className="flex flex-col gap-1.5 mt-1">
                         <span className="text-sm text-white/60">✓ English, Japanese, Korean & 11 bahasa lainnya</span>
@@ -179,30 +158,15 @@ export const LoginPage = () => {
         >
             {/* Logo + Title */}
             <div className="flex flex-col items-center gap-6 text-center">
-                <div className="relative">
-                    <BackgroundPattern
-                        pattern="grid"
-                        className="absolute top-1/2 left-1/2 z-0 hidden -translate-x-1/2 -translate-y-1/2 md:block"
-                    />
-                    <BackgroundPattern
-                        pattern="grid"
-                        size="md"
-                        className="absolute top-1/2 left-1/2 z-0 -translate-x-1/2 -translate-y-1/2 md:hidden"
-                    />
-                    <Image
-                        src="/logo.png"
-                        alt={`${APP_NAME} Logo`}
-                        width={48}
-                        height={48}
-                        className="relative z-10 object-contain"
-                    />
-                </div>
+                <AuthHeaderIcon>
+                    <LogoWithTitle size="xl" className="relative z-10 justify-center" />
+                </AuthHeaderIcon>
                 <div className="z-10 flex flex-col gap-2 md:gap-3">
                     <h1 className="text-display-xs font-semibold text-primary md:text-display-sm">
                         Selamat datang kembali
                     </h1>
                     <p className="text-md text-tertiary">
-                        Masuk dan lanjutkan latihan bahasa Anda bersama GatrAI.
+                        Masuk dan lanjutkan sesi belajar bahasa Anda bersama LMS Keliling.
                     </p>
                 </div>
             </div>

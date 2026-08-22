@@ -12,7 +12,7 @@ import { ChevronLeft, ChevronRight, Link01, Copy01, PuzzlePiece01 } from "@untit
 import { cx } from "@/utils/cx";
 import { useToast } from "@/contexts/use-toast";
 
-const MCP_ENDPOINT = "https://gatrai.kodingkeliling.com/api/mcp";
+const MCP_ENDPOINT = "https://lmskeliling.kodingkeliling.com/api/mcp";
 
 type AITool = "chatgpt" | "claude";
 
@@ -27,8 +27,8 @@ const GUIDES: Record<AITool, { title: string; steps: GuideStep[] }> = {
         steps: [
             { image: "/mcp-guides/chatgpt/step-01.png", caption: "Buka ChatGPT → Explore GPTs → pilih tab Connectors, lalu klik + New connector." },
             { image: "/mcp-guides/chatgpt/step-02.png", caption: "Pilih MCP sebagai tipe koneksi, lalu tempel URL MCP endpoint di kolom yang tersedia." },
-            { image: "/mcp-guides/chatgpt/step-03.png", caption: "Klik Save & Connect. ChatGPT akan mengarahkan Anda ke halaman otorisasi GatrAI." },
-            { image: "/mcp-guides/chatgpt/step-04.png", caption: "Login ke GatrAI jika diminta, lalu setujui izinnya." },
+            { image: "/mcp-guides/chatgpt/step-03.png", caption: "Klik Save & Connect. ChatGPT akan mengarahkan Anda ke halaman otorisasi LMS Keliling." },
+            { image: "/mcp-guides/chatgpt/step-04.png", caption: "Login ke LMS Keliling jika diminta, lalu setujui izinnya." },
             { image: "/mcp-guides/chatgpt/step-05.png", caption: "Klik Setujui & Hubungkan. Selesai! 🎉" },
         ],
     },
@@ -36,9 +36,9 @@ const GUIDES: Record<AITool, { title: string; steps: GuideStep[] }> = {
         title: "Claude",
         steps: [
             { image: "/mcp-guides/claude/step-01.png", caption: "Buka Claude → Settings → Integrations → klik Add integration." },
-            { image: "/mcp-guides/claude/step-02.png", caption: "Masukkan nama (mis. GatrAI) dan tempel URL MCP endpoint di kolom Integration URL." },
-            { image: "/mcp-guides/claude/step-03.png", caption: "Klik Add. Claude akan meminta otorisasi; login ke GatrAI jika diminta." },
-            { image: "/mcp-guides/claude/step-04.png", caption: "Klik Setujui & Hubungkan. GatrAI sekarang aktif di Claude! 🎉" },
+            { image: "/mcp-guides/claude/step-02.png", caption: "Masukkan nama (mis. LMS Keliling) dan tempel URL MCP endpoint di kolom Integration URL." },
+            { image: "/mcp-guides/claude/step-03.png", caption: "Klik Add. Claude akan meminta otorisasi; login ke LMS Keliling jika diminta." },
+            { image: "/mcp-guides/claude/step-04.png", caption: "Klik Setujui & Hubungkan. LMS Keliling sekarang aktif di Claude! 🎉" },
         ],
     },
 };
@@ -80,8 +80,8 @@ export const MCPGuideModal = ({ isOpen, onClose }: MCPGuideModalProps) => {
             isOpen={isOpen}
             onOpenChange={(open) => !open && onClose()}
             maxWidth="2xl"
-            title={`Cara Gratis: Connect GatrAI ke ${guide.title}`}
-            description="Ikuti langkah-langkah berikut untuk menghubungkan GatrAI MCP ke model AI favorit Anda."
+            title={`Cara Gratis: Connect LMS Keliling ke ${guide.title}`}
+            description="Ikuti langkah-langkah berikut untuk menghubungkan LMS Keliling MCP ke model AI favorit Anda."
             icon={PuzzlePiece01}
             iconTheme="modern"
             iconColor="gray"

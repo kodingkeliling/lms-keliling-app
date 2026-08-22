@@ -3,12 +3,11 @@
 import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { Lock01 } from "@untitledui/icons";
 import { Button } from "@/components/base/buttons/button";
 import { Form } from "@/components/base/form/form";
 import { Input } from "@/components/base/input/input";
-import { FeaturedIcon } from "@/components/foundations/featured-icon/featured-icon";
-import { BackgroundPattern } from "@/components/shared-assets/background-patterns";
+import { AuthHeaderIcon } from "@/components/auth/auth-header-icon";
+import { LogoWithTitle } from "@/components/shared-assets/logo-with-title";
 import { cx } from "@/utils/cx";
 
 export const ResetPasswordPage = () => {
@@ -67,13 +66,9 @@ export const ResetPasswordPage = () => {
         <section className="min-h-screen overflow-hidden bg-primary px-4 py-12 md:px-8 md:pt-24">
             <div className="mx-auto flex w-full max-w-90 flex-col gap-8">
                 <div className="flex flex-col items-center gap-6 text-center">
-                    <div className="relative">
-                        <FeaturedIcon color="gray" theme="modern" size="xl" className="z-10">
-                            <Lock01 className="size-7" />
-                        </FeaturedIcon>
-                        <BackgroundPattern size="lg" pattern="grid" className="absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2 md:block" />
-                        <BackgroundPattern size="md" pattern="grid" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:hidden" />
-                    </div>
+                    <AuthHeaderIcon>
+                        <LogoWithTitle size="xl" className="relative z-10 justify-center" />
+                    </AuthHeaderIcon>
 
                     <div className="z-10 flex flex-col gap-2 md:gap-3">
                         <h1 className="text-display-xs font-semibold text-primary md:text-display-sm">

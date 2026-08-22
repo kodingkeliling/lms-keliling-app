@@ -5,8 +5,8 @@ import { COOKIE_NAME } from "@/lib/auth-cookie";
 import { ConsentClientPage } from "./consent-client";
 
 export const metadata = {
-    title: "Hubungkan ke GatrAI MCP",
-    description: "Izinkan Host AI untuk mengakses data GatrAI Anda."
+    title: "Hubungkan ke LMS Keliling MCP",
+    description: "Izinkan Host AI untuk mengakses data LMS Keliling Anda."
 };
 
 interface PageProps {

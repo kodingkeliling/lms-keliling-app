@@ -15,15 +15,15 @@ export async function POST(req: NextRequest) {
 
         // Send email if a token was generated (i.e. the email exists in our DB)
         if (resetToken) {
-            const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://gatrai.kodingkeliling.com";
+            const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://lmskeliling.kodingkeliling.com";
             const resetLink = `${appUrl}/reset-password?token=${resetToken}`;
 
             await sendEmail({
                 to: email,
-                subject: "Reset Password GatrAI",
+                subject: "Reset Password LMS Keliling",
                 title: "Reset Password",
                 name: email,
-                message: `Kami menerima permintaan untuk mereset password akun GatrAI Anda. Klik link di bawah ini untuk membuat password baru. Link ini berlaku selama 1 jam.`,
+                message: `Kami menerima permintaan untuk mereset password akun LMS Keliling Anda. Klik link di bawah ini untuk membuat password baru. Link ini berlaku selama 1 jam.`,
                 actionLink: resetLink,
             });
         }

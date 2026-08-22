@@ -19,7 +19,7 @@ export async function GET(req: NextRequest) {
     const origin = new URL(req.url).origin;
 
     if (!accept.includes("text/event-stream")) {
-        return new NextResponse("GatrAI MCP Server (Stateless) is active.", {
+        return new NextResponse("LMS Keliling MCP Server (Stateless) is active.", {
             status: 200,
             headers: {
                 "Content-Type": "text/plain",
@@ -29,7 +29,7 @@ export async function GET(req: NextRequest) {
     }
 
     const server = new Server({
-        name: "GatrAI MCP Server",
+        name: "LMS Keliling MCP Server",
         version: "1.0.0"
     }, {
         capabilities: {
@@ -99,7 +99,7 @@ export async function POST(req: NextRequest) {
                         status: 401,
                         headers: {
                             ...corsHeaders,
-                            "WWW-Authenticate": `Bearer realm="GatrAI", resource_metadata="${origin}/.well-known/oauth-protected-resource"`
+                            "WWW-Authenticate": `Bearer realm="LMS Keliling", resource_metadata="${origin}/.well-known/oauth-protected-resource"`
                         }
                     }
                 );
@@ -109,7 +109,7 @@ export async function POST(req: NextRequest) {
 
     // Process using the MCP SDK
     const server = new Server({
-        name: "GatrAI MCP Server",
+        name: "LMS Keliling MCP Server",
         version: "1.0.0"
     }, {
         capabilities: {

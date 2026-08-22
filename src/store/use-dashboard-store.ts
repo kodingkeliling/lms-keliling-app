@@ -128,6 +128,6 @@ export const useDashboardStore = create<DashboardState>()(
             deleteQuestion: (id) =>
                 set((s) => ({ questions: s.questions.filter((q) => q.id !== id) })),
         }),
-        { name: "gatrai-dashboard-storage" }
+        { name: "lms-keliling-dashboard-storage" }
     )
 );
