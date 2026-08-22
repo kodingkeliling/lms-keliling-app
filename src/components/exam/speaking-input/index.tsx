@@ -144,6 +144,7 @@ export const SpeakingInput = ({ value, onChange, language, isRecording, setIsRec
                 )}
                 <Button
                     type="button"
+                    data-speaking-mic-btn="true"
                     onClick={toggleRecording}
                     isDisabled={isTranscribing}
                     color="primary"

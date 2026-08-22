@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef, useMemo } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, ChevronRight, LayoutGrid02, Zap, LogOut01 } from "@untitledui/icons";
+import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, ChevronRight, LayoutGrid02, Zap, LogOut01, InfoCircle } from "@untitledui/icons";
 import { Button } from "../../components/base/buttons/button";
 import { FeaturedIcon } from "../../components/foundations/featured-icon/featured-icon";
 import { ProgressBar } from "../../components/base/progress-indicators/progress-indicators";
@@ -22,6 +22,7 @@ import Image from "next/image";
 import { AdsModal } from "@/components/shared-assets/ads-modal";
 import { ADS, PAID_PLAN_IDS } from "@/data/ads";
 import ConfirmationModal from "@/components/layout/confirmation-modal";
+import { Modal } from "@/components/shared-assets/modal";
 
 const PAGE_SIZE = 50;
 
@@ -34,6 +35,7 @@ export const PlaygroundScreen = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isConfirmModalOpen, setIsConfirmModalOpen] = useState(false);
     const [isExitModalOpen, setIsExitModalOpen] = useState(false);
+    const [isShortcutModalOpen, setIsShortcutModalOpen] = useState(false);
     const { isAuthenticated, user } = useAuthStore();
     const showAds = !user?.planId || !PAID_PLAN_IDS.includes(user.planId);
     const [adsModalAd, setAdsModalAd] = useState<(typeof ADS)[number] | null>(null);
@@ -221,6 +223,101 @@ export const PlaygroundScreen = () => {
             startExam();
         }
     }, [activeExam?.status, activeExam?.isDemo, activeExam?.startTime, generateAllQuestions, startExam]);
+
+    // Keyboard Shortcuts Handler
+    useEffect(() => {
+        if (!activeExam || activeExam.status !== "ongoing") return;
+
+        const handleKeyDown = (e: KeyboardEvent) => {
+            const activeElement = document.activeElement;
+            const isTyping =
+                activeElement &&
+                (activeElement.tagName === "INPUT" ||
+                    activeElement.tagName === "TEXTAREA" ||
+                    (activeElement as HTMLElement).isContentEditable);
+
+            const questions = activeExam.questions;
+            const currentIdx = activeExam.currentQuestionIndex;
+            const currentQuestion = questions[currentIdx];
+            if (!currentQuestion) return;
+
+            const currentSkill = currentQuestion.skill.toLowerCase();
+
+            // 1. Command + Enter or Ctrl + Enter: Trigger speaking mic or listening audio
+            if ((e.metaKey || e.ctrlKey) && e.key === "Enter") {
+                e.preventDefault();
+                if (currentSkill === "speaking") {
+                    const micBtn = document.querySelector('[data-speaking-mic-btn="true"]') as HTMLButtonElement | null;
+                    if (micBtn) micBtn.click();
+                } else if (currentSkill === "listening") {
+                    const audioBtn = document.querySelector('[data-audio-player-btn="true"]') as HTMLButtonElement | null;
+                    if (audioBtn) audioBtn.click();
+                }
+                return;
+            }
+
+            // If user is actively typing in a text field (e.g. writing task/textarea), don't hijack normal typing keys except Cmd+Enter
+            if (isTyping) {
+                if (e.key === "Enter" && !e.shiftKey) {
+                    const currentAnswer = activeExam.userAnswers[currentQuestion.id];
+                    if (!currentAnswer || currentAnswer.trim() === "") {
+                        e.preventDefault();
+                        toastWarning("Silakan isi jawaban terlebih dahulu sebelum melanjutkan.", "Jawaban Wajib Diisi");
+                        return;
+                    }
+                    e.preventDefault();
+                    if (currentIdx < questions.length - 1) {
+                        nextQuestion();
+                    } else {
+                        setIsConfirmModalOpen(true);
+                    }
+                }
+                return;
+            }
+
+            // 2. Arrow Left & Arrow Right: Navigate between question pages
+            if (e.key === "ArrowLeft") {
+                e.preventDefault();
+                if (currentIdx > 0) prevQuestion();
+                return;
+            }
+
+            if (e.key === "ArrowRight") {
+                e.preventDefault();
+                if (currentIdx < questions.length - 1) nextQuestion();
+                return;
+            }
+
+            // 3. Numbers 1, 2, 3, 4: Select multiple choice options for multiple choice questions
+            if (["1", "2", "3", "4"].includes(e.key) && currentQuestion.options) {
+                const optionIndex = parseInt(e.key, 10) - 1;
+                if (currentQuestion.options[optionIndex]) {
+                    e.preventDefault();
+                    setAnswer(currentQuestion.id, currentQuestion.options[optionIndex]);
+                }
+                return;
+            }
+
+            // 4. Enter key: Validate required response or go to next question
+            if (e.key === "Enter") {
+                e.preventDefault();
+                const currentAnswer = activeExam.userAnswers[currentQuestion.id];
+                if (!currentAnswer || currentAnswer.trim() === "") {
+                    toastWarning("Silakan jawab pertanyaan ini terlebih dahulu.", "Jawaban Wajib Diisi");
+                    return;
+                }
+                if (currentIdx < questions.length - 1) {
+                    nextQuestion();
+                } else {
+                    setIsConfirmModalOpen(true);
+                }
+                return;
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [activeExam, nextQuestion, prevQuestion, setAnswer, toastWarning]);
 
     if (loadingExam || !hasHydrated) {
         return (
@@ -641,6 +738,14 @@ export const PlaygroundScreen = () => {
                                     {currentQuestion.skill}
                                 </Badge>
                             </div>
+                            <Button
+                                color="tertiary"
+                                size="sm"
+                                iconLeading={InfoCircle}
+                                onClick={() => setIsShortcutModalOpen(true)}
+                                title="Keyboard Shortcuts Info"
+                                className="text-xs"
+                            />
                         </div>
 
                         <div className="flex flex-col gap-4 md:gap-6">
@@ -794,6 +899,57 @@ export const PlaygroundScreen = () => {
                 confirmColor="primary-destructive"
                 iconColor="error"
             />
+
+            <Modal
+                isOpen={isShortcutModalOpen}
+                onOpenChange={setIsShortcutModalOpen}
+                title="Pintasan Keyboard (Keyboard Shortcuts)"
+                description="Gunakan pintasan keyboard berikut untuk mempercepat navigasi dan pengisian jawaban:"
+                icon={InfoCircle}
+                iconColor="brand"
+                maxWidth="md"
+                primaryAction={{
+                    label: "Mengerti",
+                    onClick: () => setIsShortcutModalOpen(false),
+                    color: "primary"
+                }}
+            >
+                <div className="flex flex-col gap-3 py-2 text-sm">
+                    <div className="flex items-center justify-between rounded-lg bg-secondary/50 p-3">
+                        <span className="font-medium text-primary">Validasi & Next Soal</span>
+                        <kbd className="rounded border border-secondary bg-primary px-2.5 py-1 text-xs font-semibold text-primary shadow-xs">
+                            Enter
+                        </kbd>
+                    </div>
+                    <div className="flex items-center justify-between rounded-lg bg-secondary/50 p-3">
+                        <span className="font-medium text-primary">Pindah Halaman Soal</span>
+                        <div className="flex items-center gap-1.5">
+                            <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">
+                                ←
+                            </kbd>
+                            <span className="text-tertiary text-xs">atau</span>
+                            <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">
+                                →
+                            </kbd>
+                        </div>
+                    </div>
+                    <div className="flex items-center justify-between rounded-lg bg-secondary/50 p-3">
+                        <span className="font-medium text-primary">Pilih Pilihan Ganda</span>
+                        <div className="flex items-center gap-1">
+                            <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">1</kbd>
+                            <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">2</kbd>
+                            <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">3</kbd>
+                            <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">4</kbd>
+                        </div>
+                    </div>
+                    <div className="flex items-center justify-between rounded-lg bg-secondary/50 p-3">
+                        <span className="font-medium text-primary">Toggle Mic (Speaking) / Play Audio (Listening)</span>
+                        <kbd className="rounded border border-secondary bg-primary px-2.5 py-1 text-xs font-semibold text-primary shadow-xs">
+                            ⌘ + Enter <span className="text-tertiary">/</span> Ctrl + Enter
+                        </kbd>
+                    </div>
+                </div>
+            </Modal>
         </div>
     );
 };

@@ -316,6 +316,7 @@ export const AudioPlayer = ({ text, language = "English", onEnd }: AudioPlayerPr
                 <Button
                     size="md"
                     color="primary"
+                    data-audio-player-btn="true"
                     iconLeading={isPlaying ? <PauseIcon /> : <PlayIcon />}
                     onClick={togglePlay}
                     className="w-32"
