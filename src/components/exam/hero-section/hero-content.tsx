@@ -35,7 +35,7 @@ export const HeroContent = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-3 sm:flex-row items-center justify-center lg:justify-start">
+            {/* <div className="flex flex-col gap-3 sm:flex-row items-center justify-center lg:justify-start">
                 <Button
                     className="w-fit px-12 lg:hidden"
                     iconLeading={PlayCircle}
@@ -43,7 +43,7 @@ export const HeroContent = () => {
                 >
                     Mulai Sekarang
                 </Button>
-            </div>
+            </div> */}
         </div>
     );
 };
