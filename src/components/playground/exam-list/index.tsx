@@ -199,6 +199,7 @@ const ALL_SKILLS: SkillType[] = ["Reading", "Writing", "Speaking", "Listening"];
 
 export const PlaygroundExamList = () => {
     const exams = useExamStore((s) => s.exams);
+    const hasHydrated = useExamStore((s) => s.hasHydrated);
     const user = useAuthStore((s) => s.user);
     const [search, setSearch] = useState("");
     const [mcpModalOpen, setMcpModalOpen] = useState(false);
@@ -280,8 +281,13 @@ export const PlaygroundExamList = () => {
             <div className="flex items-center justify-between">
                 <div>
                     <h2 className="text-lg font-semibold text-primary">Ujian &amp; Soal Saya</h2>
-                    <p className="text-sm text-tertiary mt-0.5">
-                        {exams.length > 0 ? `${exams.length} ujian tersimpan` : "Belum ada ujian yang dibuat"}
+                    <p className="text-sm text-tertiary mt-0.5 flex items-center gap-1">
+                        {hasHydrated ? (
+                            <span className="font-medium text-primary">{exams.length}</span>
+                        ) : (
+                            <span className="inline-block h-4 w-5 rounded bg-secondary animate-pulse" />
+                        )}
+                        <span>ujian tersimpan</span>
                     </p>
                 </div>
                 <Button size="sm" iconLeading={Plus} onClick={() => setMcpModalOpen(true)}>
@@ -412,7 +418,29 @@ export const PlaygroundExamList = () => {
             </div>
 
             {/* List */}
-            {processed.length === 0 ? (
+            {!hasHydrated ? (
+                <div className="flex flex-col gap-3">
+                    {Array.from({ length: 3 }).map((_, idx) => (
+                        <div key={idx} className="flex flex-col gap-3 rounded-2xl border border-secondary bg-primary p-4 md:p-5 shadow-xs animate-pulse">
+                            <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-2">
+                                    <div className="h-5 w-20 rounded-md bg-secondary" />
+                                    <div className="h-5 w-16 rounded-md bg-secondary" />
+                                </div>
+                                <div className="h-6 w-24 rounded-full bg-secondary" />
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <div className="h-4 w-28 rounded bg-secondary" />
+                                <div className="h-4 w-36 rounded bg-secondary" />
+                            </div>
+                            <div className="flex items-center justify-between pt-2 border-t border-secondary">
+                                <div className="h-4 w-32 rounded bg-secondary" />
+                                <div className="h-8 w-24 rounded-lg bg-secondary" />
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            ) : processed.length === 0 ? (
                 <div className="flex flex-col items-center justify-center gap-4 rounded-2xl border border-dashed border-secondary bg-secondary/30 py-14 text-center">
                     <div className="flex size-14 items-center justify-center rounded-full bg-brand-50 dark:bg-brand-950/30">
                         <PlusCircle className="size-7 text-brand-600" />

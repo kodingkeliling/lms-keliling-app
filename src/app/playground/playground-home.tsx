@@ -32,6 +32,12 @@ function ScrollToTop() {
 }
 
 export const PlaygroundHome = () => {
+    const [isMounted, setIsMounted] = useState(false);
+
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
+
     return (
         <div className="flex min-h-dvh flex-col bg-primary relative">
             {/* Subtle background gradient */}
@@ -44,7 +50,7 @@ export const PlaygroundHome = () => {
 
             <main className="flex flex-1 flex-col">
                 {/* Two-column layout */}
-                <div className="mx-auto flex w-full max-w-container flex-1 flex-col gap-6 px-4 py-6 md:flex-row md:gap-8 md:px-8 md:py-8 lg:gap-12 items-start md:items-stretch">
+                <div className="mx-auto flex w-full max-w-container flex-1 flex-col gap-6 px-4 py-6 md:flex-row md:gap-8 md:px-8 md:py-8 lg:gap-12 items-start">
                     {/* RIGHT — form generator (order-first on mobile) */}
                     <aside className="order-first md:order-last w-full md:w-[420px] lg:w-[460px] shrink-0 flex flex-col gap-4">
                         <TokenStatusCard />
@@ -54,7 +60,7 @@ export const PlaygroundHome = () => {
                     </aside>
 
                     {/* LEFT — exam list */}
-                    <section className="flex-1 min-w-0 order-last md:order-first">
+                    <section className="flex-1 min-w-0 w-full order-last md:order-first">
                         <PlaygroundExamList />
                     </section>
                 </div>
