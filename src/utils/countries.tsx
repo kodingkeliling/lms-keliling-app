@@ -1331,21 +1331,106 @@ export const countries = [
     },
 ];
 
-/**
- * Phone code options for the select component.
- */
-export const phoneCodeOptions: SelectItemType[] = countries.map((country) => ({
-    id: country.code,
-    label: country.code,
-}));
-
-/**
- * Country options for the select component.
- */
-export const countriesOptions: SelectItemType[] = countries.map((country) => ({
-    id: country.code,
-    label: country.name,
-    icon: (props: HTMLAttributes<HTMLImageElement>) => <img {...props} src={country.flag} alt={`${country.name} flag`} />,
-}));
+export const languageOptions: SelectItemType[] = [
+    {
+        id: "English",
+        label: "English",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/GB.svg" alt="English flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Japanese",
+        label: "Japanese (日本語)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/JP.svg" alt="Japanese flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Korean",
+        label: "Korean (한국어)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/KR.svg" alt="Korean flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "French",
+        label: "French (Français)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/FR.svg" alt="French flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Spanish",
+        label: "Spanish (Español)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/ES.svg" alt="Spanish flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Mandarin",
+        label: "Mandarin (普通话)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/CN.svg" alt="Mandarin flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Arabic",
+        label: "Arabic (العربية)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/SA.svg" alt="Arabic flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "German",
+        label: "German (Deutsch)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/DE.svg" alt="German flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Italian",
+        label: "Italian (Italiano)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/IT.svg" alt="Italian flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Portuguese",
+        label: "Portuguese (Português)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/PT.svg" alt="Portuguese flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Russian",
+        label: "Russian (Русский)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/RU.svg" alt="Russian flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Hindi",
+        label: "Hindi (हिन्दी)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/IN.svg" alt="Hindi flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Sundanese",
+        label: "Sundanese (Basa Sunda)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/ID.svg" alt="Sundanese flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+    {
+        id: "Javanese",
+        label: "Javanese (Basa Jawa)",
+        icon: (props: HTMLAttributes<HTMLImageElement>) => (
+            <img {...props} data-icon src="https://www.untitledui.com/images/flags/ID.svg" alt="Javanese flag" className="size-5 shrink-0 rounded-full object-cover" />
+        ),
+    },
+];
 
 export default countries;
+

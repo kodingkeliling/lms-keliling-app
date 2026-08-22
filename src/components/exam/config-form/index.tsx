@@ -14,22 +14,7 @@ import { useToast } from "@/contexts/use-toast";
 import { getRandomDemoQuestions } from "@/data/demo-questions";
 import { MCPGuideModal } from "@/components/layout/mcp-guide-modal";
 
-const LANGUAGES = [
-    { id: "English", label: "English" },
-    { id: "Japanese", label: "Japanese (日本語)" },
-    { id: "Korean", label: "Korean (한국어)" },
-    { id: "French", label: "French (Français)" },
-    { id: "Spanish", label: "Spanish (Español)" },
-    { id: "Mandarin", label: "Mandarin (普通话)" },
-    { id: "Arabic", label: "Arabic (العربية)" },
-    { id: "German", label: "German (Deutsch)" },
-    { id: "Italian", label: "Italian (Italiano)" },
-    { id: "Portuguese", label: "Portuguese (Português)" },
-    { id: "Russian", label: "Russian (Русский)" },
-    { id: "Hindi", label: "Hindi (हिन्दी)" },
-    { id: "Sundanese", label: "Sundanese (Basa Sunda)" },
-    { id: "Javanese", label: "Javanese (Basa Jawa)" },
-];
+import { languageOptions } from "@/utils/countries";
 
 export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean }) => {
     const router = useRouter();
@@ -127,12 +112,16 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
                             onSelectionChange={(key) => setLanguage(key as string)}
                             placeholder="Pilih bahasa"
                             placeholderIcon={Translate01}
+                            items={languageOptions}
                         >
-                            {LANGUAGES.map((lang) => (
-                                <Select.Item key={lang.id} id={lang.id} label={lang.label}>{lang.label}</Select.Item>
-                            ))}
+                            {(item) => (
+                                <Select.Item key={item.id} id={item.id} label={item.label} icon={item.icon}>
+                                    {item.label}
+                                </Select.Item>
+                            )}
                         </Select>
                     </div>
+
 
                     {/* Skills */}
                     <div className="flex flex-col gap-3">
