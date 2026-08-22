@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
 
         // Send email if a token was generated (i.e. the email exists in our DB)
         if (resetToken) {
-            const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://lmskeliling.kodingkeliling.com";
+            const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://lms.kodingkeliling.com";
             const resetLink = `${appUrl}/reset-password?token=${resetToken}`;
 
             await sendEmail({

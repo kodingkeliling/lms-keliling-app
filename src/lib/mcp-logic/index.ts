@@ -9,7 +9,7 @@ export const PROTECTED_TOOLS = [
     "analyze_exam_participants"
 ];
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://lmskeliling.kodingkeliling.com";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://lms.kodingkeliling.com";
 
 export const TOOLS_LIST = [
     {
@@ -507,7 +507,7 @@ CRITICAL RULES:
                 const totalQuestions = attempt.questions.length;
                 const answeredQuestions = attempt.questions.filter((q) => q.answer !== null).length;
                 const correctQuestions = attempt.questions.filter((q) => q.score && q.score > 0.5).length;
-                
+
                 const scorePercentage = totalQuestions > 0 ? Math.round((correctQuestions / totalQuestions) * 100) : 0;
 
                 const detailQuestions = attempt.questions.map((q) => {
@@ -518,7 +518,7 @@ CRITICAL RULES:
                             const parsed = JSON.parse(q.content);
                             questionText = parsed.description || parsed.content || q.content;
                             correctAnswer = parsed.answer || "";
-                        } catch {}
+                        } catch { }
                     }
 
                     return {

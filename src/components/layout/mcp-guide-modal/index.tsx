@@ -12,7 +12,7 @@ import { ChevronLeft, ChevronRight, Link01, Copy01, PuzzlePiece01 } from "@untit
 import { cx } from "@/utils/cx";
 import { useToast } from "@/contexts/use-toast";
 
-const MCP_ENDPOINT = "https://lmskeliling.kodingkeliling.com/api/mcp";
+const MCP_ENDPOINT = "https://lms.kodingkeliling.com/api/mcp";
 
 type AITool = "chatgpt" | "claude";
 
