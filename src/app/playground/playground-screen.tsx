@@ -592,9 +592,16 @@ export const PlaygroundScreen = () => {
                             <Image src="/logo.png" className="object-contain animate-in fade-in zoom-in duration-200" alt="LMS Keliling Logo" width={28} height={28} />
                         </Button>
                         <hr className="h-4 w-px bg-border-secondary md:h-6" />
-                        <span className="text-xs font-semibold text-primary md:text-sm">
-                            {currentQuestionIndex + 1}/{questions.length}
-                        </span>
+                        <div className="flex flex-col">
+                            {activeExam.title && (
+                                <span className="text-xs font-bold text-primary max-w-[150px] md:max-w-[250px] truncate" title={activeExam.title}>
+                                    {activeExam.title}
+                                </span>
+                            )}
+                            <span className="text-xs font-semibold text-tertiary">
+                                {currentQuestionIndex + 1}/{questions.length}
+                            </span>
+                        </div>
                     </div>
 
                     <div className="hidden items-center gap-2 md:flex">

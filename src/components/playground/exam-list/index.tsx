@@ -191,7 +191,12 @@ function ExamCard({ exam, currentEmail, currentUserId, onInvite }: ExamCardProps
 
             {/* Info */}
             <div className="flex flex-col gap-1.5 pb-2">
-                <p className="text-sm font-semibold text-primary">
+                {exam.title && (
+                    <h4 className="text-base font-bold text-primary truncate" title={exam.title}>
+                        {exam.title}
+                    </h4>
+                )}
+                <p className="text-sm font-medium text-secondary">
                     {exam.config.questionCount} Soal · {exam.config.language}
                 </p>
                 <div className="flex flex-wrap gap-1.5">

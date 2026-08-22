@@ -21,6 +21,7 @@ export type ExamStatus = "idle" | "generating" | "ongoing" | "completed";
 
 export interface ExamAttempt {
     id: string;
+    title?: string;
     createdAt: number;
     config: ExamConfig;
     questions: Question[];

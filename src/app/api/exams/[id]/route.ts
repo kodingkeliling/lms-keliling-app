@@ -112,6 +112,7 @@ export async function GET(
 
         const examAttempt = {
             id: exam!.id,
+            title: exam!.title || undefined,
             createdAt: exam!.createdAt.getTime(),
             config: {
                 language: exam!.language,

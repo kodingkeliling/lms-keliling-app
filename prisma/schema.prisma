@@ -89,6 +89,7 @@ model Exam {
   user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   language   String
+  title      String?
   skills     String[] // e.g. ["Reading", "Writing"]
   provider   String   @default("auto")
   modelName  String?

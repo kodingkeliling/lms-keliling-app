@@ -188,7 +188,9 @@ export const ResultScreen = () => {
                         </div>
 
                         <div className="flex flex-col gap-2">
-                            <h1 className="text-display-sm font-semibold text-primary">Ujian Selesai!</h1>
+                            <h1 className="text-display-sm font-semibold text-primary">
+                                {activeExam.title ? activeExam.title : "Ujian Selesai!"}
+                            </h1>
                             <p className="text-lg text-tertiary">
                                 Kamu menjawab {correctAnswersCount} dari {gradableQuestions.length} soal dengan benar.
                             </p>

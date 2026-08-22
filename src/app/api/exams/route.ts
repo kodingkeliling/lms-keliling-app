@@ -27,6 +27,7 @@ export async function GET(req: NextRequest) {
 
         const mapped = exams.map((exam) => ({
             id: exam.id,
+            title: exam.title || undefined,
             createdAt: exam.createdAt.getTime(),
             config: {
                 language: exam.language,
