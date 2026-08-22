@@ -1,1102 +1,1102 @@
 export const LISTENING_QUESTIONS = [
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Scusi, a che ora parte il prossimo treno per Roma?<br/>DONNA: Il prossimo treno parte alle quindici e quarantacinque.<br/><br/>Question: A che ora parte il prossimo treno?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Alle 15:45</p>",
+            "<p>Alle 16:00</p>",
+            "<p>Alle 14:30</p>",
+            "<p>Alle 17:00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Alle 15:45</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in italian and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>UOMO: Cosa prende da bere?<br/>DONNA: Per me un succo d'arancia e un'acqua minerale, grazie.<br/><br/>Question: Cosa ordina la donna?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Un succo d'arancia e un'acqua minerale</p>",
+            "<p>Un caffè e una birra</p>",
+            "<p>Un tè e un'aranciata</p>",
+            "<p>Due caffè</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Un succo d'arancia e un'acqua minerale</p>",
         "skill": "Listening"
     }
 ] as const;

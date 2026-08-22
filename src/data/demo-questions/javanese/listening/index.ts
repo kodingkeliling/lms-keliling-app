@@ -1,1102 +1,1102 @@
 export const LISTENING_QUESTIONS = [
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Nyuwun pangapunten, jam pinten sepur dhateng Yogyakarta mangkat?<br/>WANITA: Sepur salajengipun mangkat tabuh setengah loro.<br/><br/>Question: Jam pinten sepur salajengipun mangkat?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh setengah loro</p>",
+            "<p>Tabuh loro</p>",
+            "<p>Tabuh setengah telu</p>",
+            "<p>Tabuh siji</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh setengah loro</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in javanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>PRIYA: Menapa panjenengan sampun ningali film ingkang enggal menika?<br/>WANITA: Sampun, kula ningali kaliyan kulawarga kula Sabtu sontèn. Saé sanget!<br/><br/>Question: Kapan wanita kasebut ningali film?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Sabtu sontèn</p>",
+            "<p>Minggu ésuk</p>",
+            "<p>Jumat wengi</p>",
+            "<p>Kemarin</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Sabtu sontèn</p>",
         "skill": "Listening"
     }
 ] as const;

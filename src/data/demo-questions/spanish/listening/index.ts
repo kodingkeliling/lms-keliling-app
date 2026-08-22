@@ -1,1102 +1,1102 @@
 export const LISTENING_QUESTIONS = [
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Qué quieres hacer este fin de semana?<br/>MUJER: Me gustaría ir a la playa si hace buen tiempo.<br/><br/>Question: ¿A dónde quiere ir la mujer?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>A la playa</p>",
+            "<p>Al cine</p>",
+            "<p>Al museo</p>",
+            "<p>Al parque</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>A la playa</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: ¿Has probado el restaurante nuevo del centro?<br/>MUJER: Sí, fui el miércoles pasado con mis amigos. La comida era excelente.<br/><br/>Question: ¿Cuándo fue la mujer al restaurante?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>El miércoles pasado</p>",
+            "<p>El viernes pasado</p>",
+            "<p>El sábado</p>",
+            "<p>Ayer</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>El miércoles pasado</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in spanish and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMBRE: Disculpe, ¿a qué hora sale el próximo autobús a Madrid?<br/>MUJER: El próximo autobús sale en quince minutos.<br/><br/>Question: ¿Cuándo sale el próximo autobús?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>En quince minutos</p>",
+            "<p>En media hora</p>",
+            "<p>En cinco minutos</p>",
+            "<p>En una hora</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>En quince minutos</p>",
         "skill": "Listening"
     }
 ] as const;

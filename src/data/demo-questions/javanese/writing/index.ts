@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into javanese (1):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 1",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (2):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 2",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (3):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 3",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (4):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 4",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (5):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 5",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (6):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 6",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (7):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 7",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (8):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 8",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (9):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 9",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (10):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 10",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (11):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 11",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (12):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 12",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (13):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 13",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (14):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 14",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (15):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 15",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (16):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 16",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (17):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 17",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (18):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 18",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (19):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 19",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (20):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 20",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (21):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 21",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (22):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 22",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (23):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 23",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (24):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 24",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (25):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 25",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (26):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 26",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (27):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 27",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (28):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 28",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (29):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 29",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (30):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 30",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (31):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 31",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (32):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 32",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (33):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 33",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (34):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 34",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (35):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 35",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (36):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 36",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (37):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 37",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (38):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 38",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (39):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 39",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (40):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 40",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (41):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 41",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (42):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 42",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (43):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 43",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (44):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 44",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (45):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 45",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (46):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 46",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (47):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 47",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (48):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 48",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (49):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 49",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (50):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 50",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (51):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 51",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (52):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 52",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (53):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 53",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (54):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 54",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (55):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 55",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (56):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 56",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (57):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 57",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (58):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 58",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (59):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 59",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (60):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 60",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (61):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 61",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (62):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 62",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (63):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 63",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (64):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 64",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (65):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 65",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (66):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 66",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (67):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 67",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (68):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 68",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (69):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 69",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (70):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 70",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (71):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 71",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (72):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 72",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (73):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 73",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (74):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 74",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (75):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 75",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (76):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 76",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (77):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 77",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (78):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 78",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (79):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 79",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (80):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 80",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (81):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 81",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (82):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 82",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (83):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 83",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (84):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 84",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (85):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 85",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (86):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 86",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (87):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 87",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (88):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 88",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (89):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 89",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (90):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 90",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (91):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 91",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (92):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 92",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (93):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 93",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (94):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 94",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (95):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 95",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (96):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 96",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (97):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> Jangkepna ukara iki: Dheweke ______ menyang sekolah saben dina.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 97",
+        "answer": "lunga",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (98):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> Terjemahna menyang Basa Jawa: 'I am happy to be here today.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 98",
+        "answer": "Kula remen saged rawuh ing mriki dinten menika.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (99):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> Benerna ukara iki: 'Aku wis tuku buku neng toko wingi.'</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 99",
+        "answer": "Aku wis tuku buku ing toko wingi.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into javanese (100):</b> Complete the sentence appropriately in javanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> Gawea ukara nganggo tembung 'endah'.</p>",
         "options": null,
-        "answer": "Sample answer in javanese for question 100",
+        "answer": "Pemandangan Candi Borobudur nalika srengenge metu iku endah banget.",
         "skill": "Writing"
     }
 ] as const;

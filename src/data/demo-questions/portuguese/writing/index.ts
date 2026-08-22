@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into portuguese (1):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 1",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (2):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 2",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (3):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 3",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (4):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 4",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (5):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 5",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (6):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 6",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (7):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 7",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (8):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 8",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (9):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 9",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (10):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 10",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (11):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 11",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (12):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 12",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (13):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 13",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (14):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 14",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (15):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 15",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (16):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 16",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (17):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 17",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (18):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 18",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (19):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 19",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (20):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 20",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (21):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 21",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (22):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 22",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (23):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 23",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (24):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 24",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (25):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 25",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (26):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 26",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (27):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 27",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (28):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 28",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (29):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 29",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (30):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 30",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (31):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 31",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (32):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 32",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (33):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 33",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (34):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 34",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (35):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 35",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (36):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 36",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (37):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 37",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (38):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 38",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (39):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 39",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (40):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 40",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (41):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 41",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (42):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 42",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (43):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 43",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (44):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 44",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (45):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 45",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (46):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 46",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (47):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 47",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (48):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 48",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (49):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 49",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (50):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 50",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (51):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 51",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (52):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 52",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (53):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 53",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (54):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 54",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (55):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 55",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (56):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 56",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (57):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 57",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (58):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 58",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (59):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 59",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (60):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 60",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (61):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 61",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (62):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 62",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (63):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 63",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (64):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 64",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (65):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 65",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (66):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 66",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (67):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 67",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (68):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 68",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (69):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 69",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (70):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 70",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (71):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 71",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (72):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 72",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (73):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 73",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (74):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 74",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (75):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 75",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (76):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 76",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (77):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 77",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (78):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 78",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (79):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 79",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (80):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 80",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (81):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 81",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (82):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 82",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (83):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 83",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (84):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 84",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (85):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 85",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (86):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 86",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (87):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 87",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (88):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 88",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (89):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 89",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (90):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 90",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (91):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 91",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (92):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 92",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (93):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 93",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (94):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 94",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (95):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 95",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (96):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 96",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (97):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> Complete a frase: Ela ______ ao trabalho de ônibus todos os dias.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 97",
+        "answer": "vai",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (98):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> Traduza para português: 'I love visiting historical places.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 98",
+        "answer": "Eu adoro visitar lugares históricos.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (99):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> Corrija esta frase: 'Nós fomos ao praia ontem.'</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 99",
+        "answer": "Nós fomos à praia ontem.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into portuguese (100):</b> Complete the sentence appropriately in portuguese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> Escreva uma frase com a palavra 'maravilhoso'.</p>",
         "options": null,
-        "answer": "Sample answer in portuguese for question 100",
+        "answer": "O pôr do sol no litoral brasileiro é absolutamente maravilhoso.",
         "skill": "Writing"
     }
 ] as const;

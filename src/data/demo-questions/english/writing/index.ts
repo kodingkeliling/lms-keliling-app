@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into english (1):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 1",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (2):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 2",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (3):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 3",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (4):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 4",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (5):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 5",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (6):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 6",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (7):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 7",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (8):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 8",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (9):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 9",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (10):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 10",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (11):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 11",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (12):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 12",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (13):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 13",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (14):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 14",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (15):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 15",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (16):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 16",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (17):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 17",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (18):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 18",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (19):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 19",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (20):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 20",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (21):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 21",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (22):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 22",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (23):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 23",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (24):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 24",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (25):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 25",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (26):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 26",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (27):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 27",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (28):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 28",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (29):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 29",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (30):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 30",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (31):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 31",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (32):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 32",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (33):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 33",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (34):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 34",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (35):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 35",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (36):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 36",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (37):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 37",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (38):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 38",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (39):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 39",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (40):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 40",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (41):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 41",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (42):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 42",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (43):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 43",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (44):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 44",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (45):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 45",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (46):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 46",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (47):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 47",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (48):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 48",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (49):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 49",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (50):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 50",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (51):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 51",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (52):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 52",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (53):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 53",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (54):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 54",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (55):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 55",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (56):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 56",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (57):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 57",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (58):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 58",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (59):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 59",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (60):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 60",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (61):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 61",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (62):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 62",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (63):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 63",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (64):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 64",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (65):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 65",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (66):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 66",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (67):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 67",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (68):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 68",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (69):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 69",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (70):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 70",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (71):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 71",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (72):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 72",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (73):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 73",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (74):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 74",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (75):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 75",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (76):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 76",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (77):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 77",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (78):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 78",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (79):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 79",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (80):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 80",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (81):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 81",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (82):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 82",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (83):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 83",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (84):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 84",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (85):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 85",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (86):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 86",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (87):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 87",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (88):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 88",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (89):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 89",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (90):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 90",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (91):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 91",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (92):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 92",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (93):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 93",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (94):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 94",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (95):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 95",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (96):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 96",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (97):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> Complete the sentence: The report was ______ by the manager before the meeting.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 97",
+        "answer": "reviewed",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (98):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> Translate to English: 'Il fait beau aujourd'hui.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 98",
+        "answer": "The weather is nice today.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (99):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> Write a sentence using the word 'ambiguous'.</p>",
         "options": null,
-        "answer": "Sample answer in english for question 99",
+        "answer": "The instructions were ambiguous, so nobody knew what to do.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into english (100):</b> Complete the sentence appropriately in english.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> Correct this sentence: 'She go to school every day.'</p>",
         "options": null,
-        "answer": "Sample answer in english for question 100",
+        "answer": "She goes to school every day.",
         "skill": "Writing"
     }
 ] as const;

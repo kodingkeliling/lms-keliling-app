@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into german (1):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 1",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (2):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 2",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (3):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 3",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (4):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 4",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (5):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 5",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (6):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 6",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (7):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 7",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (8):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 8",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (9):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 9",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (10):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 10",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (11):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 11",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (12):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 12",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (13):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 13",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (14):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 14",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (15):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 15",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (16):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 16",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (17):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 17",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (18):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 18",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (19):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 19",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (20):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 20",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (21):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 21",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (22):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 22",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (23):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 23",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (24):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 24",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (25):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 25",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (26):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 26",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (27):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 27",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (28):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 28",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (29):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 29",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (30):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 30",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (31):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 31",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (32):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 32",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (33):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 33",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (34):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 34",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (35):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 35",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (36):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 36",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (37):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 37",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (38):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 38",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (39):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 39",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (40):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 40",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (41):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 41",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (42):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 42",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (43):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 43",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (44):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 44",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (45):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 45",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (46):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 46",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (47):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 47",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (48):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 48",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (49):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 49",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (50):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 50",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (51):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 51",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (52):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 52",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (53):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 53",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (54):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 54",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (55):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 55",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (56):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 56",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (57):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 57",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (58):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 58",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (59):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 59",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (60):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 60",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (61):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 61",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (62):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 62",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (63):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 63",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (64):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 64",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (65):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 65",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (66):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 66",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (67):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 67",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (68):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 68",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (69):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 69",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (70):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 70",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (71):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 71",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (72):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 72",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (73):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 73",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (74):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 74",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (75):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 75",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (76):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 76",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (77):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 77",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (78):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 78",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (79):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 79",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (80):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 80",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (81):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 81",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (82):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 82",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (83):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 83",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (84):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 84",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (85):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 85",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (86):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 86",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (87):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 87",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (88):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 88",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (89):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 89",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (90):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 90",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (91):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 91",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (92):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 92",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (93):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 93",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (94):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 94",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (95):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 95",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (96):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 96",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (97):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> Ergänzen Sie den Satz: Das Buch ______ auf dem Tisch.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 97",
+        "answer": "liegt",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (98):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> Übersetzen Sie ins Deutsche: 'I would like a glass of water, please.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 98",
+        "answer": "Ich hätte gerne ein Glas Wasser, bitte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (99):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> Korrigieren Sie diesen Satz: 'Ich bin gegangen in die Schule gestern.'</p>",
         "options": null,
-        "answer": "Sample answer in german for question 99",
+        "answer": "Ich bin gestern in die Schule gegangen.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into german (100):</b> Complete the sentence appropriately in german.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> Schreiben Sie einen Satz mit dem Wort 'wunderbar'.</p>",
         "options": null,
-        "answer": "Sample answer in german for question 100",
+        "answer": "Das Konzert gestern Abend war wirklich wunderbar.",
         "skill": "Writing"
     }
 ] as const;

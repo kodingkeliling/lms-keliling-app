@@ -1,1102 +1,1102 @@
 export const LISTENING_QUESTIONS = [
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Qu'est-ce que vous prenez comme dessert ?<br/>FEMME : Je vais prendre la tarte aux pommes, s'il vous plaît.<br/><br/>Question: Quel dessert la femme commande-t-elle ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>La tarte aux pommes</p>",
+            "<p>La crème brûlée</p>",
+            "<p>Le gâteau au chocolat</p>",
+            "<p>La mousse au citron</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>La tarte aux pommes</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Tu as vu le film dont tout le monde parle ?<br/>FEMME : Oui, je l'ai regardé samedi soir. C'était vraiment émouvant.<br/><br/>Question: Quand la femme a-t-elle regardé le film ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Samedi soir</p>",
+            "<p>Vendredi soir</p>",
+            "<p>Dimanche après-midi</p>",
+            "<p>Lundi soir</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Samedi soir</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in french and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>HOMME : Excusez-moi, à quelle heure part le prochain train pour Lyon ?<br/>FEMME : Le prochain train part dans vingt minutes, à quatorze heures trente.<br/><br/>Question: À quelle heure part le prochain train ?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>14h30</p>",
+            "<p>15h00</p>",
+            "<p>13h30</p>",
+            "<p>14h00</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>14h30</p>",
         "skill": "Listening"
     }
 ] as const;

@@ -1,1102 +1,1102 @@
 export const LISTENING_QUESTIONS = [
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Punten, jam sabaraha karéta ka Bandung indit?<br/>AWÉWÉ: Karéta salajengna indit tabuh dua belas tengah.<br/><br/>Question: Jam sabaraha karéta salajengna indit?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Tabuh dua belas tengah</p>",
+            "<p>Tabuh hiji</p>",
+            "<p>Tabuh sebelas</p>",
+            "<p>Tabuh tilu</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Tabuh dua belas tengah</p>",
         "skill": "Listening"
     },
     {
-        "description": "Listen to the dialogue in sundanese and select the correct answer.<br/><br/>MALE: Hello, what time does the session begin?<br/>FEMALE: The session starts at 10:00 AM sharp.<br/><br/>Question: What time does the session start?",
+        "description": "Listen to the dialogue and answer the question.<br/><br/>LALAKI: Naon anu rék didahar keur dahar beurang?<br/>AWÉWÉ: Abdi hoyong nasi timbel jeung lauk asin, hatur nuhun.<br/><br/>Question: Naon anu di pesen ku awéwé?",
         "options": [
-            "<p>9:00 AM</p>",
-            "<p>10:00 AM</p>",
-            "<p>11:00 AM</p>",
-            "<p>12:00 PM</p>"
+            "<p>Nasi timbel jeung lauk asin</p>",
+            "<p>Mie goreng</p>",
+            "<p>Nasi goreng</p>",
+            "<p>Lotek</p>"
         ],
-        "answer": "<p>10:00 AM</p>",
+        "answer": "<p>Nasi timbel jeung lauk asin</p>",
         "skill": "Listening"
     }
 ] as const;

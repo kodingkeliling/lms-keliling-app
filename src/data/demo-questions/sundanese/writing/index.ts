@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into sundanese (1):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 1",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (2):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 2",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (3):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 3",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (4):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 4",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (5):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 5",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (6):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 6",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (7):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 7",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (8):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 8",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (9):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 9",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (10):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 10",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (11):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 11",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (12):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 12",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (13):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 13",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (14):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 14",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (15):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 15",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (16):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 16",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (17):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 17",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (18):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 18",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (19):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 19",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (20):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 20",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (21):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 21",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (22):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 22",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (23):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 23",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (24):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 24",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (25):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 25",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (26):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 26",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (27):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 27",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (28):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 28",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (29):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 29",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (30):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 30",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (31):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 31",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (32):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 32",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (33):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 33",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (34):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 34",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (35):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 35",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (36):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 36",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (37):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 37",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (38):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 38",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (39):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 39",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (40):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 40",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (41):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 41",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (42):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 42",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (43):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 43",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (44):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 44",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (45):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 45",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (46):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 46",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (47):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 47",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (48):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 48",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (49):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 49",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (50):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 50",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (51):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 51",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (52):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 52",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (53):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 53",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (54):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 54",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (55):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 55",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (56):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 56",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (57):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 57",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (58):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 58",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (59):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 59",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (60):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 60",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (61):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 61",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (62):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 62",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (63):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 63",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (64):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 64",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (65):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 65",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (66):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 66",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (67):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 67",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (68):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 68",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (69):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 69",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (70):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 70",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (71):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 71",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (72):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 72",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (73):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 73",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (74):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 74",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (75):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 75",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (76):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 76",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (77):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 77",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (78):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 78",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (79):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 79",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (80):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 80",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (81):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 81",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (82):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 82",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (83):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 83",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (84):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 84",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (85):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 85",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (86):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 86",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (87):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 87",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (88):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 88",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (89):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 89",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (90):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 90",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (91):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 91",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (92):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 92",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (93):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 93",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (94):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 94",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (95):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 95",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (96):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 96",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (97):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> Lengkepin kalimah ieu: Anjeunna ______ ka sakola unggal isuk.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 97",
+        "answer": "indit",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (98):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> Tarjamahkeun kana Basa Sunda: 'I love the beauty of West Java.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 98",
+        "answer": "Abdi bogoh kana kaéndahan Jawa Kulon.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (99):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> Koreksi kalimah ieu: 'Kuring geus balik ti pasar tadi isuk.'</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 99",
+        "answer": "Kuring geus balik ti pasar tadi isuk. (geus bener)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into sundanese (100):</b> Complete the sentence appropriately in sundanese.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> Tulis kalimah maké kecap 'éndah'.</p>",
         "options": null,
-        "answer": "Sample answer in sundanese for question 100",
+        "answer": "Pemandangan di Gunung Tangkuban Parahu téh kacida éndahna.",
         "skill": "Writing"
     }
 ] as const;

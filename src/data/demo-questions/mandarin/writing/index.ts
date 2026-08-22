@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (1):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 1",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (2):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 2",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (3):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 3",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (4):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 4",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (5):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 5",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (6):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 6",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (7):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 7",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (8):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 8",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (9):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 9",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (10):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 10",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (11):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 11",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (12):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 12",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (13):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 13",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (14):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 14",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (15):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 15",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (16):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 16",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (17):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 17",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (18):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 18",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (19):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 19",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (20):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 20",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (21):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 21",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (22):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 22",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (23):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 23",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (24):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 24",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (25):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 25",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (26):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 26",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (27):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 27",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (28):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 28",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (29):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 29",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (30):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 30",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (31):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 31",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (32):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 32",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (33):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 33",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (34):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 34",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (35):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 35",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (36):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 36",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (37):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 37",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (38):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 38",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (39):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 39",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (40):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 40",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (41):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 41",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (42):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 42",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (43):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 43",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (44):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 44",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (45):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 45",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (46):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 46",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (47):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 47",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (48):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 48",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (49):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 49",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (50):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 50",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (51):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 51",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (52):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 52",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (53):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 53",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (54):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 54",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (55):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 55",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (56):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 56",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (57):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 57",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (58):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 58",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (59):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 59",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (60):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 60",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (61):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 61",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (62):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 62",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (63):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 63",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (64):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 64",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (65):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 65",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (66):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 66",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (67):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 67",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (68):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 68",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (69):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 69",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (70):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 70",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (71):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 71",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (72):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 72",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (73):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 73",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (74):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 74",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (75):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 75",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (76):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 76",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (77):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 77",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (78):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 78",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (79):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 79",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (80):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 80",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (81):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 81",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (82):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 82",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (83):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 83",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (84):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 84",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (85):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 85",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (86):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 86",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (87):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 87",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (88):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 88",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (89):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 89",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (90):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 90",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (91):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 91",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (92):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 92",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (93):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 93",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (94):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 94",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (95):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 95",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (96):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 96",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (97):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> 完成句子：我每天早上______去上班。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 97",
+        "answer": "骑自行车",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (98):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> 把下面这句话翻译成中文：'I love Chinese food.'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 98",
+        "answer": "我非常喜欢中国菜。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (99):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> 改正这个句子：'我昨天去了超市买东西。'</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 99",
+        "answer": "我昨天去超市买东西了。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Mandarin (普通话) (100):</b> Complete the sentence appropriately in Mandarin (普通话).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> 用'美丽'这个词造句。</p>",
         "options": null,
-        "answer": "Sample answer in Mandarin (普通话) for question 100",
+        "answer": "西湖的景色非常美丽，吸引了很多游客。",
         "skill": "Writing"
     }
 ] as const;

@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into spanish (1):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 1",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (2):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 2",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (3):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 3",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (4):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 4",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (5):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 5",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (6):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 6",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (7):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 7",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (8):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 8",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (9):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 9",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (10):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 10",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (11):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 11",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (12):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 12",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (13):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 13",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (14):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 14",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (15):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 15",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (16):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 16",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (17):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 17",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (18):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 18",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (19):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 19",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (20):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 20",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (21):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 21",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (22):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 22",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (23):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 23",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (24):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 24",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (25):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 25",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (26):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 26",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (27):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 27",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (28):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 28",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (29):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 29",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (30):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 30",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (31):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 31",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (32):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 32",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (33):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 33",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (34):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 34",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (35):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 35",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (36):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 36",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (37):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 37",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (38):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 38",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (39):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 39",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (40):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 40",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (41):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 41",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (42):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 42",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (43):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 43",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (44):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 44",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (45):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 45",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (46):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 46",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (47):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 47",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (48):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 48",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (49):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 49",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (50):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 50",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (51):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 51",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (52):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 52",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (53):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 53",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (54):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 54",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (55):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 55",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (56):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 56",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (57):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 57",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (58):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 58",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (59):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 59",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (60):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 60",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (61):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 61",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (62):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 62",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (63):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 63",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (64):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 64",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (65):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 65",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (66):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 66",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (67):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 67",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (68):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 68",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (69):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 69",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (70):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 70",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (71):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 71",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (72):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 72",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (73):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 73",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (74):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 74",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (75):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 75",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (76):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 76",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (77):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 77",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (78):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 78",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (79):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 79",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (80):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 80",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (81):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 81",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (82):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 82",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (83):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 83",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (84):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 84",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (85):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 85",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (86):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 86",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (87):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 87",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (88):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 88",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (89):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 89",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (90):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 90",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (91):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 91",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (92):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 92",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (93):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 93",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (94):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 94",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (95):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 95",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (96):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 96",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (97):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> Complete la oración: Ella ______ al trabajo cada día en autobús.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 97",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (98):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> Traduzca al español: 'I enjoy visiting museums and art galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 98",
+        "answer": "Me gusta visitar museos y galerías de arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (99):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> Corrija esta oración: 'Yo soy cansado de estudiar.'</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 99",
+        "answer": "Yo estoy cansado de estudiar.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into spanish (100):</b> Complete the sentence appropriately in spanish.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> Escriba una oración con la palabra 'hermoso'.</p>",
         "options": null,
-        "answer": "Sample answer in spanish for question 100",
+        "answer": "El paisaje de la costa española es absolutamente hermoso.",
         "skill": "Writing"
     }
 ] as const;

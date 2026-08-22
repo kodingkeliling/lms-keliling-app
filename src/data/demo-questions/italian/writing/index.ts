@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into italian (1):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 1",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (2):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 2",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (3):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 3",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (4):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 4",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (5):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 5",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (6):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 6",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (7):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 7",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (8):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 8",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (9):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 9",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (10):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 10",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (11):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 11",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (12):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 12",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (13):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 13",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (14):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 14",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (15):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 15",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (16):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 16",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (17):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 17",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (18):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 18",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (19):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 19",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (20):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 20",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (21):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 21",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (22):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 22",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (23):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 23",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (24):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 24",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (25):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 25",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (26):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 26",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (27):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 27",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (28):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 28",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (29):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 29",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (30):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 30",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (31):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 31",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (32):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 32",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (33):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 33",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (34):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 34",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (35):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 35",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (36):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 36",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (37):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 37",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (38):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 38",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (39):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 39",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (40):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 40",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (41):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 41",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (42):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 42",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (43):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 43",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (44):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 44",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (45):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 45",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (46):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 46",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (47):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 47",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (48):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 48",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (49):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 49",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (50):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 50",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (51):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 51",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (52):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 52",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (53):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 53",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (54):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 54",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (55):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 55",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (56):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 56",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (57):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 57",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (58):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 58",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (59):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 59",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (60):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 60",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (61):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 61",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (62):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 62",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (63):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 63",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (64):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 64",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (65):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 65",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (66):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 66",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (67):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 67",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (68):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 68",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (69):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 69",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (70):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 70",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (71):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 71",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (72):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 72",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (73):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 73",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (74):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 74",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (75):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 75",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (76):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 76",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (77):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 77",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (78):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 78",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (79):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 79",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (80):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 80",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (81):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 81",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (82):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 82",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (83):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 83",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (84):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 84",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (85):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 85",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (86):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 86",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (87):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 87",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (88):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 88",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (89):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 89",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (90):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 90",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (91):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 91",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (92):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 92",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (93):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 93",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (94):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 94",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (95):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 95",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (96):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 96",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (97):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> Completa la frase: Marco ______ a scuola ogni mattina.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 97",
+        "answer": "va",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (98):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> Traduci in italiano: 'I love visiting museums and galleries.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 98",
+        "answer": "Amo visitare musei e gallerie d'arte.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (99):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> Correggi questa frase: 'Io sono andato a mercato ieri.'</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 99",
+        "answer": "Io sono andato al mercato ieri.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into italian (100):</b> Complete the sentence appropriately in italian.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> Scrivi una frase con la parola 'bellissimo'.</p>",
         "options": null,
-        "answer": "Sample answer in italian for question 100",
+        "answer": "Il tramonto sul mare era bellissimo questa sera.",
         "skill": "Writing"
     }
 ] as const;

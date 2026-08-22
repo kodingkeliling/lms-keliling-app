@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (1):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 1",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (2):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 2",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (3):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 3",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (4):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 4",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (5):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 5",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (6):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 6",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (7):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 7",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (8):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 8",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (9):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 9",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (10):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 10",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (11):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 11",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (12):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 12",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (13):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 13",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (14):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 14",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (15):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 15",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (16):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 16",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (17):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 17",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (18):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 18",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (19):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 19",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (20):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 20",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (21):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 21",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (22):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 22",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (23):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 23",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (24):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 24",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (25):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 25",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (26):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 26",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (27):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 27",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (28):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 28",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (29):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 29",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (30):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 30",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (31):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 31",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (32):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 32",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (33):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 33",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (34):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 34",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (35):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 35",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (36):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 36",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (37):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 37",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (38):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 38",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (39):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 39",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (40):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 40",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (41):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 41",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (42):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 42",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (43):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 43",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (44):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 44",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (45):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 45",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (46):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 46",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (47):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 47",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (48):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 48",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (49):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 49",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (50):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 50",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (51):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 51",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (52):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 52",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (53):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 53",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (54):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 54",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (55):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 55",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (56):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 56",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (57):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 57",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (58):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 58",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (59):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 59",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (60):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 60",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (61):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 61",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (62):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 62",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (63):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 63",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (64):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 64",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (65):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 65",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (66):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 66",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (67):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 67",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (68):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 68",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (69):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 69",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (70):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 70",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (71):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 71",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (72):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 72",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (73):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 73",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (74):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 74",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (75):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 75",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (76):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 76",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (77):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 77",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (78):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 78",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (79):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 79",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (80):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 80",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (81):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 81",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (82):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 82",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (83):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 83",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (84):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 84",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (85):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 85",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (86):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 86",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (87):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 87",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (88):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 88",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (89):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 89",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (90):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 90",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (91):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 91",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (92):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 92",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (93):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 93",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (94):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 94",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (95):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 95",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (96):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 96",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (97):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> Дополните предложение: Я каждое утро хожу в ______.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 97",
+        "answer": "школу",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (98):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> Переведите на русский язык: 'I enjoy reading Russian literature.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 98",
+        "answer": "Мне нравится читать русскую литературу.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (99):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> Исправьте предложение: 'Я пошёл в магазин вчера купить хлеб.'</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 99",
+        "answer": "Вчера я пошёл в магазин купить хлеб.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Russian (Русский) (100):</b> Complete the sentence appropriately in Russian (Русский).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> Составьте предложение со словом 'красивый'.</p>",
         "options": null,
-        "answer": "Sample answer in Russian (Русский) for question 100",
+        "answer": "Вид на закат над Байкалом очень красивый.",
         "skill": "Writing"
     }
 ] as const;

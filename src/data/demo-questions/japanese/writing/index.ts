@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (1):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 1",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (2):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 2",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (3):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 3",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (4):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 4",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (5):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 5",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (6):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 6",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (7):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 7",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (8):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 8",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (9):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 9",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (10):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 10",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (11):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 11",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (12):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 12",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (13):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 13",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (14):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 14",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (15):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 15",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (16):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 16",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (17):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 17",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (18):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 18",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (19):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 19",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (20):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 20",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (21):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 21",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (22):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 22",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (23):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 23",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (24):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 24",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (25):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 25",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (26):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 26",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (27):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 27",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (28):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 28",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (29):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 29",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (30):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 30",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (31):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 31",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (32):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 32",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (33):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 33",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (34):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 34",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (35):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 35",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (36):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 36",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (37):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 37",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (38):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 38",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (39):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 39",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (40):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 40",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (41):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 41",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (42):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 42",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (43):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 43",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (44):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 44",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (45):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 45",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (46):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 46",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (47):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 47",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (48):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 48",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (49):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 49",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (50):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 50",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (51):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 51",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (52):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 52",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (53):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 53",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (54):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 54",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (55):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 55",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (56):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 56",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (57):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 57",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (58):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 58",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (59):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 59",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (60):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 60",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (61):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 61",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (62):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 62",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (63):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 63",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (64):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 64",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (65):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 65",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (66):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 66",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (67):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 67",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (68):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 68",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (69):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 69",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (70):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 70",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (71):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 71",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (72):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 72",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (73):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 73",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (74):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 74",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (75):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 75",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (76):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 76",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (77):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 77",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (78):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 78",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (79):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 79",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (80):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 80",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (81):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 81",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (82):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 82",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (83):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 83",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (84):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 84",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (85):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 85",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (86):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 86",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (87):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 87",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (88):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 88",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (89):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 89",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (90):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 90",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (91):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 91",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (92):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 92",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (93):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 93",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (94):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 94",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (95):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 95",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (96):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 96",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (97):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> 次の文を完成させてください：山田さんは毎朝______に行きます。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 97",
+        "answer": "会社",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (98):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> 「I enjoy reading Japanese novels.」を日本語に訳してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 98",
+        "answer": "私は日本語の小説を読むのが好きです。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (99):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> 「彼女は昨日学校に来なかったです。」を正しい形に直してください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 99",
+        "answer": "彼女は昨日学校に来ませんでした。",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Japanese (日本語) (100):</b> Complete the sentence appropriately in Japanese (日本語).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> 「美しい」という言葉を使って文を作ってください。</p>",
         "options": null,
-        "answer": "Sample answer in Japanese (日本語) for question 100",
+        "answer": "富士山の景色は本当に美しいです。",
         "skill": "Writing"
     }
 ] as const;

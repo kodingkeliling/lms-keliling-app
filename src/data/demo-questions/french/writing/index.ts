@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into french (1):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 1",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (2):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 2",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (3):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 3",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (4):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 4",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (5):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 5",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (6):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 6",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (7):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 7",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (8):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 8",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (9):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 9",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (10):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 10",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (11):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 11",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (12):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 12",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (13):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 13",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (14):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 14",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (15):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 15",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (16):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 16",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (17):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 17",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (18):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 18",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (19):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 19",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (20):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 20",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (21):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 21",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (22):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 22",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (23):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 23",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (24):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 24",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (25):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 25",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (26):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 26",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (27):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 27",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (28):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 28",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (29):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 29",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (30):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 30",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (31):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 31",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (32):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 32",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (33):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 33",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (34):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 34",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (35):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 35",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (36):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 36",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (37):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 37",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (38):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 38",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (39):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 39",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (40):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 40",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (41):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 41",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (42):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 42",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (43):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 43",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (44):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 44",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (45):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 45",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (46):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 46",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (47):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 47",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (48):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 48",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (49):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 49",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (50):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 50",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (51):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 51",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (52):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 52",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (53):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 53",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (54):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 54",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (55):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 55",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (56):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 56",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (57):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 57",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (58):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 58",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (59):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 59",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (60):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 60",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (61):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 61",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (62):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 62",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (63):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 63",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (64):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 64",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (65):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 65",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (66):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 66",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (67):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 67",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (68):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 68",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (69):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 69",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (70):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 70",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (71):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 71",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (72):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 72",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (73):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 73",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (74):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 74",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (75):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 75",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (76):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 76",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (77):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 77",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (78):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 78",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (79):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 79",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (80):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 80",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (81):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 81",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (82):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 82",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (83):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 83",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (84):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 84",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (85):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 85",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (86):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 86",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (87):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 87",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (88):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 88",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (89):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 89",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (90):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 90",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (91):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 91",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (92):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 92",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (93):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 93",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (94):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 94",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (95):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 95",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (96):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 96",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (97):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> Complétez la phrase : Elle ______ au travail à huit heures chaque matin.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 97",
+        "answer": "arrive",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (98):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> Traduisez en français : 'I love reading French literature.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 98",
+        "answer": "J'aime lire la littérature française.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (99):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> Corrigez cette phrase : 'Nous avons allé au marché hier.'</p>",
         "options": null,
-        "answer": "Sample answer in french for question 99",
+        "answer": "Nous sommes allés au marché hier.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into french (100):</b> Complete the sentence appropriately in french.</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> Écrivez une phrase avec le mot 'magnifique'.</p>",
         "options": null,
-        "answer": "Sample answer in french for question 100",
+        "answer": "Le coucher de soleil ce soir était absolument magnifique.",
         "skill": "Writing"
     }
 ] as const;

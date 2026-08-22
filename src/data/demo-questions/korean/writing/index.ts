@@ -1,602 +1,602 @@
 export const WRITING_QUESTIONS = [
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (1):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (1):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 1",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (2):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (2):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 2",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (3):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (3):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 3",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (4):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (4):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 4",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (5):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (5):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 5",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (6):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (6):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 6",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (7):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (7):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 7",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (8):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (8):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 8",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (9):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (9):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 9",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (10):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (10):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 10",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (11):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (11):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 11",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (12):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (12):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 12",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (13):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (13):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 13",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (14):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (14):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 14",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (15):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (15):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 15",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (16):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (16):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 16",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (17):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (17):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 17",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (18):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (18):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 18",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (19):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (19):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 19",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (20):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (20):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 20",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (21):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (21):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 21",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (22):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (22):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 22",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (23):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (23):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 23",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (24):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (24):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 24",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (25):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (25):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 25",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (26):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (26):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 26",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (27):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (27):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 27",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (28):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (28):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 28",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (29):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (29):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 29",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (30):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (30):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 30",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (31):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (31):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 31",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (32):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (32):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 32",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (33):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (33):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 33",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (34):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (34):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 34",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (35):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (35):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 35",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (36):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (36):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 36",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (37):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (37):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 37",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (38):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (38):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 38",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (39):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (39):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 39",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (40):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (40):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 40",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (41):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (41):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 41",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (42):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (42):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 42",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (43):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (43):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 43",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (44):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (44):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 44",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (45):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (45):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 45",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (46):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (46):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 46",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (47):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (47):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 47",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (48):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (48):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 48",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (49):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (49):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 49",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (50):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (50):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 50",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (51):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (51):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 51",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (52):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (52):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 52",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (53):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (53):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 53",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (54):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (54):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 54",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (55):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (55):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 55",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (56):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (56):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 56",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (57):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (57):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 57",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (58):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (58):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 58",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (59):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (59):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 59",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (60):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (60):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 60",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (61):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (61):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 61",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (62):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (62):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 62",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (63):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (63):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 63",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (64):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (64):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 64",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (65):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (65):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 65",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (66):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (66):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 66",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (67):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (67):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 67",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (68):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (68):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 68",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (69):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (69):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 69",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (70):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (70):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 70",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (71):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (71):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 71",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (72):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (72):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 72",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (73):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (73):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 73",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (74):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (74):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 74",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (75):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (75):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 75",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (76):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (76):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 76",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (77):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (77):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 77",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (78):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (78):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 78",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (79):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (79):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 79",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (80):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (80):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 80",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (81):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (81):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 81",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (82):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (82):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 82",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (83):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (83):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 83",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (84):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (84):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 84",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (85):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (85):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 85",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (86):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (86):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 86",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (87):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (87):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 87",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (88):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (88):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 88",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (89):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (89):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 89",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (90):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (90):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 90",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (91):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (91):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 91",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (92):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (92):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 92",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (93):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (93):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 93",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (94):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (94):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 94",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (95):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (95):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 95",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (96):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (96):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 96",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (97):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (97):</b> 다음 문장을 완성하세요: 저는 매일 아침 ______에 갑니다.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 97",
+        "answer": "학교",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (98):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (98):</b> 'I love Korean food.'를 한국어로 번역하세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 98",
+        "answer": "저는 한국 음식을 정말 좋아합니다.",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (99):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (99):</b> 이 문장을 고치세요: '나는 어제 도서관에 갔습니다.'</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 99",
+        "answer": "나는 어제 도서관에 갔습니다. (맞습니다)",
         "skill": "Writing"
     },
     {
-        "description": "<p><b>Write / Translate into Korean (한국어) (100):</b> Complete the sentence appropriately in Korean (한국어).</p><p>[blank]</p>",
+        "description": "<p><b>Writing Task (100):</b> '아름답다'라는 단어를 사용하여 문장을 만드세요.</p>",
         "options": null,
-        "answer": "Sample answer in Korean (한국어) for question 100",
+        "answer": "한국의 가을 단풍은 정말 아름답습니다.",
         "skill": "Writing"
     }
 ] as const;
