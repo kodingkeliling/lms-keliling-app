@@ -744,7 +744,7 @@ export const PlaygroundScreen = () => {
                                 iconLeading={InfoCircle}
                                 onClick={() => setIsShortcutModalOpen(true)}
                                 title="Keyboard Shortcuts Info"
-                                className="text-xs"
+                                className="text-xs hidden md:block"
                             />
                         </div>
 
@@ -906,7 +906,7 @@ export const PlaygroundScreen = () => {
                 title="Pintasan Keyboard (Keyboard Shortcuts)"
                 description="Gunakan pintasan keyboard berikut untuk mempercepat navigasi dan pengisian jawaban:"
                 icon={InfoCircle}
-                iconColor="brand"
+                iconTheme="modern"
                 maxWidth="md"
                 primaryAction={{
                     label: "Mengerti",
@@ -944,8 +944,8 @@ export const PlaygroundScreen = () => {
                     </div>
                     <div className="flex items-center justify-between rounded-lg bg-secondary/50 p-3">
                         <span className="font-medium text-primary">Toggle Mic (Speaking) / Play Audio (Listening)</span>
-                        <kbd className="rounded border border-secondary bg-primary px-2.5 py-1 text-xs font-semibold text-primary shadow-xs">
-                            ⌘ + Enter <span className="text-tertiary">/</span> Ctrl + Enter
+                        <kbd className="w-35 rounded border border-secondary bg-primary px-2.5 py-1 text-xs font-semibold text-primary shadow-xs">
+                            ⌘ + Enter / <br /> Ctrl + Enter
                         </kbd>
                     </div>
                 </div>

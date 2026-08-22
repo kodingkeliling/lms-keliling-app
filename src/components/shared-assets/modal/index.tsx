@@ -82,7 +82,7 @@ export const Modal = ({
     description,
     icon: Icon,
     iconColor = "gray",
-    iconTheme = "light",
+    iconTheme = "modern",
     showCloseButton = true,
     children,
     primaryAction,
