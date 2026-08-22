@@ -20,11 +20,11 @@ export async function POST(req: NextRequest) {
         : [];
 
     // RFC 7591 §3.2.1 — client registration response
+    // NOTE: client_secret must be OMITTED (not null) for public clients.
+    // Claude and GPT use Pydantic which rejects null as an invalid string.
     const response = NextResponse.json(
         {
             client_id: "lms-keliling-mcp-client",
-            // null (not undefined) so it appears in the JSON response
-            client_secret: null,
             client_id_issued_at: Math.floor(Date.now() / 1000),
             client_name: body.client_name ?? "LMS Keliling MCP Client",
             redirect_uris: redirectUris,
@@ -32,7 +32,6 @@ export async function POST(req: NextRequest) {
             grant_types: ["authorization_code", "refresh_token"],
             response_types: ["code"],
             scope: "openid profile email mcp",
-            // Optional fields Claude / GPT may look for
             application_type: "web",
             subject_type: "public"
         },
