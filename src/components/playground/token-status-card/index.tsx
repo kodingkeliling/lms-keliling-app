@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { Coins01, Zap } from "@untitledui/icons";
 import { cx } from "@/utils/cx";
 
-const FREE_LIMIT = 10;
+const FREE_LIMIT = 100;
 
 interface TrialData {
     questionsUsed: number;

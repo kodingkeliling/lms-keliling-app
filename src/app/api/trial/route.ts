@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
-const FREE_LIMIT = 10;
+const FREE_LIMIT = 100;
 
 function getClientIp(req: NextRequest): string {
     const forwarded = req.headers.get("x-forwarded-for");
