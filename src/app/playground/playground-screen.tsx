@@ -275,16 +275,28 @@ export const PlaygroundScreen = () => {
                 return;
             }
 
-            // 2. Arrow Left & Arrow Right: Navigate between question pages
+            // 2. Arrow Keys for Grid Navigation (5 items per row in sidebar grid)
             if (e.key === "ArrowLeft") {
                 e.preventDefault();
-                if (currentIdx > 0) prevQuestion();
+                if (currentIdx > 0) goToQuestion(currentIdx - 1);
                 return;
             }
 
             if (e.key === "ArrowRight") {
                 e.preventDefault();
-                if (currentIdx < questions.length - 1) nextQuestion();
+                if (currentIdx < questions.length - 1) goToQuestion(currentIdx + 1);
+                return;
+            }
+
+            if (e.key === "ArrowUp") {
+                e.preventDefault();
+                if (currentIdx >= 5) goToQuestion(currentIdx - 5);
+                return;
+            }
+
+            if (e.key === "ArrowDown") {
+                e.preventDefault();
+                if (currentIdx + 5 < questions.length) goToQuestion(currentIdx + 5);
                 return;
             }
 
@@ -906,6 +918,7 @@ export const PlaygroundScreen = () => {
                 title="Pintasan Keyboard (Keyboard Shortcuts)"
                 description="Gunakan pintasan keyboard berikut untuk mempercepat navigasi dan pengisian jawaban:"
                 icon={InfoCircle}
+                iconColor="brand"
                 iconTheme="modern"
                 maxWidth="md"
                 primaryAction={{
@@ -922,12 +935,17 @@ export const PlaygroundScreen = () => {
                         </kbd>
                     </div>
                     <div className="flex items-center justify-between rounded-lg bg-secondary/50 p-3">
-                        <span className="font-medium text-primary">Pindah Halaman Soal</span>
-                        <div className="flex items-center gap-1.5">
+                        <span className="font-medium text-primary">Pindah Halaman / Nomor Soal</span>
+                        <div className="flex items-center gap-1">
+                            <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">
+                                ↑
+                            </kbd>
+                            <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">
+                                ↓
+                            </kbd>
                             <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">
                                 ←
                             </kbd>
-                            <span className="text-tertiary text-xs">atau</span>
                             <kbd className="rounded border border-secondary bg-primary px-2 py-1 text-xs font-semibold text-primary shadow-xs">
                                 →
                             </kbd>
