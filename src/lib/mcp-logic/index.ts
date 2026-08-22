@@ -9,7 +9,7 @@ export const PROTECTED_TOOLS = [
     "analyze_exam_participants"
 ];
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://lmskeliling.kodingkeliling.com";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://lms.kodingkeliling.com";
 
 export const TOOLS_LIST = [
     {
@@ -432,6 +432,31 @@ CRITICAL RULES:
                 return { content, type };
             });
 
+            // Enforce Question Limits
+            const user = await prisma.user.findUnique({
+                where: { id: userId! }
+            });
+
+            const limit = user?.questionLimit ?? 100;
+            const currentQuestionsCount = await prisma.question.count({
+                where: { exam: { userId: userId! } }
+            });
+            const attemptedQuestionsCount = normalizedQuestions.length;
+
+            if (currentQuestionsCount + attemptedQuestionsCount > limit) {
+                const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER_BUY || "";
+                const waMessage = encodeURIComponent(`Halo admin, saya ingin membeli paket soal LMS Keliling. Akun email saya: ${user?.email}`);
+                const waLink = `https://wa.me/${waNumber}?text=${waMessage}`;
+
+                return {
+                    content: [{
+                        type: "text",
+                        text: `Error: You have exceeded your question limit. The user currently has ${currentQuestionsCount}/${limit} questions saved, and you are trying to save ${attemptedQuestionsCount} more.\n\nPlease tell the user that they have reached their limit and give them this WhatsApp link to purchase a package (Rp10k for 100, Rp25k for 500, Rp50k for 1000 questions): ${waLink}`
+                    }],
+                    isError: true
+                };
+            }
+
             const exam = await prisma.exam.create({
                 data: {
                     userId: userId!,
@@ -507,7 +532,7 @@ CRITICAL RULES:
                 const totalQuestions = attempt.questions.length;
                 const answeredQuestions = attempt.questions.filter((q) => q.answer !== null).length;
                 const correctQuestions = attempt.questions.filter((q) => q.score && q.score > 0.5).length;
-                
+
                 const scorePercentage = totalQuestions > 0 ? Math.round((correctQuestions / totalQuestions) * 100) : 0;
 
                 const detailQuestions = attempt.questions.map((q) => {
@@ -518,7 +543,7 @@ CRITICAL RULES:
                             const parsed = JSON.parse(q.content);
                             questionText = parsed.description || parsed.content || q.content;
                             correctAnswer = parsed.answer || "";
-                        } catch {}
+                        } catch { }
                     }
 
                     return {

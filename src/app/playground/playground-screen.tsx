@@ -28,7 +28,7 @@ import { ADS, PAID_PLAN_IDS } from "@/data/ads";
 export const PlaygroundScreen = () => {
     const router = useRouter();
     const params = useParams();
-    const id = params.id as string;
+    const id = params?.id as string | undefined;
     const activeExam = useActiveExam();
     const { toastError, toastWarning } = useToast();
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -135,7 +135,7 @@ export const PlaygroundScreen = () => {
             setQuestions(allQuestions);
             setStatus("ongoing");
 
-            if (isAuthenticated && activeExam) {
+            if (isAuthenticated && activeExam && !activeExam.isDemo) {
                 fetch("/api/exams", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
@@ -169,7 +169,8 @@ export const PlaygroundScreen = () => {
         if (!hasHydrated || !id) return;
 
         const exists = exams.some((e) => e.id === id);
-        if (!exists && !isFetchingRef.current) {
+        // If it's a demo exam stored locally, don't attempt to fetch from server
+        if (!exists && !id.startsWith("demo-") && !isFetchingRef.current) {
             isFetchingRef.current = true;
             setLoadingExam(true);
             setFetchError(null);
@@ -189,7 +190,7 @@ export const PlaygroundScreen = () => {
                     isFetchingRef.current = false;
                 });
         }
-    }, [id, hasHydrated, addOrUpdateExam]);
+    }, [id, hasHydrated, addOrUpdateExam, exams]);
 
     // Sync active exam with URL
     useEffect(() => {
@@ -216,8 +217,10 @@ export const PlaygroundScreen = () => {
     useEffect(() => {
         if (activeExam?.status === "idle" && (activeExam?.config?.questionCount || 0) > 0) {
             generateAllQuestions();
+        } else if (activeExam?.isDemo && activeExam?.startTime === null) {
+            startExam();
         }
-    }, [activeExam?.status, generateAllQuestions]);
+    }, [activeExam?.status, activeExam?.isDemo, activeExam?.startTime, generateAllQuestions, startExam]);
 
     if (loadingExam || !hasHydrated) {
         return (
@@ -713,14 +716,16 @@ export const PlaygroundScreen = () => {
                                     onClick={() => {
                                         setIsConfirmModalOpen(false);
                                         finishExam();
-                                        fetch(`/api/exams/${activeExam.id}/submit`, {
-                                            method: "POST",
-                                            headers: { "Content-Type": "application/json" },
-                                            body: JSON.stringify({
-                                                userAnswers: activeExam.userAnswers,
-                                                status: "completed"
-                                            })
-                                        }).catch((err) => console.error("Failed to submit exam:", err));
+                                        if (isAuthenticated && !activeExam.isDemo) {
+                                            fetch(`/api/exams/${activeExam.id}/submit`, {
+                                                method: "POST",
+                                                headers: { "Content-Type": "application/json" },
+                                                body: JSON.stringify({
+                                                    userAnswers: activeExam.userAnswers,
+                                                    status: "completed"
+                                                })
+                                            }).catch((err) => console.error("Failed to submit exam:", err));
+                                        }
                                         router.push(`/result/${activeExam.id}`);
                                     }}
                                     className="flex-1"

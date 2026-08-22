@@ -8,11 +8,13 @@ import { Button } from "@/components/base/buttons/button";
 import { Tabs } from "@/components/application/tabs/tabs";
 import { Select } from "@/components/base/select/select";
 import { PaginationDot } from "@/components/application/pagination/pagination-dot";
-import { ChevronLeft, ChevronRight, Link01, Copy01, PuzzlePiece01 } from "@untitledui/icons";
+import { ChevronLeft, ChevronRight, Link01, Copy01 } from "@untitledui/icons";
 import { cx } from "@/utils/cx";
 import { useToast } from "@/contexts/use-toast";
 
-const MCP_ENDPOINT = "https://lmskeliling.kodingkeliling.com/api/mcp";
+const MCPIcon = ({ className }: { className?: string }) => <Image src="/logo-mcp.png" alt="MCP" width={24} height={24} className={className} />;
+
+const MCP_ENDPOINT = "https://lms.kodingkeliling.com/api/mcp";
 
 type AITool = "chatgpt" | "claude";
 
@@ -80,9 +82,9 @@ export const MCPGuideModal = ({ isOpen, onClose }: MCPGuideModalProps) => {
             isOpen={isOpen}
             onOpenChange={(open) => !open && onClose()}
             maxWidth="2xl"
-            title={`Cara Gratis: Connect LMS Keliling ke ${guide.title}`}
+            title={`Panduan MCP: Connect LMS Keliling ke ${guide.title}`}
             description="Ikuti langkah-langkah berikut untuk menghubungkan LMS Keliling MCP ke model AI favorit Anda."
-            icon={PuzzlePiece01}
+            icon={MCPIcon}
             iconTheme="modern"
             iconColor="gray"
             showFooter={false}

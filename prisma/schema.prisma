@@ -20,6 +20,7 @@ model User {
   passwordHash String
   role         Role    @default(USER)
   planId       String?
+  questionLimit Int    @default(100)
 
   // Plan subscription dates
   planStartDate DateTime?

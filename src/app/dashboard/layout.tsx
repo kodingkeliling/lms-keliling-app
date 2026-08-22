@@ -223,7 +223,7 @@ export default function DashboardLayout({
 }: {
     children: React.ReactNode;
 }) {
-    const pathname = usePathname();
+    const pathname = usePathname() ?? "";
 
     return (
         <div className="flex flex-col lg:flex-row min-h-screen bg-secondary_subtle">

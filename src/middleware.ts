@@ -4,7 +4,7 @@ import { COOKIE_NAME } from "@/lib/auth-cookie";
 
 const JWT_SECRET = process.env.JWT_SECRET ?? "fraise-secret-key-change-in-production";
 
-const PROTECTED_PREFIXES = ["/dashboard", "/playground"];
+const PROTECTED_PREFIXES = ["/dashboard"];
 const AUTH_PAGES = ["/login", "/register", "/forgot-password", "/reset-password"];
 
 export async function middleware(req: NextRequest) {
@@ -29,7 +29,7 @@ export async function middleware(req: NextRequest) {
 
     // Already logged in → redirect away from auth pages
     if (isAuthPage && role) {
-        const dest = role === "SUPER_ADMIN" ? "/dashboard" : "/playground";
+        const dest = role === "SUPER_ADMIN" ? "/dashboard" : "/";
         return NextResponse.redirect(new URL(dest, req.url));
     }
 
@@ -46,9 +46,9 @@ export async function middleware(req: NextRequest) {
         if (role === "SUPER_ADMIN" && pathname.startsWith("/playground")) {
             return NextResponse.redirect(new URL("/dashboard", req.url));
         }
-        // USER → only /playground
+        // USER → cannot access /dashboard
         if (role === "USER" && pathname.startsWith("/dashboard")) {
-            return NextResponse.redirect(new URL("/playground", req.url));
+            return NextResponse.redirect(new URL("/", req.url));
         }
     }
 

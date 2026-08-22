@@ -14,7 +14,7 @@ import { PlaygroundNavbar } from "../../components/layout/playground-navbar";
 export const ResultScreen = () => {
     const router = useRouter();
     const params = useParams();
-    const id = params.id as string;
+    const id = params?.id as string | undefined;
     const activeExam = useActiveExam();
     const { selectExam, exams, retryActiveExam } = useExamStore();
     const user = useAuthStore((state) => state.user);

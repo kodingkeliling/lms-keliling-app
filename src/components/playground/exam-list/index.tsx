@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { useExamStore, ExamAttempt, ExamStatus, SkillType } from "@/store/use-exam-store";
 import { useAuthStore } from "@/store/use-auth-store";
 import { Button } from "@/components/base/buttons/button";
+import { Input } from "@/components/base/input/input";
+import { DialogTrigger, ModalOverlay, Modal, Dialog } from "@/components/application/modals/modal";
 import { cx } from "@/utils/cx";
 import {
     ArrowRight,
@@ -13,6 +15,7 @@ import {
     Clock,
     Play,
     Trash01,
+    Plus,
     PlusCircle,
     SearchLg,
     FilterLines,
@@ -24,166 +27,11 @@ import {
     ChevronDown,
     ChevronUp,
 } from "@untitledui/icons";
+import { MCPGuideModal } from "@/components/layout/mcp-guide-modal";
+import InviteModal from "@/components/layout/invite-modal";
+import ConfirmationModal from "@/components/layout/confirmation-modal";
 
-// ─── Invite Modal ──────────────────────────────────────────────────────────────
 
-function InviteModal({ examId, onClose }: { examId: string; onClose: () => void }) {
-    const [input, setInput] = useState("");
-    const [emails, setEmails] = useState<string[]>([]);
-    const [sending, setSending] = useState(false);
-    const [sent, setSent] = useState(false);
-    const [error, setError] = useState("");
-    const inputRef = useRef<HTMLInputElement>(null);
-
-    useEffect(() => {
-        inputRef.current?.focus();
-        const handleKey = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
-        window.addEventListener("keydown", handleKey);
-        return () => window.removeEventListener("keydown", handleKey);
-    }, [onClose]);
-
-    const addEmail = () => {
-        const val = input.trim().toLowerCase();
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!val) return;
-        if (!emailRegex.test(val)) { setError("Format email tidak valid."); return; }
-        if (emails.includes(val)) { setError("Email sudah ditambahkan."); return; }
-        setEmails((p) => [...p, val]);
-        setInput("");
-        setError("");
-    };
-
-    const handleKeyDown = (e: React.KeyboardEvent) => {
-        if (e.key === "Enter" || e.key === ",") { e.preventDefault(); addEmail(); }
-    };
-
-    const removeEmail = (email: string) => setEmails((p) => p.filter((e) => e !== email));
-
-    const handleSend = async () => {
-        if (emails.length === 0) { setError("Tambahkan minimal satu email."); return; }
-        setSending(true);
-        try {
-            await fetch("/api/exams/invite", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ examId, emails }),
-            });
-            setSent(true);
-        } catch {
-            setError("Gagal mengirim undangan. Coba lagi.");
-        } finally {
-            setSending(false);
-        }
-    };
-
-    return (
-        <div className="fixed inset-0 z-[999] flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm animate-in fade-in duration-200">
-            <div className="w-full max-w-md rounded-2xl border border-secondary bg-primary shadow-2xl overflow-hidden animate-in slide-in-from-bottom-4 duration-300">
-                {/* Header */}
-                <div className="flex items-center justify-between border-b border-secondary px-6 py-4">
-                    <div className="flex items-center gap-2.5">
-                        <div className="flex size-8 items-center justify-center rounded-full bg-brand-100 dark:bg-brand-950/30">
-                            <UserPlus01 className="size-4 text-brand-600" />
-                        </div>
-                        <h3 className="text-base font-semibold text-primary">Undang Peserta</h3>
-                    </div>
-                    <button
-                        onClick={onClose}
-                        className="flex size-8 items-center justify-center rounded-lg text-tertiary hover:bg-secondary hover:text-primary transition-colors"
-                    >
-                        <X className="size-4" />
-                    </button>
-                </div>
-
-                {/* Body */}
-                <div className="p-6 flex flex-col gap-4">
-                    {sent ? (
-                        <div className="flex flex-col items-center gap-3 py-6 text-center">
-                            <div className="flex size-12 items-center justify-center rounded-full bg-success-100 dark:bg-success-950/30">
-                                <CheckCircle className="size-6 text-success-600" />
-                            </div>
-                            <div>
-                                <p className="font-semibold text-primary">Undangan Terkirim!</p>
-                                <p className="text-sm text-tertiary mt-1">
-                                    {emails.length} undangan berhasil dikirim.
-                                </p>
-                            </div>
-                            <Button size="sm" color="secondary" onClick={onClose}>Tutup</Button>
-                        </div>
-                    ) : (
-                        <>
-                            <p className="text-sm text-tertiary">
-                                Masukkan email peserta yang ingin diundang. Tekan Enter atau koma (,) untuk menambahkan beberapa.
-                            </p>
-
-                            {/* Email chips */}
-                            {emails.length > 0 && (
-                                <div className="flex flex-wrap gap-2">
-                                    {emails.map((email) => (
-                                        <span
-                                            key={email}
-                                            className="flex items-center gap-1.5 rounded-full bg-brand-50 dark:bg-brand-950/30 border border-brand-200 dark:border-brand-800 px-2.5 py-1 text-xs font-medium text-brand-700 dark:text-brand-300"
-                                        >
-                                            <Mail01 className="size-3" />
-                                            {email}
-                                            <button
-                                                onClick={() => removeEmail(email)}
-                                                className="ml-0.5 text-brand-500 hover:text-brand-700 transition-colors"
-                                            >
-                                                <X className="size-3" />
-                                            </button>
-                                        </span>
-                                    ))}
-                                </div>
-                            )}
-
-                            {/* Input */}
-                            <div className="flex gap-2">
-                                <div className="relative flex-1">
-                                    <Mail01 className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-tertiary pointer-events-none" />
-                                    <input
-                                        ref={inputRef}
-                                        type="email"
-                                        value={input}
-                                        onChange={(e) => { setInput(e.target.value); setError(""); }}
-                                        onKeyDown={handleKeyDown}
-                                        placeholder="nama@email.com"
-                                        className="w-full h-10 pl-9 pr-3 rounded-lg border border-secondary bg-primary text-sm text-primary placeholder-tertiary outline-none focus:ring-2 ring-brand-500 focus:border-brand-400 transition-all"
-                                    />
-                                </div>
-                                <button
-                                    onClick={addEmail}
-                                    type="button"
-                                    className="shrink-0 flex items-center justify-center h-10 px-3 rounded-lg border border-secondary bg-primary text-sm font-medium text-secondary hover:bg-secondary hover:text-primary transition-colors"
-                                >
-                                    Tambah
-                                </button>
-                            </div>
-
-                            {error && <p className="text-xs text-red-600">{error}</p>}
-                        </>
-                    )}
-                </div>
-
-                {/* Footer */}
-                {!sent && (
-                    <div className="flex items-center justify-end gap-2 border-t border-secondary px-6 py-4">
-                        <Button size="sm" color="secondary" onClick={onClose}>Batal</Button>
-                        <Button
-                            size="sm"
-                            iconLeading={Send01}
-                            onClick={handleSend}
-                            isLoading={sending}
-                            isDisabled={emails.length === 0}
-                        >
-                            Kirim Undangan
-                        </Button>
-                    </div>
-                )}
-            </div>
-        </div>
-    );
-}
 
 // ─── Exam Card ─────────────────────────────────────────────────────────────────
 
@@ -221,6 +69,8 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
                 : exam.status === "generating" ? "Generating..."
                     : "Belum dimulai";
 
+    const [isConfirmOpen, setIsConfirmOpen] = useState(false);
+
     return (
         <div className="group relative flex flex-col gap-3 rounded-xl border border-secondary bg-primary p-4 shadow-xs transition-all hover:shadow-md hover:border-brand-200 dark:hover:border-brand-800">
             {/* Status badge + delete/leave button */}
@@ -239,13 +89,29 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
                     {statusLabel}
                 </div>
 
-                <button
-                    onClick={() => deleteExam(exam.id)}
+                <Button
+                    size="sm"
+                    iconLeading={isOwner ? Trash01 : LogOut01}
                     className="opacity-0 group-hover:opacity-100 transition-opacity flex size-7 items-center justify-center rounded-lg text-tertiary hover:bg-error-50 hover:text-error-600 dark:hover:bg-red-950/20"
                     title={isOwner ? "Hapus ujian" : "Tinggalkan ujian"}
-                >
-                    {isOwner ? <Trash01 className="size-4" /> : <LogOut01 className="size-4" />}
-                </button>
+                    color="link-destructive"
+                    onClick={() => setIsConfirmOpen(true)}
+                />
+
+                <ConfirmationModal
+                    isOpen={isConfirmOpen}
+                    onClose={() => setIsConfirmOpen(false)}
+                    onConfirm={() => {
+                        deleteExam(exam.id);
+                        setIsConfirmOpen(false);
+                    }}
+                    title={isOwner ? "Konfirmasi Hapus Ujian" : "Konfirmasi Tinggalkan Ujian"}
+                    description={`Apakah Anda yakin ingin ${isOwner ? "menghapus" : "meninggalkan"} ujian ini? Tindakan ini tidak dapat dibatalkan.`}
+                    confirmLabel={isOwner ? "Hapus Ujian" : "Tinggalkan"}
+                    cancelLabel="Batal"
+                    confirmColor="primary-destructive"
+                    iconColor="error"
+                />
             </div>
 
             {/* Info */}
@@ -287,14 +153,15 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
                 <div className="flex items-center gap-2">
                     {/* Hide Invite button if not owner */}
                     {isOwner && (
-                        <button
+                        <Button
                             onClick={() => onInvite(exam.id)}
-                            className="flex items-center gap-1.5 rounded-lg border border-secondary px-2.5 py-1.5 text-xs font-semibold text-secondary hover:bg-secondary hover:text-primary hover:border-brand-400 transition-colors"
+                            size="sm"
+                            color="secondary"
+                            iconLeading={UserPlus01}
                             title="Undang peserta"
                         >
-                            <UserPlus01 className="size-3.5" />
                             Undang
-                        </button>
+                        </Button>
                     )}
                     <Button
                         size="sm"
@@ -334,6 +201,7 @@ export const PlaygroundExamList = () => {
     const exams = useExamStore((s) => s.exams);
     const user = useAuthStore((s) => s.user);
     const [search, setSearch] = useState("");
+    const [mcpModalOpen, setMcpModalOpen] = useState(false);
     const [filterStatus, setFilterStatus] = useState<FilterStatus>("all");
     const [filterSource, setFilterSource] = useState<FilterSource>("all");
     const [filterSkills, setFilterSkills] = useState<SkillType[]>([]);
@@ -406,14 +274,19 @@ export const PlaygroundExamList = () => {
 
     const hasActiveFilter = filterStatus !== "all" || filterSource !== "all" || filterSkills.length > 0 || search.trim();
 
-    return (
+    return (<>
         <div className="flex flex-col gap-4">
             {/* Header */}
-            <div>
-                <h2 className="text-lg font-semibold text-primary">Ujian &amp; Soal Saya</h2>
-                <p className="text-sm text-tertiary mt-0.5">
-                    {exams.length > 0 ? `${exams.length} ujian tersimpan` : "Belum ada ujian yang dibuat"}
-                </p>
+            <div className="flex items-center justify-between">
+                <div>
+                    <h2 className="text-lg font-semibold text-primary">Ujian &amp; Soal Saya</h2>
+                    <p className="text-sm text-tertiary mt-0.5">
+                        {exams.length > 0 ? `${exams.length} ujian tersimpan` : "Belum ada ujian yang dibuat"}
+                    </p>
+                </div>
+                <Button size="sm" iconLeading={Plus} onClick={() => setMcpModalOpen(true)}>
+                    Tambah
+                </Button>
             </div>
 
             {/* Search */}
@@ -427,12 +300,14 @@ export const PlaygroundExamList = () => {
                     className="w-full h-10 pl-9 pr-9 rounded-lg border border-secondary bg-primary text-sm text-primary placeholder-tertiary outline-none focus:ring-2 ring-brand-500 focus:border-brand-400 transition-all"
                 />
                 {search && (
-                    <button
+                    <Button
                         onClick={() => setSearch("")}
                         className="absolute right-3 top-1/2 -translate-y-1/2 flex size-5 items-center justify-center rounded-full text-tertiary hover:text-primary transition-colors"
+                        size="sm"
+                        color="secondary"
                     >
                         <X className="size-3.5" />
-                    </button>
+                    </Button>
                 )}
             </div>
 
@@ -444,7 +319,7 @@ export const PlaygroundExamList = () => {
                         <FilterLines className="size-3.5 text-tertiary shrink-0" />
                         <span className="text-[10px] font-semibold uppercase tracking-wider text-tertiary mr-0.5 w-[50px]">Sumber</span>
                         {SOURCE_FILTERS.map((s) => (
-                            <button
+                            <Button
                                 key={s.key}
                                 onClick={() => setFilterSource(s.key)}
                                 className={cx(
@@ -453,19 +328,22 @@ export const PlaygroundExamList = () => {
                                         ? "bg-brand-600 text-white border-brand-600"
                                         : "bg-primary text-secondary border-secondary hover:border-brand-400 hover:text-brand-700"
                                 )}
+                                size="sm"
+                                color={filterSource === s.key ? "primary" : "secondary"}
                             >
                                 {s.label}
-                            </button>
+                            </Button>
                         ))}
                     </div>
 
-                    <button
+                    <Button
                         onClick={() => setIsFiltersExpanded(!isFiltersExpanded)}
-                        className="hidden md:flex items-center gap-1 text-xs font-semibold text-brand-600 hover:text-brand-700 dark:text-brand-400 dark:hover:text-brand-300 py-1.5 px-3 rounded-lg border border-secondary hover:border-brand-300 bg-primary/50 transition-all hover:bg-secondary cursor-pointer shrink-0"
+                        size="sm"
+                        color="secondary"
+                        iconTrailing={isFiltersExpanded ? ChevronUp : ChevronDown}
                     >
-                        <span>Filter Lainnya</span>
-                        {isFiltersExpanded ? <ChevronUp className="size-3.5" /> : <ChevronDown className="size-3.5" />}
-                    </button>
+                        Filter Lainnya
+                    </Button>
                 </div>
 
                 {/* Collapsible filters container */}
@@ -481,7 +359,7 @@ export const PlaygroundExamList = () => {
                             <span className="size-3.5 shrink-0" />
                             <span className="text-[10px] font-semibold uppercase tracking-wider text-tertiary mr-0.5 w-[50px]">Status</span>
                             {STATUS_FILTERS.map((f) => (
-                                <button
+                                <Button
                                     key={f.key}
                                     onClick={() => setFilterStatus(f.key)}
                                     className={cx(
@@ -490,9 +368,11 @@ export const PlaygroundExamList = () => {
                                             ? "bg-brand-600 text-white border-brand-600"
                                             : "bg-primary text-secondary border-secondary hover:border-brand-400 hover:text-brand-700"
                                     )}
+                                    size="sm"
+                                    color="secondary"
                                 >
                                     {f.label}
-                                </button>
+                                </Button>
                             ))}
                         </div>
 
@@ -501,7 +381,7 @@ export const PlaygroundExamList = () => {
                             <span className="size-3.5 shrink-0" />
                             <span className="text-[10px] font-semibold uppercase tracking-wider text-tertiary mr-0.5 w-[50px]">Skill</span>
                             {ALL_SKILLS.map((skill) => (
-                                <button
+                                <Button
                                     key={skill}
                                     onClick={() => toggleSkill(skill)}
                                     className={cx(
@@ -510,17 +390,21 @@ export const PlaygroundExamList = () => {
                                             ? SKILL_COLORS[skill]?.replace("bg-", "border-") + " " + SKILL_COLORS[skill]
                                             : "bg-primary text-secondary border-secondary hover:border-brand-400 hover:text-brand-700"
                                     )}
+                                    size="sm"
+                                    color="secondary"
                                 >
                                     {skill}
-                                </button>
+                                </Button>
                             ))}
                             {filterSkills.length > 0 && (
-                                <button
+                                <Button
                                     onClick={() => setFilterSkills([])}
                                     className="text-[10px] text-tertiary hover:text-primary transition-colors underline ml-2 cursor-pointer"
+                                    size="sm"
+                                    color="secondary"
                                 >
                                     Reset
-                                </button>
+                                </Button>
                             )}
                         </div>
                     </div>
@@ -559,8 +443,9 @@ export const PlaygroundExamList = () => {
 
             {/* Invite Modal */}
             {inviteExamId && (
-                <InviteModal examId={inviteExamId} onClose={() => setInviteExamId(null)} />
+                <InviteModal examId={inviteExamId!} isOpen={true} onClose={() => setInviteExamId(null)} />
             )}
         </div>
-    );
+        <MCPGuideModal isOpen={mcpModalOpen} onClose={() => setMcpModalOpen(false)} />
+    </>);
 };

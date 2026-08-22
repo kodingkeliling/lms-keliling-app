@@ -3,7 +3,7 @@ import { useSearchParams } from "next/navigation";
 
 export const GoogleAuthButton = () => {
     const searchParams = useSearchParams();
-    const redirectParam = searchParams.get("redirect");
+    const redirectParam = searchParams?.get("redirect");
     const href = redirectParam 
         ? `/api/auth/google?redirect=${encodeURIComponent(redirectParam)}` 
         : "/api/auth/google";

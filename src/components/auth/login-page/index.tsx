@@ -25,10 +25,10 @@ export const LoginPage = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    const resetSuccess = searchParams.get("reset") === "success";
-    const redirectParam = searchParams.get("redirect");
-    const isVerified = searchParams.get("verified") === "true";
-    const urlError = searchParams.get("error");
+    const resetSuccess = searchParams?.get("reset") === "success";
+    const redirectParam = searchParams?.get("redirect");
+    const isVerified = searchParams?.get("verified") === "true";
+    const urlError = searchParams?.get("error");
     const isVerificationError = urlError && urlError.toLowerCase().includes("verifi");
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
