@@ -1,166 +1,214 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Server } from "@modelcontextprotocol/sdk/server/index.js";
-import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
-import { ListToolsRequestSchema, CallToolRequestSchema } from "@modelcontextprotocol/sdk/types.js";
 import { validateMcpAuth } from "@/lib/mcp-auth";
 import { executeTool, TOOLS_LIST, PROTECTED_TOOLS } from "@/lib/mcp-logic";
 
 export const runtime = "nodejs";
 
-const corsHeaders = {
+// MCP Protocol version supported
+const MCP_PROTOCOL_VERSION = "2024-11-05";
+
+const corsHeaders: Record<string, string> = {
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type, Authorization, mcp-protocol-version",
-    "Access-Control-Expose-Headers": "Link"
+    "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type, Authorization, mcp-protocol-version, mcp-session-id",
+    "Access-Control-Expose-Headers": "Link, mcp-session-id"
 };
 
-export async function GET(req: NextRequest) {
-    const accept = req.headers.get("accept") || "";
-    const origin = new URL(req.url).origin;
+function jsonRpcOk(id: any, result: any): NextResponse {
+    return NextResponse.json(
+        { jsonrpc: "2.0", id: id ?? null, result },
+        { headers: corsHeaders }
+    );
+}
 
-    if (!accept.includes("text/event-stream")) {
-        return new NextResponse("LMS Keliling MCP Server (Stateless) is active.", {
-            status: 200,
+function jsonRpcErr(
+    id: any,
+    code: number,
+    message: string,
+    data?: unknown,
+    extraHeaders?: Record<string, string>
+): NextResponse {
+    const errorBody: Record<string, unknown> = { code, message };
+    if (data !== undefined) errorBody.data = data;
+
+    return NextResponse.json(
+        { jsonrpc: "2.0", id: id ?? null, error: errorBody },
+        {
+            status: code === -32001 ? 401 : 400,
+            headers: { ...corsHeaders, ...(extraHeaders ?? {}) }
+        }
+    );
+}
+
+/**
+ * GET — Health check endpoint.
+ * Returns server metadata. SSE (server-push) is not supported in stateless mode.
+ */
+export async function GET(req: NextRequest) {
+    const origin = new URL(req.url).origin;
+    const accept = req.headers.get("accept") || "";
+
+    // If client requests SSE, politely decline — we are stateless
+    if (accept.includes("text/event-stream")) {
+        return new NextResponse("SSE not supported in stateless mode. Use POST for JSON-RPC.", {
+            status: 405,
             headers: {
                 "Content-Type": "text/plain",
+                Allow: "POST, OPTIONS",
+                Link: `<${origin}/.well-known/oauth-protected-resource>; rel="blocked-by-auth"`,
                 ...corsHeaders
             }
         });
     }
 
-    const server = new Server({
-        name: "LMS Keliling MCP Server",
-        version: "1.0.0"
-    }, {
-        capabilities: {
-            tools: {}
+    return NextResponse.json(
+        {
+            name: "LMS Keliling MCP Server",
+            version: "1.0.0",
+            protocolVersion: MCP_PROTOCOL_VERSION,
+            status: "active",
+            capabilities: { tools: {} },
+            endpoint: `${origin}/api/mcp`
+        },
+        {
+            headers: {
+                ...corsHeaders,
+                Link: [
+                    `<${origin}/.well-known/oauth-protected-resource>; rel="blocked-by-auth"`,
+                    `<${origin}/.well-known/oauth-authorization-server>; rel="authorization_server"`
+                ].join(", ")
+            }
         }
-    });
-
-    const transport = new WebStandardStreamableHTTPServerTransport({
-        sessionIdGenerator: undefined
-    });
-
-    await server.connect(transport);
-
-    const response = await transport.handleRequest(req);
-    
-    // Add cors and custom headers
-    response.headers.set("Link", `<${origin}/.well-known/oauth-protected-resource>; rel="blocked-by-auth", <${origin}/.well-known/oauth-authorization-server>; rel="authorization_server"`);
-    response.headers.set("X-Accel-Buffering", "no");
-    Object.entries(corsHeaders).forEach(([key, value]) => {
-        response.headers.set(key, value);
-    });
-
-    return response;
+    );
 }
 
+/**
+ * POST — Stateless JSON-RPC 2.0 handler (no SDK transport layer).
+ *
+ * The MCP SDK's WebStandardStreamableHTTPServerTransport keeps an SSE stream
+ * open indefinitely, which hangs Next.js serverless functions. We bypass it
+ * and implement JSON-RPC 2.0 directly.
+ *
+ * Handles: initialize, notifications/initialized, ping, tools/list, tools/call
+ */
 export async function POST(req: NextRequest) {
     const origin = new URL(req.url).origin;
-    
-    // Clone request body to parse and check for Lazy Auth
-    let body: any;
+
+    // Resolve auth once per request
+    const authHeader = req.headers.get("Authorization");
+    const userId = await validateMcpAuth(authHeader);
+
+    // Parse body
+    let body: unknown;
     try {
         body = await req.json();
     } catch {
-        return NextResponse.json({ error: "Invalid JSON" }, { status: 400, headers: corsHeaders });
+        return NextResponse.json(
+            { jsonrpc: "2.0", id: null, error: { code: -32700, message: "Parse error: invalid JSON" } },
+            { status: 400, headers: corsHeaders }
+        );
     }
 
-    const method = body.method;
-    const authHeader = req.headers.get("Authorization");
+    // Batch request support
+    if (Array.isArray(body)) {
+        const responses = await Promise.all(
+            body.map((item) => dispatch(item, userId, origin))
+        );
+        // Notifications produce null; filter them out
+        const results = responses.filter((r) => r !== null);
+        if (results.length === 0) {
+            return new NextResponse(null, { status: 204, headers: corsHeaders });
+        }
+        // Build a combined JSON response for batch
+        const payloads = await Promise.all(results.map((r) => (r as NextResponse).json()));
+        return NextResponse.json(payloads, { headers: corsHeaders });
+    }
 
-    // Check if user is authenticated
-    const userId = await validateMcpAuth(authHeader);
+    const response = await dispatch(body, userId, origin);
+    // Notifications (no id) → 204 No Content
+    if (response === null) {
+        return new NextResponse(null, { status: 204, headers: corsHeaders });
+    }
+    return response;
+}
 
-    // Lazy Auth Check
-    if (method === "tools/call") {
-        const toolName = body.params?.name;
-        if (PROTECTED_TOOLS.includes(toolName)) {
-            if (!userId) {
-                // Return 401 with authentication headers and custom JSON-RPC error
-                return NextResponse.json(
+/**
+ * Core JSON-RPC dispatcher.
+ * Returns null for notifications (which must not have a response).
+ */
+async function dispatch(
+    body: unknown,
+    userId: string | null,
+    origin: string
+): Promise<NextResponse | null> {
+    const req = body as Record<string, any>;
+    const { method, id, params } = req;
+
+    // Notification: id is absent or null → no response required
+    const isNotification = id === undefined || id === null;
+
+    switch (method) {
+        // ── Lifecycle ────────────────────────────────────────────────────────
+        case "initialize":
+            return jsonRpcOk(id, {
+                protocolVersion: "2024-11-05",
+                capabilities: { tools: {} },
+                serverInfo: { name: "LMS Keliling MCP Server", version: "1.0.0" }
+            });
+
+        case "notifications/initialized":
+            return null; // fire-and-forget notification
+
+        case "ping":
+            if (isNotification) return null;
+            return jsonRpcOk(id, {});
+
+        // ── Tools ─────────────────────────────────────────────────────────────
+        case "tools/list":
+            return jsonRpcOk(id, { tools: TOOLS_LIST });
+
+        case "tools/call": {
+            const toolName: string = params?.name ?? "";
+            const toolArgs: Record<string, unknown> = params?.arguments ?? {};
+
+            // Lazy Auth: protected tools require authentication
+            if (PROTECTED_TOOLS.includes(toolName) && !userId) {
+                return jsonRpcErr(
+                    id,
+                    -32001,
+                    "Unauthorized. Please authenticate to use this tool.",
                     {
-                        jsonrpc: "2.0",
-                        id: body.id ?? null,
-                        error: {
-                            code: -32001,
-                            message: "Unauthorized. Please authenticate.",
-                            data: {
-                                login_url: `${origin}/oauth/authorize`,
-                                oauth_metadata: {
-                                    issuer: `${origin}/`,
-                                    authorization_endpoint: `${origin}/oauth/authorize`,
-                                    token_endpoint: `${origin}/api/oauth/token`
-                                }
-                            }
-                        }
+                        login_url: `${origin}/oauth/authorize`,
+                        authorization_endpoint: `${origin}/oauth/authorize`,
+                        token_endpoint: `${origin}/api/oauth/token`
                     },
                     {
-                        status: 401,
-                        headers: {
-                            ...corsHeaders,
-                            "WWW-Authenticate": `Bearer realm="LMS Keliling", resource_metadata="${origin}/.well-known/oauth-protected-resource"`
-                        }
+                        "WWW-Authenticate": `Bearer realm="LMS Keliling", resource_metadata="${origin}/.well-known/oauth-protected-resource"`
                     }
                 );
             }
+
+            try {
+                const result = await executeTool(toolName, toolArgs, userId);
+                return jsonRpcOk(id, result);
+            } catch (error: unknown) {
+                const message = error instanceof Error ? error.message : "Unknown error occurred";
+                return jsonRpcOk(id, {
+                    isError: true,
+                    content: [{ type: "text", text: message }]
+                });
+            }
         }
+
+        default:
+            if (isNotification) return null; // unknown notifications are silently ignored
+            return jsonRpcErr(id, -32601, `Method not found: ${method}`);
     }
-
-    // Process using the MCP SDK
-    const server = new Server({
-        name: "LMS Keliling MCP Server",
-        version: "1.0.0"
-    }, {
-        capabilities: {
-            tools: {}
-        }
-    });
-
-    // Register tool list schema handler
-    server.setRequestHandler(ListToolsRequestSchema, async () => {
-        return {
-            tools: TOOLS_LIST
-        };
-    });
-
-    // Register Call tool handler
-    server.setRequestHandler(CallToolRequestSchema, async (request) => {
-        try {
-            return await executeTool(request.params.name, request.params.arguments, userId);
-        } catch (error: any) {
-            return {
-                isError: true,
-                content: [{ type: "text", text: error.message || "Unknown error occurred" }]
-            };
-        }
-    });
-
-    const transport = new WebStandardStreamableHTTPServerTransport({
-        sessionIdGenerator: undefined
-    });
-
-    await server.connect(transport);
-
-    // Reconstruct standard Web Request for transport
-    const clonedReq = new Request(req.url, {
-        method: "POST",
-        headers: req.headers,
-        body: JSON.stringify(body)
-    });
-
-    const response = await transport.handleRequest(clonedReq);
-    
-    // Add CORS headers to the response
-    Object.entries(corsHeaders).forEach(([key, value]) => {
-        response.headers.set(key, value);
-    });
-
-    return response;
 }
 
 export async function OPTIONS() {
     return new NextResponse(null, {
+        status: 204,
         headers: corsHeaders
     });
 }
