@@ -74,7 +74,7 @@ const INVITEE_COLUMNS = [
 ];
 
 export default function ExamDetailPage() {
-    const { id } = useParams<{ id: string }>();
+    const { id } = useParams() as { id: string };
     const router = useRouter();
     const { exams, questions, deleteExam, removeInvitee } = useDashboardStore();
 

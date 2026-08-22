@@ -70,9 +70,7 @@ export const Navbar = () => {
                                 <Button size="sm" color="secondary" href="/login" className="hidden sm:flex">
                                     Masuk
                                 </Button>
-                                <Button size="sm" onClick={() => setMcpModalOpen(true)} className="hidden md:flex">
-                                    Cara Gratis
-                                </Button>
+                                <Button size="sm" href="/register" className="hidden md:flex">Daftar Gratis</Button>
                             </>
                         )}
 
@@ -112,7 +110,7 @@ export const Navbar = () => {
                         {!isAuthReady ? null : !isAuthenticated && (
                             <div className="flex gap-2 pt-2 border-t border-secondary mt-2">
                                 <Button size="sm" color="secondary" href="/login" className="flex-1">Masuk</Button>
-                                <Button size="sm" onClick={() => { setMobileOpen(false); setMcpModalOpen(true); }} className="flex-1">Cara Gratis</Button>
+                                <Button size="sm" href="/register" className="flex-1">Daftar Gratis</Button>
                             </div>
                         )}
                     </div>

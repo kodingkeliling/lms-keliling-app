@@ -30,6 +30,7 @@ export interface ExamAttempt {
     startTime: number | null;
     endTime: number | null;
     ownedBy?: string;
+    isDemo?: boolean;
 }
 
 interface ExamState {
@@ -39,7 +40,7 @@ interface ExamState {
 
     // Actions
     setHasHydrated: (val: boolean) => void;
-    createNewExam: (config: ExamConfig, ownedBy?: string) => string;
+    createNewExam: (config: ExamConfig, ownedBy?: string, isDemo?: boolean) => string;
     selectExam: (id: string) => void;
     deleteExam: (id: string) => void;
 
@@ -65,7 +66,7 @@ export const useExamStore = create<ExamState>()(
 
             setHasHydrated: (val) => set({ hasHydrated: val }),
 
-            createNewExam: (config, ownedBy) => {
+            createNewExam: (config, ownedBy, isDemo = false) => {
                 const id = crypto.randomUUID();
                 const newExam: ExamAttempt = {
                     id,
@@ -78,6 +79,7 @@ export const useExamStore = create<ExamState>()(
                     startTime: null,
                     endTime: null,
                     ownedBy,
+                    isDemo,
                 };
                 set((state) => ({
                     exams: [newExam, ...state.exams],

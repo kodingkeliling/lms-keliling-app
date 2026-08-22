@@ -8,7 +8,7 @@ import { ChevronDown, Play, HomeLine, LayoutGrid02, LogOut01 } from "@untitledui
 import { cx } from "@/utils/cx";
 
 export function UserDropdown() {
-    const pathname = usePathname();
+    const pathname = usePathname() ?? "";
     const { user, logout } = useAuthStore();
 
     const handleLogout = async () => {

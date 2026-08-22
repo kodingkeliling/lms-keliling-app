@@ -9,7 +9,7 @@ import { QuestionFormModal } from "@/components/dashboard/question-form-modal";
 import { useDashboardStore } from "@/store/use-dashboard-store";
 
 export default function QuestionDetailPage() {
-    const { id } = useParams<{ id: string }>();
+    const { id } = useParams() as { id: string };
     const router = useRouter();
     const { questions, exams, deleteQuestion } = useDashboardStore();
 

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Question, SkillType } from "@/store/use-exam-store";
-import { SYSTEM_PROMPT } from "@/utils/ai-prompts";
-import { FINE_TUNE_EXAMPLES } from "@/utils/ai-examples";
+import { SYSTEM_PROMPT } from "@/utils/ai-system-prompt";
+import { FEW_SHOT_EXAMPLES } from "@/utils/ai-few-shot-examples";
 import {
     GEMINI_API_KEY as DEFAULT_GEMINI_API_KEY,
     GROQ_API_KEY as DEFAULT_GROQ_API_KEY,
@@ -18,7 +18,7 @@ async function callGemini(prompt: string, model: string, customKey?: string): Pr
     let modelId = model.startsWith("models/") ? model.split("/")[1] : model;
 
     const contents = [
-        ...FINE_TUNE_EXAMPLES.map(ex => ({
+        ...FEW_SHOT_EXAMPLES.map(ex => ({
             role: ex.role === "assistant" ? "model" : "user",
             parts: [{ text: ex.content }]
         })),
@@ -68,7 +68,7 @@ async function callGroq(prompt: string, model: string, customKey?: string): Prom
             model,
             messages: [
                 { role: "system", content: SYSTEM_PROMPT },
-                ...FINE_TUNE_EXAMPLES,
+                ...FEW_SHOT_EXAMPLES,
                 { role: "user", content: prompt },
             ],
             temperature: 1.1,
@@ -93,7 +93,7 @@ async function callOpenAI(prompt: string, model: string, customKey?: string): Pr
             model,
             messages: [
                 { role: "system", content: SYSTEM_PROMPT },
-                ...FINE_TUNE_EXAMPLES,
+                ...FEW_SHOT_EXAMPLES,
                 { role: "user", content: prompt },
             ],
         }),
@@ -119,7 +119,7 @@ async function callAnthropic(prompt: string, model: string, customKey?: string):
             max_tokens: 1024,
             system: SYSTEM_PROMPT,
             messages: [
-                ...FINE_TUNE_EXAMPLES,
+                ...FEW_SHOT_EXAMPLES,
                 { role: "user", content: prompt }
             ],
         }),
@@ -145,7 +145,7 @@ async function callOpenRouter(prompt: string, model: string, customKey?: string)
             model: model || "openrouter/auto",
             messages: [
                 { role: "system", content: SYSTEM_PROMPT },
-                ...FINE_TUNE_EXAMPLES,
+                ...FEW_SHOT_EXAMPLES,
                 { role: "user", content: prompt },
             ],
         }),

@@ -1,4 +1,4 @@
-export const FINE_TUNE_EXAMPLES = [
+export const FEW_SHOT_EXAMPLES = [
     {
         role: "user",
         content: "question number 1, ['Reading'] for English language"
