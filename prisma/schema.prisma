@@ -95,6 +95,7 @@ model Exam {
 
   status     String   @default("ongoing") // ongoing | completed
   originalExamId String?
+  isPublic   Boolean  @default(false)
 
   questions  Question[]
 

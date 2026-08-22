@@ -57,7 +57,8 @@ export async function GET(req: NextRequest) {
             status: exam.status as any,
             currentQuestionIndex: 0,
             startTime: null,
-            endTime: null
+            endTime: null,
+            isPublic: exam.isPublic ?? false
         }));
 
         return NextResponse.json({ exams: mapped });
@@ -81,22 +82,28 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ error: "User not found" }, { status: 404 });
         }
 
-        const { id, createdAt, config, questions, status } = await req.json();
+        const body = await req.json();
+        const { id, createdAt, config, questions, status, isPublic } = body;
 
         if (!id || !config || !questions) {
             return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
         }
 
-        // Check if exam already exists in database
         const existingExam = await prisma.exam.findUnique({
             where: { id }
         });
 
         if (existingExam) {
-            return NextResponse.json({ success: true, message: "Exam already synced" });
+            await prisma.exam.update({
+                where: { id },
+                data: {
+                    status: status || existingExam.status,
+                    isPublic: typeof isPublic === "boolean" ? isPublic : existingExam.isPublic,
+                }
+            });
+            return NextResponse.json({ success: true, message: "Exam status updated" });
         }
 
-        // Save exam and questions to database
         const createdExam = await prisma.exam.create({
             data: {
                 id,
@@ -105,6 +112,7 @@ export async function POST(req: NextRequest) {
                 skills: config.skills,
                 provider: "auto",
                 status: status || "ongoing",
+                isPublic: typeof isPublic === "boolean" ? isPublic : false,
                 createdAt: createdAt ? new Date(createdAt) : new Date()
             }
         });

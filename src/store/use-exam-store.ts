@@ -31,6 +31,7 @@ export interface ExamAttempt {
     endTime: number | null;
     ownedBy?: string;
     isDemo?: boolean;
+    isPublic?: boolean;
 }
 
 interface ExamState {
@@ -40,9 +41,10 @@ interface ExamState {
 
     // Actions
     setHasHydrated: (val: boolean) => void;
-    createNewExam: (config: ExamConfig, ownedBy?: string, isDemo?: boolean) => string;
+    createNewExam: (config: ExamConfig, ownedBy?: string, isDemo?: boolean, isPublic?: boolean) => string;
     selectExam: (id: string) => void;
     deleteExam: (id: string) => void;
+    togglePublicExam: (id: string) => void;
 
     // Updates for the active exam
     setQuestions: (questions: Question[]) => void;
@@ -66,7 +68,7 @@ export const useExamStore = create<ExamState>()(
 
             setHasHydrated: (val) => set({ hasHydrated: val }),
 
-            createNewExam: (config, ownedBy, isDemo = false) => {
+            createNewExam: (config, ownedBy, isDemo = false, isPublic = false) => {
                 const id = crypto.randomUUID();
                 const newExam: ExamAttempt = {
                     id,
@@ -80,6 +82,7 @@ export const useExamStore = create<ExamState>()(
                     endTime: null,
                     ownedBy,
                     isDemo,
+                    isPublic,
                 };
                 set((state) => ({
                     exams: [newExam, ...state.exams],
@@ -93,6 +96,10 @@ export const useExamStore = create<ExamState>()(
             deleteExam: (id) => set((state) => ({
                 exams: state.exams.filter(e => e.id !== id),
                 activeExamId: state.activeExamId === id ? null : state.activeExamId
+            })),
+
+            togglePublicExam: (id) => set((state) => ({
+                exams: state.exams.map((e) => e.id === id ? { ...e, isPublic: !e.isPublic } : e)
             })),
 
             setQuestions: (questions) =>

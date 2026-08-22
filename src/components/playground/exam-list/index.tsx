@@ -26,10 +26,16 @@ import {
     LogOut01,
     ChevronDown,
     ChevronUp,
+    Globe01,
+    Lock01,
+    Share01,
+    Copy01,
 } from "@untitledui/icons";
 import { MCPGuideModal } from "@/components/layout/mcp-guide-modal";
 import InviteModal from "@/components/layout/invite-modal";
 import ConfirmationModal from "@/components/layout/confirmation-modal";
+import { useToast } from "@/contexts/use-toast";
+import { Badge, BadgeWithDot, BadgeWithIcon } from "@/components/base/badges/badges";
 
 
 
@@ -50,7 +56,8 @@ interface ExamCardProps {
 
 function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
     const router = useRouter();
-    const { deleteExam } = useExamStore();
+    const { deleteExam, togglePublicExam } = useExamStore();
+    const { toastSuccess } = useToast();
 
     const handleAction = () => {
         if (exam.status === "completed") {
@@ -58,6 +65,13 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
         } else {
             router.push(`/playground/${exam.id}`);
         }
+    };
+
+    const handleCopyShareLink = (e: React.MouseEvent) => {
+        e.stopPropagation();
+        const url = `${window.location.origin}/playground/${exam.id}`;
+        navigator.clipboard.writeText(url);
+        toastSuccess("Link ujian berhasil disalin!", "Link Tersalin");
     };
 
     const isOwner = !exam.ownedBy || exam.ownedBy === currentEmail;
@@ -73,20 +87,79 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
 
     return (
         <div className="group relative flex flex-col gap-3 rounded-xl border border-secondary bg-primary p-4 shadow-xs transition-all hover:shadow-md hover:border-brand-200 dark:hover:border-brand-800">
-            {/* Status badge + delete/leave button */}
+            {/* Status badge + Visibility Badge + delete/leave button */}
             <div className="flex items-start justify-between gap-2">
-                <div className={cx(
-                    "flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold w-fit",
-                    exam.status === "completed"
-                        ? "bg-success-50 text-success-700 dark:bg-success-950/30 dark:text-success-300"
-                        : exam.status === "ongoing"
-                            ? (exam.startTime === null
-                                ? "bg-warning-50 text-warning-700 dark:bg-warning-950/30 dark:text-warning-300"
-                                : "bg-brand-50 text-brand-700 dark:bg-brand-950/30 dark:text-brand-300")
-                            : "bg-secondary text-secondary"
-                )}>
-                    {exam.status === "completed" ? <CheckCircle className="size-3" /> : <Play className="size-3" />}
-                    {statusLabel}
+                <div className="flex items-center gap-2 flex-wrap">
+                    {/* Status Badge */}
+                    <BadgeWithIcon
+                        type="color"
+                        size="sm"
+                        color={
+                            exam.status === "completed"
+                                ? "success"
+                                : exam.status === "ongoing"
+                                    ? (exam.startTime === null ? "warning" : "brand")
+                                    : "gray"
+                        }
+                        iconLeading={exam.status === "completed" ? CheckCircle : Play}
+                    >
+                        {statusLabel}
+                    </BadgeWithIcon>
+
+                    {/* Demo Badge vs Public/Private Toggle Badge */}
+                    {exam.isDemo ? (
+                        <BadgeWithDot
+                            type="color"
+                            size="sm"
+                            color="warning"
+                        >
+                            Demo
+                        </BadgeWithDot>
+                    ) : isOwner ? (
+                        <button
+                            type="button"
+                            onClick={() => togglePublicExam(exam.id)}
+                            title={exam.isPublic ? "Ujian Publik (Klik untuk ubah ke Privat)" : "Ujian Privat (Klik untuk ubah ke Publik)"}
+                            className="cursor-pointer transition-transform active:scale-95 outline-hidden"
+                        >
+                            <BadgeWithIcon
+                                type="color"
+                                size="sm"
+                                color={exam.isPublic ? "blue" : "gray"}
+                                iconLeading={exam.isPublic ? Globe01 : Lock01}
+                            >
+                                {exam.isPublic ? "Publik" : "Privat"}
+                            </BadgeWithIcon>
+                        </button>
+                    ) : (
+                        <BadgeWithIcon
+                            type="color"
+                            size="sm"
+                            color="blue"
+                            iconLeading={Globe01}
+                        >
+                            Publik
+                        </BadgeWithIcon>
+                    )}
+
+                    {/* Copy Share Link Badge Button if Public */}
+                    {exam.isPublic && (
+                        <button
+                            type="button"
+                            onClick={handleCopyShareLink}
+                            title="Salin Link Share Ujian"
+                            className="cursor-pointer transition-transform active:scale-95 outline-hidden"
+                        >
+                            <BadgeWithIcon
+                                type="color"
+                                size="sm"
+                                color="brand"
+                                iconLeading={Copy01}
+                            >
+                                Salin Link
+                            </BadgeWithIcon>
+                        </button>
+                    )}
                 </div>
 
                 <Button
@@ -120,14 +193,24 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
                     {exam.config.questionCount} Soal · {exam.config.language}
                 </p>
                 <div className="flex flex-wrap gap-1.5">
-                    {exam.config.skills.map((skill) => (
-                        <span
-                            key={skill}
-                            className={cx("rounded-md px-2 py-0.5 text-[10px] font-semibold", SKILL_COLORS[skill] ?? "bg-secondary text-secondary")}
-                        >
-                            {skill}
-                        </span>
-                    ))}
+                    {exam.config.skills.map((skill) => {
+                        const colorMap: Record<string, "blue" | "purple" | "orange" | "success"> = {
+                            Reading: "blue",
+                            Writing: "purple",
+                            Speaking: "orange",
+                            Listening: "success",
+                        };
+                        return (
+                            <Badge
+                                key={skill}
+                                type="color"
+                                size="sm"
+                                color={colorMap[skill] || "gray"}
+                            >
+                                {skill}
+                            </Badge>
+                        );
+                    })}
                 </div>
             </div>
 
@@ -145,9 +228,13 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
 
                     {/* Owner Badge */}
                     {!isOwner && exam.ownedBy && (
-                        <span className="inline-flex items-center rounded-full bg-blue-50 px-2 py-0.5 text-[10px] font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 dark:bg-blue-950/30 dark:text-blue-300 dark:ring-blue-500/20">
+                        <Badge
+                            type="color"
+                            size="sm"
+                            color="blue"
+                        >
                             Undangan: {exam.ownedBy.split("@")[0]}
-                        </span>
+                        </Badge>
                     )}
                 </div>
                 <div className="flex items-center gap-2">
@@ -180,7 +267,7 @@ function ExamCard({ exam, currentEmail, onInvite }: ExamCardProps) {
 // ─── Main Component ────────────────────────────────────────────────────────────
 
 type FilterStatus = "all" | ExamStatus;
-type FilterSource = "all" | "self" | "invited";
+type FilterSource = "all" | "self" | "public" | "private" | "invited";
 
 const STATUS_FILTERS: { key: FilterStatus; label: string }[] = [
     { key: "all", label: "Semua Status" },
@@ -192,10 +279,14 @@ const STATUS_FILTERS: { key: FilterStatus; label: string }[] = [
 const SOURCE_FILTERS: { key: FilterSource; label: string }[] = [
     { key: "all", label: "Semua Sumber" },
     { key: "self", label: "Dibuat Saya" },
+    { key: "public", label: "Publik" },
+    { key: "private", label: "Privat" },
     { key: "invited", label: "Undangan Teman" },
 ];
 
 const ALL_SKILLS: SkillType[] = ["Reading", "Writing", "Speaking", "Listening"];
+
+const LOCAL_STORAGE_FILTER_KEY = "lms_playground_filter_source";
 
 export const PlaygroundExamList = () => {
     const exams = useExamStore((s) => s.exams);
@@ -204,10 +295,25 @@ export const PlaygroundExamList = () => {
     const [search, setSearch] = useState("");
     const [mcpModalOpen, setMcpModalOpen] = useState(false);
     const [filterStatus, setFilterStatus] = useState<FilterStatus>("all");
-    const [filterSource, setFilterSource] = useState<FilterSource>("all");
+    const [filterSource, setFilterSource] = useState<FilterSource>(() => {
+        if (typeof window !== "undefined") {
+            const saved = localStorage.getItem(LOCAL_STORAGE_FILTER_KEY) as FilterSource | null;
+            if (saved && ["all", "self", "public", "private", "invited"].includes(saved)) {
+                return saved;
+            }
+        }
+        return "all";
+    });
     const [filterSkills, setFilterSkills] = useState<SkillType[]>([]);
     const [inviteExamId, setInviteExamId] = useState<string | null>(null);
     const [isFiltersExpanded, setIsFiltersExpanded] = useState(false);
+
+    const handleFilterSourceChange = (key: FilterSource) => {
+        setFilterSource(key);
+        if (typeof window !== "undefined") {
+            localStorage.setItem(LOCAL_STORAGE_FILTER_KEY, key);
+        }
+    };
 
     const toggleSkill = (skill: SkillType) => {
         setFilterSkills((prev) =>
@@ -237,11 +343,15 @@ export const PlaygroundExamList = () => {
             list = list.filter((e) => e.status === filterStatus);
         }
 
-        // Source Filter
+        // Source Filter (Self, Public, Private, Invited)
         if (filterSource !== "all") {
             list = list.filter((e) => {
                 const isOwner = !e.ownedBy || e.ownedBy === user?.email;
-                return filterSource === "self" ? isOwner : !isOwner;
+                if (filterSource === "self") return isOwner;
+                if (filterSource === "public") return e.isPublic === true;
+                if (filterSource === "private") return isOwner && e.isPublic !== true;
+                if (filterSource === "invited") return !isOwner;
+                return true;
             });
         }
 
@@ -327,7 +437,7 @@ export const PlaygroundExamList = () => {
                         {SOURCE_FILTERS.map((s) => (
                             <Button
                                 key={s.key}
-                                onClick={() => setFilterSource(s.key)}
+                                onClick={() => handleFilterSourceChange(s.key)}
                                 className={cx(
                                     "rounded-full px-3 py-1 text-xs font-semibold transition-colors border",
                                     filterSource === s.key
