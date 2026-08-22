@@ -12,11 +12,11 @@ export const HeroContent = () => {
             </div>
 
             <div className="flex flex-col gap-4">
-                <h1 className="text-display-md font-semibold text-primary lg:text-display-lg">
-                    Kuasai Bahasa Apa Saja dengan AI
+                <h1 className="text-display-md font-semibold text-primary lg:text-display-md">
+                    Temukan cara baru belajar bahasa menggunakan MCP. ⭐
                 </h1>
-                <p className="text-lg text-tertiary lg:text-xl">
-                    Temukan cara baru belajar bahasa. Di mana saja, kapan saja, dengan caramu menggunakan MCP. ⭐ <br /> <br /> Buat soal ujian lebih gampang. Latih Reading, Writing, Speaking, dan Listening dalam 14+ bahasa dengan soal yang selalu unik. Dan hasil penilaian langsung muncul tanpa harus menunggu.
+                <p className="text-lg text-tertiary lg:text-lg">
+                    <strong>LMS Keliling (Language Management System)</strong> Buat soal ujian lebih gampang. Latih Reading, Writing, Speaking, dan Listening dalam 14+ bahasa dengan soal yang selalu unik. Dan hasil penilaian langsung muncul tanpa harus menunggu.
                 </p>
             </div>
 
