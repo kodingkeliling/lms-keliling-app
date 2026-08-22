@@ -6,7 +6,10 @@ export async function GET(req: NextRequest) {
     return NextResponse.json(
         {
             resource: origin,
-            authorization_servers: [origin],
+            authorization_servers: [
+                `${origin}/.well-known/oauth-authorization-server`,
+                origin
+            ],
             resource_name: "LMS Keliling MCP"
         },
         {

@@ -46,7 +46,7 @@ export async function GET(req: NextRequest) {
     const response = await transport.handleRequest(req);
     
     // Add cors and custom headers
-    response.headers.set("Link", `<${origin}/.well-known/oauth-protected-resource>; rel="blocked-by-auth"`);
+    response.headers.set("Link", `<${origin}/.well-known/oauth-protected-resource>; rel="blocked-by-auth", <${origin}/.well-known/oauth-authorization-server>; rel="authorization_server"`);
     response.headers.set("X-Accel-Buffering", "no");
     Object.entries(corsHeaders).forEach(([key, value]) => {
         response.headers.set(key, value);
