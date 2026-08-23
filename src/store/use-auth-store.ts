@@ -9,6 +9,8 @@ export interface AuthUser {
     name: string;
     role: UserRole;
     planId?: string | null;
+    questionLimit?: number;
+    avatarId?: string | null;
 }
 
 interface AuthState {

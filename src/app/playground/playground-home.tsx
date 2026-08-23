@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { PlaygroundNavbar } from "@/components/layout/playground-navbar";
 import { PlaygroundExamList } from "@/components/playground/exam-list";
 import { TokenStatusCard } from "@/components/playground/token-status-card";
-import { ConfigForm } from "@/components/exam/config-form";
+import { Leaderboard } from "@/components/leaderboard";
 import { ArrowUp } from "@untitledui/icons";
 import { cx } from "@/utils/cx";
 
@@ -55,7 +55,7 @@ export const PlaygroundHome = () => {
                     <aside className="order-first md:order-last w-full md:w-[420px] lg:w-[460px] shrink-0 flex flex-col gap-4">
                         <TokenStatusCard />
                         <div className="md:sticky md:top-24">
-                            <ConfigForm isPlayground />
+                            <Leaderboard />
                         </div>
                     </aside>
 

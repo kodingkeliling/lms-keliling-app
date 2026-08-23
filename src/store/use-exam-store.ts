@@ -15,6 +15,7 @@ export interface ExamConfig {
     language: string;
     questionCount: number;
     skills: SkillType[];
+    duration?: number | null; // in minutes; null or 0 means Unlimited
 }
 
 export type ExamStatus = "idle" | "generating" | "ongoing" | "completed";

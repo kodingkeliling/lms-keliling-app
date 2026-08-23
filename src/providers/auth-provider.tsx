@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useAuthStore } from "@/store/use-auth-store";
+import { AvatarPickerGate } from "@/components/profile/avatar-picker-gate";
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
     const { logout, setUser, setAuthReady } = useAuthStore();
@@ -27,5 +28,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         checkAuth();
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-    return <>{children}</>;
+    return (
+        <>
+            {children}
+            <AvatarPickerGate />
+        </>
+    );
 }

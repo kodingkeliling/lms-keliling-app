@@ -7,6 +7,7 @@ import { Badge } from "@/components/base/badges/badges";
 import { Button } from "@/components/base/buttons/button";
 import { FeaturedIcon } from "@/components/foundations/featured-icon/featured-icon";
 import { cx } from "@/utils/cx";
+import { getPlanTextColor } from "@/components/base/badges/plan-badge";
 
 export const CheckItemText = (props: {
     size?: "sm" | "md" | "lg" | "xl";
@@ -380,7 +381,7 @@ export const PricingTierCardBanner = (props: {
                         )}
                         <p className={"text-display-md font-semibold text-primary md:text-display-lg"}>{props.subtitle}</p>
                     </div>
-                    <h2 className="mt-4 text-xl font-semibold text-primary">{props.title}</h2>
+                    <h2 className={cx("mt-4 text-xl font-bold", getPlanTextColor(props.title))}>{props.title}</h2>
                     <p className="mt-1 text-md text-tertiary">{props.description}</p>
                 </div>
 

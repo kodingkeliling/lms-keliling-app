@@ -15,6 +15,7 @@ import { UserDropdown } from "@/components/layout/user-dropdown";
 
 const NAV_ITEMS = [
     { label: "Beranda", href: "/" },
+    { label: "Papan Peringkat", href: "/leaderboard" },
     { label: "Harga", href: "/pricing" },
     { label: "Pertanyaan", href: "/faq" },
     { label: "Hubungi", href: "/contact" },

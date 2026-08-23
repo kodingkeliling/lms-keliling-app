@@ -8,6 +8,7 @@ import { TextArea } from "@/components/base/textarea/textarea";
 import { Form } from "@/components/base/form/form";
 import { FeaturedIcon } from "@/components/foundations/featured-icon/featured-icon";
 import { SOCIAL_LINKS } from "@/data/social-links";
+import SectionHeader from "../section-header";
 
 const CONTACT_INFO = [
     {
@@ -56,13 +57,11 @@ export const ContactSection = () => {
         <section className="w-full py-12 md:py-16">
             <div className="mx-auto w-full max-w-container px-4 md:px-8">
                 {/* Heading */}
-                <div className="reveal flex flex-col items-center gap-3 text-center mb-12">
-                    <h2 className="text-display-sm font-semibold text-primary md:text-display-md">Hubungi Kami</h2>
-                    <div className="h-1 w-16 rounded-full bg-brand-500" />
-                    <p className="text-md text-tertiary max-w-md mt-1">
-                        Punya pertanyaan atau ingin berkolaborasi? Kami siap membantu kamu.
-                    </p>
-                </div>
+                <SectionHeader
+                    title="Hubungi Kami"
+                    subtitle="Punya pertanyaan atau ingin berkolaborasi? Kami siap membantu kamu."
+                    className="mb-12"
+                />
 
                 <div className="reveal delay-1 grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
                     {/* Left: Form */}

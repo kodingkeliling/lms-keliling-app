@@ -21,6 +21,7 @@ model User {
   role         Role    @default(USER)
   planId       String?
   questionLimit Int    @default(100)
+  avatarId      String?
 
   // Plan subscription dates
   planStartDate DateTime?
@@ -38,10 +39,24 @@ model User {
   updatedAt DateTime @updatedAt
 
   exams          Exam[]
+  subscriptions  Subscription[]
   mcpOAuthTokens McpOAuthToken[]
   mcpApiKeys     McpApiKey[]
 
   @@map("users")
+}
+
+model Subscription {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  planId    String   // starter-100, pro-500, ultimate-1000
+  planName  String   // Premium, Eksklusif, Luxury
+  price     Int      // 5000, 7500, 20000
+  questions Int      // 100, 500, 1000
+  createdAt DateTime @default(now())
+
+  @@map("subscriptions")
 }
 
 model McpOAuthToken {

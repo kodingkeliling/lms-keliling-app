@@ -11,6 +11,12 @@ function getAdminUser(req: NextRequest) {
     return user;
 }
 
+const PLAN_META: Record<string, { name: string; price: number; questions: number }> = {
+    "starter-100": { name: "Premium", price: 5000, questions: 100 },
+    "pro-500": { name: "Eksklusif", price: 7500, questions: 500 },
+    "ultimate-1000": { name: "Luxury", price: 20000, questions: 1000 },
+};
+
 // GET /api/admin/users — list all users
 export async function GET(req: NextRequest) {
     if (!getAdminUser(req)) {
@@ -35,7 +41,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ users });
 }
 
-// PATCH /api/admin/users — update plan for a user
+// PATCH /api/admin/users — update plan for a user + record subscription history
 export async function PATCH(req: NextRequest) {
     if (!getAdminUser(req)) {
         return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -47,6 +53,12 @@ export async function PATCH(req: NextRequest) {
     if (!userId) {
         return NextResponse.json({ error: "userId is required" }, { status: 400 });
     }
+
+    // Get previous plan to detect if planId actually changed
+    const prevUser = await prisma.user.findUnique({
+        where: { id: userId },
+        select: { planId: true },
+    });
 
     const updated = await prisma.user.update({
         where: { id: userId },
@@ -63,6 +75,20 @@ export async function PATCH(req: NextRequest) {
             planEndDate: true,
         },
     });
+
+    // Record subscription purchase if planId is new and valid
+    if (planId && PLAN_META[planId] && prevUser?.planId !== planId) {
+        const meta = PLAN_META[planId];
+        await prisma.subscription.create({
+            data: {
+                userId,
+                planId,
+                planName: meta.name,
+                price: meta.price,
+                questions: meta.questions,
+            },
+        });
+    }
 
     return NextResponse.json({ user: updated });
 }

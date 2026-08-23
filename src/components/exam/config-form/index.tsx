@@ -9,7 +9,7 @@ import { Input } from "@/components/base/input/input";
 import { Label } from "@/components/base/input/label";
 import { Select } from "@/components/base/select/select";
 import { SkillType, useExamStore } from "@/store/use-exam-store";
-import { File06, Translate01, BookOpen01 } from "@untitledui/icons";
+import { File06, Translate01, BookOpen01, Clock } from "@untitledui/icons";
 import { useToast } from "@/contexts/use-toast";
 import { getRandomDemoQuestions } from "@/data/demo-questions";
 import { MCPGuideModal } from "@/components/layout/mcp-guide-modal";
@@ -25,6 +25,7 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
 
     const [language, setLanguage] = useState("English");
     const [questionCount, setQuestionCount] = useState(10);
+    const [duration, setDuration] = useState<number | null>(null); // null = Unlimited
     const [selectedSkills, setSelectedSkills] = useState<SkillType[]>(["Reading"]);
     const [isLoading, setIsLoading] = useState(false);
     const { isAuthenticated, user } = useAuthStore();
@@ -49,6 +50,7 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
                 language,
                 questionCount,
                 skills: selectedSkills,
+                duration,
             }, undefined, true); // isDemo = true
 
             // Generate demo questions according to chosen language
@@ -154,6 +156,33 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
                             icon={File06}
                             hint="Maksimal 100 soal untuk mode demo."
                         />
+                    </div>
+
+                    {/* Exam Duration */}
+                    <div className="flex flex-col gap-1.5">
+                        <Label>Durasi Ujian</Label>
+                        <Select
+                            selectedKey={duration === null ? "unlimited" : duration.toString()}
+                            onSelectionChange={(key) => {
+                                const val = key as string;
+                                setDuration(val === "unlimited" ? null : parseInt(val));
+                            }}
+                            placeholder="Pilih durasi"
+                            placeholderIcon={Clock}
+                            items={[
+                                { id: "unlimited", label: "Unlimited (Tanpa Batas)", icon: Clock },
+                                { id: "15", label: "15 Menit", icon: Clock },
+                                { id: "30", label: "30 Menit", icon: Clock },
+                                { id: "45", label: "45 Menit", icon: Clock },
+                                { id: "60", label: "60 Menit", icon: Clock },
+                            ]}
+                        >
+                            {(item) => (
+                                <Select.Item key={item.id} id={item.id} label={item.label} icon={item.icon}>
+                                    {item.label}
+                                </Select.Item>
+                            )}
+                        </Select>
                     </div>
                 </div>
 

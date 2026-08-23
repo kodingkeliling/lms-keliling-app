@@ -11,6 +11,8 @@ import { cx } from "../../utils/cx";
 import { Markdown } from "../../components/shared-assets/markdown";
 import { calculateSimilarity } from "../../utils/string-similarity";
 import { PlaygroundNavbar } from "../../components/layout/playground-navbar";
+import ConfirmationModal from "@/components/layout/confirmation-modal";
+
 export const ResultScreen = () => {
     const router = useRouter();
     const params = useParams();
@@ -19,6 +21,7 @@ export const ResultScreen = () => {
     const { selectExam, exams, retryActiveExam } = useExamStore();
     const user = useAuthStore((state) => state.user);
     const [isReviewOpen, setIsReviewOpen] = useState(false);
+    const [isRetakeConfirmOpen, setIsRetakeConfirmOpen] = useState(false);
 
     // Sync active exam with URL
     useEffect(() => {
@@ -168,6 +171,11 @@ export const ResultScreen = () => {
     const durationStr = formatDuration(activeExam.startTime, activeExam.endTime);
 
     const handleRestart = () => {
+        setIsRetakeConfirmOpen(true);
+    };
+
+    const handleConfirmRestart = () => {
+        setIsRetakeConfirmOpen(false);
         retryActiveExam();
         router.push(`/playground/${activeExam.id}`);
     };
@@ -353,6 +361,18 @@ export const ResultScreen = () => {
                     </div>
                 </div>
             </div>
+
+            <ConfirmationModal
+                isOpen={isRetakeConfirmOpen}
+                onClose={() => setIsRetakeConfirmOpen(false)}
+                onConfirm={handleConfirmRestart}
+                title="Mengulang Ujian Ini?"
+                description="Mengulang ujian akan mereset dan menggantikan data hasil/skor pengerjaan sebelumnya dengan hasil pengerjaan baru. Apakah Anda yakin ingin mengulang?"
+                confirmLabel="Ya, Ulangi Ujian"
+                cancelLabel="Batal"
+                confirmColor="primary"
+                iconColor="warning"
+            />
         </div>
     );
 };

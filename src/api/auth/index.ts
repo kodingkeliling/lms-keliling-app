@@ -22,6 +22,7 @@ export type AuthUser = {
     name: string;
     role: "USER" | "SUPER_ADMIN";
     planId?: string | null;
+    avatarId?: string | null;
 };
 
 export async function loginUser(payload: LoginPayload): Promise<{ token: string; user: AuthUser }> {
@@ -40,6 +41,7 @@ export async function loginUser(payload: LoginPayload): Promise<{ token: string;
         name: user.name,
         role: user.role,
         planId: user.planId ?? null,
+        avatarId: user.avatarId,
     };
 
     const token = jwt.sign(authUser, JWT_SECRET, { expiresIn: "7d" });

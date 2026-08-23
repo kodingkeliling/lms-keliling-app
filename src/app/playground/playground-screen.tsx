@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef, useMemo } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, ChevronRight, LayoutGrid02, Zap, LogOut01, InfoCircle } from "@untitledui/icons";
+import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, ChevronRight, LayoutGrid02, Zap, LogOut01, InfoCircle, Clock } from "@untitledui/icons";
 import { Button } from "../../components/base/buttons/button";
 import { FeaturedIcon } from "../../components/foundations/featured-icon/featured-icon";
 import { ProgressBar } from "../../components/base/progress-indicators/progress-indicators";
@@ -73,13 +73,45 @@ export const PlaygroundScreen = () => {
         usePersonalKey
     } = useConfigStore();
 
-    // Keep sidebar page in sync with current question index
+    // Exam Duration Countdown Timer
+    const [timeLeftMs, setTimeLeftMs] = useState<number | null>(null);
+
     useEffect(() => {
-        if (activeExam?.currentQuestionIndex !== undefined) {
-            const pageIndex = Math.floor(activeExam.currentQuestionIndex / PAGE_SIZE);
-            setCurrentPage(pageIndex);
+        if (activeExam?.status !== "ongoing" || !activeExam?.startTime) {
+            setTimeLeftMs(null);
+            return;
         }
-    }, [activeExam?.currentQuestionIndex]);
+
+        const durationMinutes = activeExam.config.duration;
+        if (!durationMinutes) {
+            // Unlimited duration
+            setTimeLeftMs(null);
+            return;
+        }
+
+        const targetTime = activeExam.startTime + durationMinutes * 60 * 1000;
+
+        const updateTimer = () => {
+            const remaining = Math.max(0, targetTime - Date.now());
+            setTimeLeftMs(remaining);
+
+            if (remaining <= 0) {
+                finishExam();
+                toastWarning("Waktu ujian telah habis! Hasil ujian Anda telah otomatis disimpan.", "Waktu Habis");
+            }
+        };
+
+        updateTimer();
+        const interval = setInterval(updateTimer, 1000);
+        return () => clearInterval(interval);
+    }, [activeExam?.status, activeExam?.startTime, activeExam?.config.duration, finishExam, toastWarning]);
+
+    const formatTimeLeft = (ms: number) => {
+        const totalSecs = Math.floor(ms / 1000);
+        const mins = Math.floor(totalSecs / 60);
+        const secs = totalSecs % 60;
+        return `${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
+    };
 
     const generateAllQuestions = useCallback(async () => {
         if (isGenerating.current || !activeExam) return;
@@ -524,6 +556,12 @@ export const PlaygroundScreen = () => {
                                 <span className="font-semibold text-primary">{questions.length} Soal</span>
                             </div>
                             <div className="flex justify-between py-1.5 text-sm border-t border-secondary">
+                                <span className="text-tertiary">Durasi Ujian</span>
+                                <span className="font-semibold text-primary">
+                                    {config.duration ? `${config.duration} Menit` : "Unlimited (Tanpa Batas)"}
+                                </span>
+                            </div>
+                            <div className="flex justify-between py-1.5 text-sm border-t border-secondary">
                                 <span className="text-tertiary">Skill yang Diuji</span>
                                 <div className="flex flex-wrap gap-1.5 justify-end max-w-[200px]">
                                     {config.skills.map((skill) => (
@@ -601,6 +639,18 @@ export const PlaygroundScreen = () => {
                             <span className="text-xs font-semibold text-tertiary">
                                 {currentQuestionIndex + 1}/{questions.length}
                             </span>
+                        </div>
+
+                        {/* Timer Badge */}
+                        <div className="flex items-center gap-1.5 rounded-lg border border-secondary bg-primary_alt px-3 py-1 text-xs font-semibold text-primary">
+                            <Clock className="size-3.5 text-brand-600 dark:text-brand-400" />
+                            {timeLeftMs !== null ? (
+                                <span className={cx(timeLeftMs < 60000 && "text-error-600 animate-pulse font-bold")}>
+                                    {formatTimeLeft(timeLeftMs)}
+                                </span>
+                            ) : (
+                                <span>Unlimited</span>
+                            )}
                         </div>
                     </div>
 

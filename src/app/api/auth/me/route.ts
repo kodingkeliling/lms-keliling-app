@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { verifyToken } from "@/api/auth";
 import { COOKIE_NAME } from "@/lib/auth-cookie";
+import { prisma } from "@/lib/prisma";
 
 export async function GET(req: NextRequest) {
     const token = req.cookies.get(COOKIE_NAME)?.value;
@@ -9,12 +10,29 @@ export async function GET(req: NextRequest) {
         return NextResponse.json({ error: "Not authenticated" }, { status: 401 });
     }
 
-    const user = verifyToken(token);
-    if (!user) {
+    const decoded = verifyToken(token);
+    if (!decoded) {
         return NextResponse.json({ error: "Invalid or expired token" }, { status: 401 });
     }
 
-    return NextResponse.json({ user }, { status: 200 });
+    const dbUser = await prisma.user.findUnique({
+        where: { id: decoded.id },
+        select: {
+            id: true,
+            email: true,
+            name: true,
+            role: true,
+            planId: true,
+            questionLimit: true,
+            avatarId: true,
+        },
+    });
+
+    if (!dbUser) {
+        return NextResponse.json({ error: "User not found" }, { status: 404 });
+    }
+
+    return NextResponse.json({ user: dbUser }, { status: 200 });
 }
 
 export async function DELETE() {
