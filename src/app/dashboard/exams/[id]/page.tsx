@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft, Mail01, Trash01, UserPlus01 } from "@untitledui/icons";
+import { ArrowLeft, BookOpen01, Mail01, Plus, Trash01, UserPlus01, Users01 } from "@untitledui/icons";
 import { Badge } from "@/components/base/badges/badges";
 import { Button } from "@/components/base/buttons/button";
-import { DataTable } from "@/components/shared/data-table";
+import { DataTable, TableEmptyState } from "@/components/shared/data-table";
 import { ExamFormModal } from "@/components/dashboard/exam-form-modal";
 import { InviteModal } from "@/components/dashboard/invite-modal";
 import { useDashboardStore, type DashboardExam, type DashboardQuestion } from "@/store/use-dashboard-store";
@@ -162,9 +162,11 @@ export default function ExamDetailPage() {
                 searchFields={["description", "skill", "answer"]}
                 rowActions={false}
                 emptyState={
-                    <span className="text-sm text-tertiary">
-                        Belum ada soal. Tambahkan dari halaman Soal lalu pilih soal saat edit ujian.
-                    </span>
+                    <TableEmptyState
+                        title="Belum ada soal"
+                        description="Tambahkan dari halaman Soal lalu pilih soal saat edit ujian."
+                        iconProps={{ icon: BookOpen01 }}
+                    />
                 }
             />
 
@@ -179,9 +181,16 @@ export default function ExamDetailPage() {
                 onAdd={() => setInviteOpen(true)}
                 onDelete={(row) => removeInvitee(exam.id, row.id)}
                 emptyState={
-                    <span className="text-sm text-tertiary">
-                        Belum ada peserta. Klik &ldquo;Undang&rdquo; untuk mengundang.
-                    </span>
+                    <TableEmptyState
+                        title="Belum ada peserta"
+                        description="Klik “Undang” untuk mengundang peserta ke ujian ini."
+                        iconProps={{ icon: Users01 }}
+                        action={{
+                            label: "Undang",
+                            iconLeading: Plus,
+                            onClick: () => setInviteOpen(true),
+                        }}
+                    />
                 }
             />
 

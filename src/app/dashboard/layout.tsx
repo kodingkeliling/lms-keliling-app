@@ -166,9 +166,12 @@ function DashboardSidebar({ activeUrl }: { activeUrl: string }) {
                     >
                         <AvatarLabelGroup
                             size="md"
-                            initials={initials}
+                            src={isSuperAdmin ? APP_LOGO : undefined}
+                            initials={isSuperAdmin ? undefined : initials}
+                            alt={isSuperAdmin ? APP_NAME : user?.name || user?.email || "User"}
                             title={user?.name || user?.email || "—"}
-                            subtitle={user?.role === "SUPER_ADMIN" ? "Administrator" : "User"}
+                            subtitle={isSuperAdmin ? "Administrator" : "User"}
+                            contrastBorder={!isSuperAdmin}
                         />
                         <div className="absolute top-2 right-2 flex size-7 items-center justify-center rounded-md">
                             <ChevronSelectorVertical className="size-4 shrink-0 stroke-[2.25px] text-fg-quaternary" />

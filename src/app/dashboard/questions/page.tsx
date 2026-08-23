@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { BookOpen01 } from "@untitledui/icons";
+import { BookOpen01, Plus } from "@untitledui/icons";
 import { Badge } from "@/components/base/badges/badges";
-import { DataTable } from "@/components/shared/data-table";
+import { DataTable, TableEmptyState } from "@/components/shared/data-table";
 import { QuestionFormModal } from "@/components/dashboard/question-form-modal";
 import { useDashboardStore, type DashboardQuestion } from "@/store/use-dashboard-store";
 import { DashboardPageHeader } from "@/components/dashboard/page-header";
@@ -94,9 +94,16 @@ export default function QuestionsPage() {
                 onDelete={(row) => deleteQuestion(row.id)}
                 onRowClick={(row) => router.push(`/dashboard/questions/${row.id}`)}
                 emptyState={
-                    <span className="text-sm text-tertiary">
-                        Belum ada soal. Klik &ldquo;Tambah Soal&rdquo; untuk memulai.
-                    </span>
+                    <TableEmptyState
+                        title="Belum ada soal"
+                        description="Klik “Tambah Soal” untuk menambahkan soal pertama ke bank soal."
+                        iconProps={{ icon: BookOpen01 }}
+                        action={{
+                            label: "Tambah Soal",
+                            iconLeading: Plus,
+                            onClick: handleAdd,
+                        }}
+                    />
                 }
             />
 

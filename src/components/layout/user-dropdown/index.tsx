@@ -9,7 +9,7 @@ import { ChevronDown, Play, HomeLine, LayoutGrid02, LogOut01, Settings01, Edit03
 import { cx } from "@/utils/cx";
 import { getAvatarUrl } from "@/data/avatars";
 import { EditProfileModal } from "@/components/profile/edit-profile-modal";
-
+import { APP_LOGO, APP_NAME } from "@/config";
 import { useExamStore } from "@/store/use-exam-store";
 
 export function UserDropdown() {

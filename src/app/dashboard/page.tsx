@@ -1,9 +1,9 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { BookClosed, BookOpen01, Clock, Zap, Home01 } from "@untitledui/icons";
+import { BookClosed, BookOpen01, Zap, Home01 } from "@untitledui/icons";
 import { MetricsIcon03 } from "@/components/application/metrics/metrics";
-import { DataTable } from "@/components/shared/data-table";
+import { DataTable, TableEmptyState } from "@/components/shared/data-table";
 import { Badge } from "@/components/base/badges/badges";
 import { useExamStore, type ExamAttempt } from "@/store/use-exam-store";
 import { useAuthStore } from "@/store/use-auth-store";
@@ -126,10 +126,11 @@ export default function DashboardPage() {
                 onDelete={(row) => deleteExam(row.id)}
                 onRowClick={(row) => router.push(`/dashboard/exams/${row.id}`)}
                 emptyState={
-                    <div className="flex items-center gap-2 py-2 text-sm text-tertiary">
-                        <Clock className="size-4" />
-                        Belum ada ujian. Mulai dari halaman Ujian.
-                    </div>
+                    <TableEmptyState
+                        title="Belum ada ujian"
+                        description="Mulai dari halaman Ujian untuk membuat dan mengerjakan ujian pertama Anda."
+                        iconProps={{ icon: BookClosed }}
+                    />
                 }
             />
         </div>

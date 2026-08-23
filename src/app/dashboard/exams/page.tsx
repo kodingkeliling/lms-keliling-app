@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { BookClosed } from "@untitledui/icons";
+import { BookClosed, Plus } from "@untitledui/icons";
 import { Badge } from "@/components/base/badges/badges";
-import { DataTable } from "@/components/shared/data-table";
+import { DataTable, TableEmptyState } from "@/components/shared/data-table";
 import { ExamFormModal } from "@/components/dashboard/exam-form-modal";
 import { useDashboardStore, type DashboardExam } from "@/store/use-dashboard-store";
 import { DashboardPageHeader } from "@/components/dashboard/page-header";
@@ -118,9 +118,16 @@ export default function ExamsPage() {
                 onDelete={(row) => deleteExam(row.id)}
                 onRowClick={(row) => router.push(`/dashboard/exams/${row.id}`)}
                 emptyState={
-                    <span className="text-sm text-tertiary">
-                        Belum ada ujian. Klik &ldquo;Buat Ujian&rdquo; untuk memulai.
-                    </span>
+                    <TableEmptyState
+                        title="Belum ada ujian"
+                        description="Klik “Buat Ujian” untuk membuat ujian pertama Anda."
+                        iconProps={{ icon: BookClosed }}
+                        action={{
+                            label: "Buat Ujian",
+                            iconLeading: Plus,
+                            onClick: handleAdd,
+                        }}
+                    />
                 }
             />
 

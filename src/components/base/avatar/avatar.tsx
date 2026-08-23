@@ -119,7 +119,7 @@ export const Avatar = ({
                 "relative inline-flex shrink-0 items-center justify-center rounded-full bg-avatar-bg outline-transparent",
                 // Focus styles
                 focusable && "group-outline-focus-ring group-focus-visible:outline-2 group-focus-visible:outline-offset-2",
-                contrastBorder && "outline outline-avatar-contrast-border",
+                contrastBorder && "outline-1 -outline-offset-1 outline-avatar-contrast-border",
                 styles[size].root,
                 className,
             )}
