@@ -121,7 +121,7 @@ export function DataTable<T extends { id: string }>({
     const paginatedData =
         pageSize > 0 ? sorted.slice((currentPage - 1) * pageSize, currentPage * pageSize) : sorted;
 
-    const showPagination = !isLoading && pageSize > 0 && sorted.length > 0;
+    const showPagination = pageSize > 0 && (isLoading || sorted.length > 0);
 
     const defaultHeaderTrailing = (
         <div className="flex items-center gap-3">
@@ -346,7 +346,12 @@ export function DataTable<T extends { id: string }>({
                     </div>
 
                     {showPagination && (
-                        <TablePagination page={currentPage} total={totalPages} onPageChange={setPage} />
+                        <TablePagination
+                            page={currentPage}
+                            total={Math.max(totalPages, 1)}
+                            onPageChange={setPage}
+                            isLoading={isLoading}
+                        />
                     )}
                 </div>
             </div>
