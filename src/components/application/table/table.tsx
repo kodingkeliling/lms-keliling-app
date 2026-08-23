@@ -122,7 +122,7 @@ TableRoot.displayName = "Table";
 
 interface TableHeaderProps<T extends object>
     extends AriaTableHeaderProps<T>,
-        Omit<ComponentPropsWithRef<"thead">, "children" | "className" | "slot" | "style"> {
+    Omit<ComponentPropsWithRef<"thead">, "children" | "className" | "slot" | "style"> {
     bordered?: boolean;
 }
 
@@ -140,7 +140,7 @@ const TableHeader = <T extends object>({ columns, children, bordered = true, cla
 
                     // Row border—using an "after" pseudo-element to avoid the border taking up space.
                     bordered &&
-                        "[&>tr>th]:after:pointer-events-none [&>tr>th]:after:absolute [&>tr>th]:after:inset-x-0 [&>tr>th]:after:bottom-0 [&>tr>th]:after:h-px [&>tr>th]:after:bg-border-secondary [&>tr>th]:focus-visible:after:bg-transparent",
+                    "[&>tr>th]:after:pointer-events-none [&>tr>th]:after:absolute [&>tr>th]:after:inset-x-0 [&>tr>th]:after:bottom-0 [&>tr>th]:after:h-px [&>tr>th]:after:bg-border-secondary [&>tr>th]:focus-visible:after:bg-transparent",
 
                     typeof className === "function" ? className(state) : className,
                 )
@@ -212,7 +212,7 @@ TableHead.displayName = "TableHead";
 
 interface TableRowProps<T extends object>
     extends AriaRowProps<T>,
-        Omit<ComponentPropsWithRef<"tr">, "children" | "className" | "onClick" | "slot" | "style" | "id"> {
+    Omit<ComponentPropsWithRef<"tr">, "children" | "className" | "onClick" | "slot" | "style" | "id"> {
     highlightSelectedRow?: boolean;
 }
 

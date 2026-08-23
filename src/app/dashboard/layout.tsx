@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
-import { BookOpen01, Home01, LayoutAlt01, LogOut01, Settings01, Users01, Sun, Moon01, ChevronSelectorVertical, ArrowLeft, BookClosed } from "@untitledui/icons";
+import { BookOpen01, Home01, LayoutAlt01, LogOut01, Settings01, Users01, Sun, Moon01, ChevronSelectorVertical, ArrowLeft, BookClosed, CreditCard01 } from "@untitledui/icons";
 import { useTheme } from "next-themes";
 import { NavList } from "@/components/application/app-navigation/base-components/nav-list";
 import { FeaturedCardProgressBar } from "@/components/application/app-navigation/base-components/featured-cards";
@@ -66,10 +66,11 @@ const USER_FOOTER_ITEMS: NavItemType[] = [
     { label: "Playground", href: "/playground", icon: ArrowLeft },
 ];
 
-// Menu untuk SUPER_ADMIN — hanya manajemen user
+// Menu untuk SUPER_ADMIN — manajemen user & langganan
 const ADMIN_NAV_ITEMS: NavItemType[] = [
     { label: "Dashboard", href: "/dashboard", icon: Home01 },
     { label: "Users", href: "/dashboard/users", icon: Users01 },
+    { label: "Langganan", href: "/dashboard/subscriptions", icon: CreditCard01 },
 ];
 
 const ADMIN_FOOTER_ITEMS: NavItemType[] = [
@@ -226,11 +227,11 @@ export default function DashboardLayout({
     const pathname = usePathname() ?? "";
 
     return (
-        <div className="flex flex-col lg:flex-row min-h-screen bg-secondary_subtle">
+        <div className="flex flex-col lg:flex-row h-screen overflow-hidden bg-secondary_subtle">
             <DashboardSidebar activeUrl={pathname} />
 
-            <main className="flex flex-1 flex-col">
-                <div className="flex flex-1 flex-col p-6 lg:p-8">
+            <main className="flex flex-1 flex-col min-h-0">
+                <div className="flex flex-1 flex-col gap-0 min-h-0 p-6 lg:p-8">
                     {children}
                 </div>
             </main>
