@@ -189,6 +189,7 @@ export const RegisterPage = () => {
                         name="name"
                         placeholder="Masukkan nama lengkap"
                         size="md"
+                        maxLength={50}
                     />
                     <Input
                         isRequired

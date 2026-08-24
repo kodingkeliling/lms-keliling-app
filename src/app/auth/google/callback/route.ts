@@ -69,7 +69,7 @@ export async function GET(req: NextRequest) {
             user = await prisma.user.create({
                 data: {
                     email: userData.email,
-                    name: userData.name || "Google User",
+                    name: (userData.name || "Google User").slice(0, 50),
                     passwordHash: dummyPassword,
                     role: "USER",
                     isVerified: true, // Google emails are pre-verified

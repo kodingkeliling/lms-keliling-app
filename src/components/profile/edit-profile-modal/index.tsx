@@ -99,6 +99,7 @@ export const EditProfileModal = ({ isOpen, onClose }: EditProfileModalProps) => 
                     value={name}
                     onChange={setName}
                     placeholder="Masukkan nama lengkap kamu"
+                    maxLength={50}
                   />
                 </div>
 

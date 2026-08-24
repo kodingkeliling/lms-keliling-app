@@ -96,7 +96,7 @@ export default function SettingsPage() {
                     <label htmlFor="name" className="text-sm font-medium text-secondary">
                         Nama Lengkap
                     </label>
-                    <Input id="name" type="text" value={name} onChange={setName} />
+                    <Input id="name" type="text" value={name} onChange={setName} maxLength={50} />
                 </div>
 
                 <div className="flex flex-col gap-2">

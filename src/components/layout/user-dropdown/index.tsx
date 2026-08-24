@@ -11,6 +11,7 @@ import { getAvatarUrl } from "@/data/avatars";
 import { EditProfileModal } from "@/components/profile/edit-profile-modal";
 import { APP_LOGO, APP_NAME } from "@/config";
 import { useExamStore } from "@/store/use-exam-store";
+import { Tooltip } from "@/components/base/tooltip/tooltip";
 
 export function UserDropdown() {
     const pathname = usePathname() ?? "";
@@ -63,9 +64,11 @@ export function UserDropdown() {
                         alt={user?.name || "User Avatar"}
                         className="size-7 shrink-0 rounded-full object-cover"
                     />
-                    <span className="hidden sm:block max-w-[120px] truncate font-medium text-primary">
-                        {user?.name || user?.email}
-                    </span>
+                    <Tooltip title={user?.name || user?.email || ""} placement="bottom">
+                        <span className="hidden sm:block max-w-[120px] truncate font-medium text-primary">
+                            {user?.name || user?.email}
+                        </span>
+                    </Tooltip>
                     {/* Chevron */}
                     <ChevronDown className="size-3 text-tertiary transition-transform duration-200 group-data-[open]:rotate-180" />
                 </AriaButton>
@@ -73,8 +76,12 @@ export function UserDropdown() {
                 <Dropdown.Popover placement="bottom end" className="w-60">
                     <div className="flex items-center justify-between border-b border-secondary px-4 py-3">
                         <div className="flex flex-col min-w-0 pr-2">
-                            <p className="text-sm font-semibold text-primary truncate">{user?.name || "User"}</p>
-                            <p className="text-xs text-tertiary truncate">{user?.email}</p>
+                            <Tooltip title={user?.name || "User"} placement="bottom">
+                                <p className="text-sm font-semibold text-primary truncate">{user?.name || "User"}</p>
+                            </Tooltip>
+                            <Tooltip title={user?.email || ""} placement="bottom">
+                                <p className="text-xs text-tertiary truncate">{user?.email}</p>
+                            </Tooltip>
                         </div>
                         <button
                             type="button"
