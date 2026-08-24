@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef, useMemo } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, ChevronRight, LayoutGrid02, Zap, LogOut01, InfoCircle, Clock } from "@untitledui/icons";
+import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, ChevronRight, LayoutGrid02, Zap, LogOut01, InfoCircle, Clock, Infinity as InfinityIcon } from "@untitledui/icons";
 import { Button } from "../../components/base/buttons/button";
 import { FeaturedIcon } from "../../components/foundations/featured-icon/featured-icon";
 import { ProgressBar } from "../../components/base/progress-indicators/progress-indicators";
@@ -649,7 +649,7 @@ export const PlaygroundScreen = () => {
                                     {formatTimeLeft(timeLeftMs)}
                                 </span>
                             ) : (
-                                <span>Unlimited</span>
+                                <InfinityIcon className="size-3.5" />
                             )}
                         </div>
                     </div>

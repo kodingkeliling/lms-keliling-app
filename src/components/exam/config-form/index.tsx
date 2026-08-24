@@ -7,12 +7,12 @@ import { Checkbox } from "@/components/base/checkbox/checkbox";
 import { useAuthStore } from "@/store/use-auth-store";
 import { Input } from "@/components/base/input/input";
 import { Label } from "@/components/base/input/label";
-import { Select } from "@/components/base/select/select";
 import { SkillType, useExamStore } from "@/store/use-exam-store";
-import { File06, Translate01, BookOpen01, Clock } from "@untitledui/icons";
+import { File06, Translate01, Clock } from "@untitledui/icons";
 import { useToast } from "@/contexts/use-toast";
 import { getRandomDemoQuestions } from "@/data/demo-questions";
 import { MCPGuideModal } from "@/components/layout/mcp-guide-modal";
+import { Select } from "@/components/base/select/select";
 
 import { languageOptions } from "@/utils/countries";
 
@@ -24,8 +24,9 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
     const selectExam = useExamStore((state) => state.selectExam);
 
     const [language, setLanguage] = useState("English");
-    const [questionCount, setQuestionCount] = useState(10);
-    const [duration, setDuration] = useState<number | null>(null); // null = Unlimited
+    const [questionCount, setQuestionCount] = useState<number | "">(10);
+    const [duration, setDuration] = useState<number | "">(15);
+    const [isUnlimited, setIsUnlimited] = useState(false);
     const [selectedSkills, setSelectedSkills] = useState<SkillType[]>(["Reading"]);
     const [isLoading, setIsLoading] = useState(false);
     const { isAuthenticated, user } = useAuthStore();
@@ -38,8 +39,13 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
             return;
         }
 
-        if (questionCount <= 0) {
+        if (questionCount === "" || questionCount <= 0) {
             toastError("Jumlah soal harus lebih dari 0.", "Jumlah Tidak Valid");
+            return;
+        }
+
+        if (!isUnlimited && (duration === "" || duration <= 0)) {
+            toastError("Durasi harus lebih dari 0 menit.", "Durasi Tidak Valid");
             return;
         }
 
@@ -48,10 +54,10 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
             // Create exam
             const examId = createExamAction({
                 language,
-                questionCount,
+                questionCount: questionCount as number,
                 skills: selectedSkills,
-                duration,
-            }, undefined, true); // isDemo = true
+                duration: isUnlimited ? null : (duration as number),
+            }, undefined, true);
 
             // Generate demo questions according to chosen language
             const demoQuestions = getRandomDemoQuestions(questionCount, selectedSkills, language);
@@ -68,7 +74,7 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
             toastError("Gagal menyiapkan demo soal.", "Error");
             setIsLoading(false);
         }
-    }, [selectedSkills, questionCount, language, createExamAction, selectExam, setQuestions, router, toastError, toastSuccess]);
+    }, [selectedSkills, questionCount, language, duration, isUnlimited, createExamAction, selectExam, setQuestions, router, toastError, toastSuccess]);
 
     const toggleSkill = (skill: SkillType) => {
         setSelectedSkills((prev) =>
@@ -149,40 +155,57 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
                             inputMode="numeric"
                             value={questionCount.toString()}
                             onChange={(val: string) => {
-                                const num = parseInt(val) || 0;
-                                setQuestionCount(Math.max(0, Math.min(100, num)));
+                                if (val === "" || val === "-") {
+                                    setQuestionCount("");
+                                    return;
+                                }
+                                const num = parseInt(val);
+                                if (!isNaN(num)) setQuestionCount(Math.min(100, num));
                             }}
                             placeholder="Contoh: 10"
                             icon={File06}
-                            hint="Maksimal 100 soal untuk mode demo."
+                            isInvalid={questionCount === "" || questionCount === 0}
+                            hint={
+                                questionCount === "" || questionCount === 0
+                                    ? "Jumlah soal harus lebih dari 0."
+                                    : "Maksimal 100 soal untuk mode demo."
+                            }
                         />
                     </div>
 
                     {/* Exam Duration */}
                     <div className="flex flex-col gap-1.5">
-                        <Label>Durasi Ujian</Label>
-                        <Select
-                            selectedKey={duration === null ? "unlimited" : duration.toString()}
-                            onSelectionChange={(key) => {
-                                const val = key as string;
-                                setDuration(val === "unlimited" ? null : parseInt(val));
-                            }}
-                            placeholder="Pilih durasi"
-                            placeholderIcon={Clock}
-                            items={[
-                                { id: "unlimited", label: "Unlimited (Tanpa Batas)", icon: Clock },
-                                { id: "15", label: "15 Menit", icon: Clock },
-                                { id: "30", label: "30 Menit", icon: Clock },
-                                { id: "45", label: "45 Menit", icon: Clock },
-                                { id: "60", label: "60 Menit", icon: Clock },
-                            ]}
-                        >
-                            {(item) => (
-                                <Select.Item key={item.id} id={item.id} label={item.label} icon={item.icon}>
-                                    {item.label}
-                                </Select.Item>
-                            )}
-                        </Select>
+                        <div className="flex items-center justify-between">
+                            <Label>Durasi Ujian</Label>
+                            <Checkbox
+                                label="Unlimited"
+                                isSelected={isUnlimited}
+                                onChange={() => setIsUnlimited((v) => !v)}
+                            />
+                        </div>
+                        {!isUnlimited && (
+                            <Input
+                                type="number"
+                                inputMode="numeric"
+                                value={duration.toString()}
+                                onChange={(val: string) => {
+                                    if (val === "" || val === "-") {
+                                        setDuration("");
+                                        return;
+                                    }
+                                    const num = parseInt(val);
+                                    if (!isNaN(num)) setDuration(Math.min(1440, num));
+                                }}
+                                placeholder="Contoh: 15"
+                                icon={Clock}
+                                isInvalid={duration === "" || duration === 0}
+                                hint={
+                                    duration === "" || duration === 0
+                                        ? "Durasi harus lebih dari 0 menit."
+                                        : "Menit. Maksimal 1440 menit (24 jam)."
+                                }
+                            />
+                        )}
                     </div>
                 </div>
 
