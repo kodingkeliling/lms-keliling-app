@@ -27,7 +27,7 @@ export const Navbar = () => {
     const [mobileOpen, setMobileOpen] = useState(false);
     const [mcpModalOpen, setMcpModalOpen] = useState(false);
 
-    const { isAuthenticated, isAuthReady } = useAuthStore();
+    const { isAuthenticated, isAuthReady, isHydrated } = useAuthStore();
 
     return (
         <>
@@ -62,10 +62,14 @@ export const Navbar = () => {
                     <div className="flex items-center gap-3">
                         <ThemeToggle />
 
-                        {/* Show skeleton only while waiting for auth check AND persisted state says authenticated */}
-                        {!isAuthReady && isAuthenticated ? (
+                        {/* Skeleton until localStorage is hydrated.
+                            Then: if authenticated, wait for server check before showing avatar.
+                            If not authenticated after hydration, show buttons immediately. */}
+                        {!isHydrated ? (
                             <div className="h-9 w-24 animate-pulse rounded-lg bg-secondary" />
-                        ) : isAuthReady && isAuthenticated ? (
+                        ) : isAuthenticated && !isAuthReady ? (
+                            <div className="h-9 w-24 animate-pulse rounded-lg bg-secondary" />
+                        ) : isAuthenticated && isAuthReady ? (
                             <UserDropdown />
                         ) : (
                             <AuthButtons size="sm" className="hidden sm:flex" />
@@ -104,7 +108,7 @@ export const Navbar = () => {
                                 </Link>
                             );
                         })}
-                        {!isAuthReady && isAuthenticated ? null : !isAuthenticated && (
+                        {!isHydrated || (!isAuthReady && isAuthenticated) ? null : !isAuthenticated && (
                             <AuthButtons size="sm" className="pt-2 border-t border-secondary mt-2 flex-1" />
                         )}
                     </div>
