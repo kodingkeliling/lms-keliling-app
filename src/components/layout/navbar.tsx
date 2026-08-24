@@ -62,10 +62,10 @@ export const Navbar = () => {
                     <div className="flex items-center gap-3">
                         <ThemeToggle />
 
-                        {/* Wait until auth check is done to avoid flash */}
-                        {!isAuthReady ? (
+                        {/* Show skeleton only while waiting for auth check AND persisted state says authenticated */}
+                        {!isAuthReady && isAuthenticated ? (
                             <div className="h-9 w-24 animate-pulse rounded-lg bg-secondary" />
-                        ) : isAuthenticated ? (
+                        ) : isAuthReady && isAuthenticated ? (
                             <UserDropdown />
                         ) : (
                             <AuthButtons size="sm" className="hidden sm:flex" />
@@ -104,7 +104,7 @@ export const Navbar = () => {
                                 </Link>
                             );
                         })}
-                        {!isAuthReady ? null : !isAuthenticated && (
+                        {!isAuthReady && isAuthenticated ? null : !isAuthenticated && (
                             <AuthButtons size="sm" className="pt-2 border-t border-secondary mt-2 flex-1" />
                         )}
                     </div>
