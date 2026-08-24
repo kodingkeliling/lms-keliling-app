@@ -25,6 +25,12 @@ export const styles = sortCx({
         icon: "pointer-events-none size-5 shrink-0 transition-inherit-all",
     },
     sizes: {
+        xs: {
+            root: [
+                "gap-0.5 rounded-md px-2 py-1 text-xs font-semibold before:rounded-[5px] data-icon-only:p-1",
+            ].join(" "),
+            linkRoot: "gap-0.5",
+        },
         sm: {
             root: [
                 "gap-1 rounded-lg px-3 py-2 text-sm font-semibold before:rounded-[7px] data-icon-only:p-2",
@@ -191,6 +197,11 @@ export const Button = ({
     const isLinkType = ["link-gray", "link-color", "link-destructive"].includes(color);
     noTextPadding = isLinkType || noTextPadding;
 
+    // xs buttons use smaller icons
+    const iconClass = size === "xs"
+        ? "pointer-events-none size-3.5 shrink-0 transition-inherit-all"
+        : styles.common.icon;
+
     const sharedClassName = cx(
         styles.common.root,
         styles.sizes[size].root,
@@ -204,7 +215,7 @@ export const Button = ({
     const innerContent = (
         <>
             {isValidElement(IconLeading) && IconLeading}
-            {isReactComponent(IconLeading) && <IconLeading data-icon="leading" className={styles.common.icon} />}
+            {isReactComponent(IconLeading) && <IconLeading data-icon="leading" className={iconClass} />}
 
             {loading && (
                 <LoadingIndicator data-icon="loading" type="line-simple" size="xs" />
@@ -217,7 +228,7 @@ export const Button = ({
             )}
 
             {isValidElement(IconTrailing) && IconTrailing}
-            {isReactComponent(IconTrailing) && <IconTrailing data-icon="trailing" className={styles.common.icon} />}
+            {isReactComponent(IconTrailing) && <IconTrailing data-icon="trailing" className={iconClass} />}
         </>
     );
 

@@ -108,7 +108,7 @@ export const EditProfileModal = ({ isOpen, onClose }: EditProfileModalProps) => 
                   <label className="text-sm font-medium text-secondary">
                     Pilih Avatar Hewan
                   </label>
-                  <div className="grid grid-cols-4 gap-3 max-h-56 overflow-y-auto p-1">
+                  <div className="grid grid-cols-3 md:grid-cols-4 gap-3 max-h-56 overflow-y-auto p-1">
                     {ANIMAL_AVATARS.map((avatar: AnimalAvatar) => {
                       const isSelected = selectedAvatarId === avatar.id || selectedAvatarId === avatar.url;
                       return (

@@ -9,7 +9,7 @@ export async function POST(
 ) {
     try {
         const { id } = await params;
-        const { userAnswers, status } = await req.json();
+        const { userAnswers, status, startTime, endTime } = await req.json();
 
         // Try to authenticate the user
         const token = req.cookies.get(COOKIE_NAME)?.value;
@@ -34,10 +34,14 @@ export async function POST(
             return NextResponse.json({ error: "Forbidden" }, { status: 403 });
         }
 
-        // Update exam status
+        // Update exam status and timing
         await prisma.exam.update({
             where: { id: exam.id },
-            data: { status: status || "completed" }
+            data: {
+                status: status || "completed",
+                startTime: startTime ? new Date(startTime) : undefined,
+                endTime: endTime ? new Date(endTime) : undefined,
+            }
         });
 
         // Update answers for each question

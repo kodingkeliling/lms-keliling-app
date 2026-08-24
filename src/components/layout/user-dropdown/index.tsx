@@ -12,8 +12,10 @@ import { EditProfileModal } from "@/components/profile/edit-profile-modal";
 import { APP_LOGO, APP_NAME } from "@/config";
 import { useExamStore } from "@/store/use-exam-store";
 import { Tooltip, TooltipTrigger } from "@/components/base/tooltip/tooltip";
+import { Button } from "@/components/base/buttons/button";
+import { ThemeToggle } from "@/components/foundations/theme-toggle";
 
-export function UserDropdown() {
+export function UserDropdown({ isToogleTheme = false }: { isToogleTheme?: boolean }) {
     const pathname = usePathname() ?? "";
     const { user, logout } = useAuthStore();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -91,14 +93,19 @@ export function UserDropdown() {
                                 </TooltipTrigger>
                             </Tooltip>
                         </div>
-                        <button
-                            type="button"
-                            onClick={handleOpenEditModal}
-                            title="Edit Profil"
-                            className="flex size-7 shrink-0 items-center justify-center rounded-lg border border-secondary bg-primary hover:bg-secondary text-tertiary hover:text-primary transition-colors cursor-pointer"
-                        >
-                            <Edit03 className="size-3.5" />
-                        </button>
+                        {isToogleTheme ? (
+                            <ThemeToggle size="xs"/>
+                        ): (
+                            <Button
+                                type="button"
+                                onClick={handleOpenEditModal}
+                                title="Edit Profil"
+                                iconLeading={Edit03}
+                                size="xs"
+                                color="secondary"
+                            />
+                            )
+                        }
                     </div>
                     <Dropdown.Menu>
                         {dynamicItem && (

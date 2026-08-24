@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { PlaygroundNavbar } from "@/components/layout/playground-navbar";
+import { PlaygroundNavbar } from "@/components/layout/navbar/playground";
 import { PlaygroundExamList } from "@/components/playground/exam-list";
 import { TokenStatusCard } from "@/components/playground/token-status-card";
 import { Leaderboard } from "@/components/leaderboard";

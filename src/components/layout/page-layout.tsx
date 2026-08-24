@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { Navbar } from "./navbar";
+import { Navbar } from "./navbar/main";
 import { Footer } from "@/components/marketing/footer";
 import { ScrollToTop } from "./scroll-to-top";
 

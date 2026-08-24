@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef, useMemo } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, ChevronRight, LayoutGrid02, Zap, LogOut01, InfoCircle, Clock, Infinity as InfinityIcon } from "@untitledui/icons";
+import { ArrowLeft, ArrowRight, CheckCircle, ChevronLeft, ChevronRight, LayoutGrid02, Zap, LogOut01, InfoCircle, Clock, Infinity as InfinityIcon, XClose } from "@untitledui/icons";
 import { Button } from "../../components/base/buttons/button";
 import { FeaturedIcon } from "../../components/foundations/featured-icon/featured-icon";
 import { ProgressBar } from "../../components/base/progress-indicators/progress-indicators";
@@ -76,6 +76,25 @@ export const PlaygroundScreen = () => {
 
     // Exam Duration Countdown Timer
     const [timeLeftMs, setTimeLeftMs] = useState<number | null>(null);
+
+    // On mount: if exam is already completed due to timeout (e.g. after page reload),
+    // re-show the time-up modal so user can navigate to results.
+    useEffect(() => {
+        if (
+            activeExam?.status === "completed" &&
+            activeExam.config.duration &&
+            activeExam.startTime &&
+            activeExam.endTime
+        ) {
+            const durationMs = activeExam.config.duration * 60 * 1000;
+            const elapsed = activeExam.endTime - activeExam.startTime;
+            if (elapsed >= durationMs) {
+                setIsTimeUpModalOpen(true);
+            }
+        }
+    // Only run on initial mount / when activeExam id changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [activeExam?.id]);
 
     useEffect(() => {
         if (activeExam?.status !== "ongoing" || !activeExam?.startTime) {
@@ -527,7 +546,7 @@ export const PlaygroundScreen = () => {
                             </span>
                         </div>
                         <div className="flex items-center gap-2.5">
-                            <ThemeToggle />
+                            <ThemeToggle size="xs" />
                             {isAuthenticated && (
                                 <div className="hidden md:block">
                                     <UserDropdown />
@@ -661,25 +680,27 @@ export const PlaygroundScreen = () => {
                     </div>
 
                     <div className="flex items-center gap-2.5">
-                        <ThemeToggle />
-                        {isAuthenticated && (
-                            <div className="hidden md:block">
-                                <UserDropdown />
-                            </div>
-                        )}
                         <Button className="md:hidden" color="secondary" size="sm" iconLeading={LayoutGrid02} onClick={() => setIsMobileMenuOpen(true)} />
+                        <ThemeToggle className="hidden md:block" />
+                        {isAuthenticated && <UserDropdown isToogleTheme />}
                     </div>
                 </div>
             </header>
 
             {/* Mobile Navigation Drawer */}
             {isMobileMenuOpen && (
-                <div className="fixed inset-0 z-40 flex items-end justify-center bg-overlay/40 backdrop-blur-sm md:hidden">
-                    <div className="w-full bg-primary rounded-t-3xl p-6 shadow-2xl animate-in slide-in-from-bottom duration-300">
+                <div
+                    className="fixed inset-0 z-40 flex items-end justify-center bg-overlay/40 backdrop-blur-sm md:hidden"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                >
+                    <div
+                        className="w-full bg-primary rounded-t-3xl p-6 shadow-2xl animate-in slide-in-from-bottom duration-300"
+                        onClick={(e) => e.stopPropagation()}
+                    >
                         <div className="mx-auto mb-4 h-1 w-12 rounded-full bg-secondary" onClick={() => setIsMobileMenuOpen(false)} />
                         <div className="flex items-center justify-between mb-4">
                             <h3 className="text-lg font-semibold text-primary">Jump to Question</h3>
-                            <Button size="sm" color="tertiary" onClick={() => setIsMobileMenuOpen(false)}>Close</Button>
+                            <Button size="sm" color="tertiary" onClick={() => setIsMobileMenuOpen(false)} iconLeading={XClose}/>
                         </div>
                         {totalPages > 1 && (
                             <div className="flex items-center justify-between gap-2 mb-4 border-b border-secondary pb-3">
@@ -941,7 +962,9 @@ export const PlaygroundScreen = () => {
                             headers: { "Content-Type": "application/json" },
                             body: JSON.stringify({
                                 userAnswers: activeExam.userAnswers,
-                                status: "completed"
+                                status: "completed",
+                                startTime: activeExam.startTime,
+                                endTime: Date.now(),
                             })
                         }).catch((err) => console.error("Failed to submit exam:", err));
                     }

@@ -117,7 +117,8 @@ export async function GET(
             config: {
                 language: exam!.language,
                 questionCount: exam!.questions.length,
-                skills: exam!.skills as SkillType[]
+                skills: exam!.skills as SkillType[],
+                duration: exam!.duration ?? null,
             },
             questions: mappedQuestions,
             userAnswers: exam!.questions.reduce((acc: any, q) => {
@@ -128,8 +129,8 @@ export async function GET(
             }, {}),
             status: exam!.status as any,
             currentQuestionIndex: 0,
-            startTime: null,
-            endTime: null,
+            startTime: exam!.startTime ? exam!.startTime.getTime() : null,
+            endTime: exam!.endTime ? exam!.endTime.getTime() : null,
             isPublic: exam!.isPublic ?? false,
             ownedBy: (exam!.userId === dbUser?.id && !exam!.originalExamId) ? undefined : ownerDisplayName
         };

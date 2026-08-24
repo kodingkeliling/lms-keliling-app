@@ -10,17 +10,57 @@ import { useAuthStore } from "../../store/use-auth-store";
 import { cx } from "../../utils/cx";
 import { Markdown } from "../../components/shared-assets/markdown";
 import { calculateSimilarity } from "../../utils/string-similarity";
-import { PlaygroundNavbar } from "../../components/layout/playground-navbar";
+import { PlaygroundNavbar } from "../../components/layout/navbar/playground";
 import ConfirmationModal from "@/components/layout/confirmation-modal";
 import { AuthGate } from "@/components/shared-assets/auth-gate";
+
+// ── Skeleton ──────────────────────────────────────────────────────────────────
+const ResultSkeleton = () => (
+    <div className="flex min-h-dvh flex-col bg-primary">
+        <PlaygroundNavbar />
+        <div className="flex-1 px-4 py-8 md:px-8">
+            <div className="mx-auto flex w-full max-w-3xl flex-col gap-8 animate-pulse">
+                {/* Score summary */}
+                <div className="flex flex-col items-center gap-6">
+                    <div className="size-16 rounded-full bg-secondary" />
+                    <div className="flex flex-col items-center gap-2">
+                        <div className="h-8 w-48 rounded-lg bg-secondary" />
+                        <div className="h-5 w-64 rounded-lg bg-secondary" />
+                    </div>
+                    <div className="flex gap-3">
+                        <div className="h-11 w-32 rounded-lg bg-secondary" />
+                        <div className="h-11 w-36 rounded-lg bg-secondary" />
+                    </div>
+                </div>
+
+                {/* Stats grid */}
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+                    {[...Array(3)].map((_, i) => (
+                        <div key={i} className="rounded-xl border border-secondary p-5 flex flex-col items-center gap-2">
+                            <div className="h-3 w-20 rounded bg-secondary" />
+                            <div className="h-9 w-16 rounded-lg bg-secondary" />
+                            <div className="h-3 w-24 rounded bg-secondary" />
+                        </div>
+                    ))}
+                </div>
+
+                <hr className="border-secondary" />
+
+                {/* Review toggle */}
+                <div className="h-16 w-full rounded-xl border border-secondary bg-secondary/20" />
+            </div>
+        </div>
+    </div>
+);
 
 export const ResultScreen = () => {
     const router = useRouter();
     const params = useParams();
     const id = params?.id as string | undefined;
     const activeExam = useActiveExam();
-    const { selectExam, exams, retryActiveExam } = useExamStore();
+    const { selectExam, exams, retryActiveExam, hasHydrated } = useExamStore();
     const user = useAuthStore((state) => state.user);
+    const { isAuthReady } = useAuthStore();
     const [isReviewOpen, setIsReviewOpen] = useState(false);
     const [isRetakeConfirmOpen, setIsRetakeConfirmOpen] = useState(false);
 
@@ -42,7 +82,9 @@ export const ResultScreen = () => {
                     createdAt: activeExam.createdAt,
                     config: activeExam.config,
                     questions: activeExam.questions,
-                    status: activeExam.status || "completed"
+                    status: activeExam.status || "completed",
+                    startTime: activeExam.startTime,
+                    endTime: activeExam.endTime,
                 })
             }).then(() => {
                 if (Object.keys(activeExam.userAnswers || {}).length > 0) {
@@ -51,7 +93,9 @@ export const ResultScreen = () => {
                         headers: { "Content-Type": "application/json" },
                         body: JSON.stringify({
                             userAnswers: activeExam.userAnswers,
-                            status: "completed"
+                            status: "completed",
+                            startTime: activeExam.startTime,
+                            endTime: activeExam.endTime,
                         })
                     }).catch((err) => console.error("Failed to submit exam:", err));
                 }
@@ -59,8 +103,13 @@ export const ResultScreen = () => {
         }
     }, [user, activeExam?.id]);
 
+    // Store not yet rehydrated from localStorage → show skeleton
+    if (!hasHydrated || !isAuthReady) {
+        return <ResultSkeleton />;
+    }
+
     if (!activeExam || (activeExam.id !== id && exams.find(e => e.id === id))) {
-        return <div className="flex h-dvh items-center justify-center">Memuat hasil...</div>;
+        return <ResultSkeleton />;
     }
 
     if (!activeExam || activeExam.questions.length === 0) {
@@ -156,7 +205,7 @@ export const ResultScreen = () => {
                     <div className="flex flex-col items-center gap-6 text-center">
                         <div className="relative">
                             <FeaturedIcon icon={Zap} color="brand" theme="dark" size="xl" />
-                            <div className="absolute -top-1 -right-1 flex size-6 items-center justify-center rounded-full bg-success-600 text-[10px] font-bold text-white ring-2 ring-white">
+                            <div className="absolute -top-1 -right-1 flex size-6 items-center justify-center rounded-full bg-brand-500 text-[10px] font-bold text-white ring-2 ring-white">
                                 {scorePercentage}%
                             </div>
                         </div>

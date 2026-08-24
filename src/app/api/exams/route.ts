@@ -32,7 +32,8 @@ export async function GET(req: NextRequest) {
             config: {
                 language: exam.language,
                 questionCount: exam.questions.length,
-                skills: exam.skills as SkillType[]
+                skills: exam.skills as SkillType[],
+                duration: exam.duration ?? null,
             },
             questions: exam.questions.map((q) => {
                 let description = q.content;
@@ -57,8 +58,8 @@ export async function GET(req: NextRequest) {
             }, {}),
             status: exam.status as any,
             currentQuestionIndex: 0,
-            startTime: null,
-            endTime: null,
+            startTime: exam.startTime ? exam.startTime.getTime() : null,
+            endTime: exam.endTime ? exam.endTime.getTime() : null,
             isPublic: exam.isPublic ?? false,
             ownedBy: exam.user?.name || exam.user?.email || exam.userId
         }));
@@ -85,15 +86,13 @@ export async function POST(req: NextRequest) {
         }
 
         const body = await req.json();
-        const { id, createdAt, config, questions, status, isPublic } = body;
+        const { id, createdAt, config, questions, status, isPublic, startTime, endTime } = body;
 
         if (!id || !config || !questions) {
             return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
         }
 
-        const existingExam = await prisma.exam.findUnique({
-            where: { id }
-        });
+        const existingExam = await prisma.exam.findUnique({ where: { id } });
 
         if (existingExam) {
             await prisma.exam.update({
@@ -101,9 +100,12 @@ export async function POST(req: NextRequest) {
                 data: {
                     status: status || existingExam.status,
                     isPublic: typeof isPublic === "boolean" ? isPublic : existingExam.isPublic,
+                    startTime: startTime ? new Date(startTime) : existingExam.startTime,
+                    endTime: endTime ? new Date(endTime) : existingExam.endTime,
+                    duration: config.duration ?? existingExam.duration,
                 }
             });
-            return NextResponse.json({ success: true, message: "Exam status updated" });
+            return NextResponse.json({ success: true, message: "Exam updated" });
         }
 
         const createdExam = await prisma.exam.create({
@@ -115,7 +117,10 @@ export async function POST(req: NextRequest) {
                 provider: "auto",
                 status: status || "ongoing",
                 isPublic: typeof isPublic === "boolean" ? isPublic : false,
-                createdAt: createdAt ? new Date(createdAt) : new Date()
+                createdAt: createdAt ? new Date(createdAt) : new Date(),
+                duration: config.duration ?? null,
+                startTime: startTime ? new Date(startTime) : null,
+                endTime: endTime ? new Date(endTime) : null,
             }
         });
 

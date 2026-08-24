@@ -113,6 +113,10 @@ model Exam {
   originalExamId String?
   isPublic   Boolean  @default(false)
 
+  startTime  DateTime?
+  endTime    DateTime?
+  duration   Int?      // in minutes; null = unlimited
+
   questions  Question[]
 
   createdAt  DateTime @default(now())
