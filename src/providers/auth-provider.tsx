@@ -28,6 +28,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
                     const data = await res.json();
                     setUser(data.user);
                 } else {
+                    // Token rejected by server — clear the cookie so middleware
+                    // stops treating the user as authenticated.
+                    await fetch("/api/auth/logout", { method: "POST" }).catch(() => {});
                     logout();
                 }
             } catch {

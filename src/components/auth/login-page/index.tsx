@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,6 +21,7 @@ export const LoginPage = () => {
     const router = useRouter();
     const searchParams = useSearchParams();
     const setUser = useAuthStore((state) => state.setUser);
+    const { isAuthenticated, isAuthReady } = useAuthStore();
 
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
@@ -30,6 +31,15 @@ export const LoginPage = () => {
     const isVerified = searchParams?.get("verified") === "true";
     const urlError = searchParams?.get("error");
     const isVerificationError = urlError && urlError.toLowerCase().includes("verifi");
+
+    // If auth check is done and user is already logged in, redirect away.
+    // This handles the case where the cookie is valid but Zustand state was
+    // restored after the page mounted (e.g. after a hard refresh).
+    useEffect(() => {
+        if (isAuthReady && isAuthenticated) {
+            router.replace(redirectParam ?? "/playground");
+        }
+    }, [isAuthReady, isAuthenticated, redirectParam, router]);
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();

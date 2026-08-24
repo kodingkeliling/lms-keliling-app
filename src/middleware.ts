@@ -29,7 +29,8 @@ export async function middleware(req: NextRequest) {
 
     // Already logged in → redirect away from auth pages
     if (isAuthPage && role) {
-        const dest = role === "SUPER_ADMIN" ? "/dashboard" : "/";
+        const redirectTo = req.nextUrl.searchParams.get("redirect");
+        const dest = redirectTo ?? (role === "SUPER_ADMIN" ? "/dashboard" : "/playground");
         return NextResponse.redirect(new URL(dest, req.url));
     }
 
