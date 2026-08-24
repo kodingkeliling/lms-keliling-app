@@ -6,6 +6,7 @@ import { Badge, BadgeWithIcon } from "@/components/base/badges/badges";
 import { PlanBadge } from "@/components/base/badges/plan-badge";
 import { Button } from "@/components/base/buttons/button";
 import { useRouter } from "next/navigation";
+import { useAuthStore } from "@/store/use-auth-store";
 import { LeaderboardUser } from "../index";
 import { cx } from "@/utils/cx";
 
@@ -97,6 +98,7 @@ interface TopRankCardProps {
 
 export const TopRankCard = ({ user, loading = false, className }: TopRankCardProps) => {
     const router = useRouter();
+    const { isAuthenticated } = useAuthStore();
 
     if (loading) {
         return (
@@ -204,7 +206,7 @@ export const TopRankCard = ({ user, loading = false, className }: TopRankCardPro
                 size="md"
                 color="primary"
                 iconTrailing={ArrowRight}
-                onClick={() => router.push("/playground")}
+                onClick={() => router.push(isAuthenticated ? "/playground" : "/login")}
                 className="w-full justify-center"
             >
                 Kejar Peringkat #1
