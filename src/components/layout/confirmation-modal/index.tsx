@@ -15,6 +15,7 @@ interface ConfirmationModalProps {
   iconColor?: "error" | "warning" | "brand" | "gray" | "success";
   isLoading?: boolean;
   hideCancelButton?: boolean;
+  requireActionToClose?: boolean;
 }
 
 export const ConfirmationModal = ({
@@ -29,6 +30,7 @@ export const ConfirmationModal = ({
   iconColor = "error",
   isLoading = false,
   hideCancelButton = false,
+  requireActionToClose = false,
 }: ConfirmationModalProps) => {
   return (
     <Modal
@@ -40,6 +42,7 @@ export const ConfirmationModal = ({
       icon={AlertCircle}
       iconColor={iconColor}
       iconTheme="modern"
+      requireActionToClose={requireActionToClose}
       primaryAction={{
         label: confirmLabel,
         onClick: onConfirm,

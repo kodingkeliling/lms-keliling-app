@@ -983,6 +983,7 @@ export const PlaygroundScreen = () => {
                 confirmColor="primary"
                 iconColor="warning"
                 hideCancelButton
+                requireActionToClose
             />
 
             <Modal
