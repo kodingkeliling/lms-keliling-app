@@ -13,41 +13,50 @@ import { calculateSimilarity } from "../../utils/string-similarity";
 import { PlaygroundNavbar } from "../../components/layout/navbar/playground";
 import ConfirmationModal from "@/components/layout/confirmation-modal";
 import { AuthGate } from "@/components/shared-assets/auth-gate";
+import { LeaderboardSidebar } from "@/components/shared-assets/leaderboard-sidebar";
 
 // ── Skeleton ──────────────────────────────────────────────────────────────────
 const ResultSkeleton = () => (
     <div className="flex min-h-dvh flex-col bg-primary">
         <PlaygroundNavbar />
         <div className="flex-1 px-4 py-8 md:px-8">
-            <div className="mx-auto flex w-full max-w-3xl flex-col gap-8 animate-pulse">
-                {/* Score summary */}
-                <div className="flex flex-col items-center gap-6">
-                    <div className="size-16 rounded-full bg-secondary" />
-                    <div className="flex flex-col items-center gap-2">
-                        <div className="h-8 w-48 rounded-lg bg-secondary" />
-                        <div className="h-5 w-64 rounded-lg bg-secondary" />
-                    </div>
-                    <div className="flex gap-3">
-                        <div className="h-11 w-32 rounded-lg bg-secondary" />
-                        <div className="h-11 w-36 rounded-lg bg-secondary" />
-                    </div>
-                </div>
-
-                {/* Stats grid */}
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-                    {[...Array(3)].map((_, i) => (
-                        <div key={i} className="rounded-xl border border-secondary p-5 flex flex-col items-center gap-2">
-                            <div className="h-3 w-20 rounded bg-secondary" />
-                            <div className="h-9 w-16 rounded-lg bg-secondary" />
-                            <div className="h-3 w-24 rounded bg-secondary" />
+            <div className="mx-auto flex w-full max-w-container flex-col gap-6 md:flex-row md:gap-8 lg:gap-12 items-start">
+                {/* Left — result skeleton */}
+                <div className="flex flex-1 flex-col gap-8 animate-pulse order-first min-w-0">
+                    <div className="flex flex-col items-center gap-6">
+                        <div className="size-16 rounded-full bg-secondary" />
+                        <div className="flex flex-col items-center gap-2">
+                            <div className="h-8 w-48 rounded-lg bg-secondary" />
+                            <div className="h-5 w-64 rounded-lg bg-secondary" />
                         </div>
-                    ))}
+                        <div className="flex gap-3">
+                            <div className="h-11 w-32 rounded-lg bg-secondary" />
+                            <div className="h-11 w-36 rounded-lg bg-secondary" />
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+                        {[...Array(3)].map((_, i) => (
+                            <div key={i} className="rounded-xl border border-secondary p-5 flex flex-col items-center gap-2">
+                                <div className="h-3 w-20 rounded bg-secondary" />
+                                <div className="h-9 w-16 rounded-lg bg-secondary" />
+                                <div className="h-3 w-24 rounded bg-secondary" />
+                            </div>
+                        ))}
+                    </div>
+                    <hr className="border-secondary" />
+                    <div className="h-16 w-full rounded-xl border border-secondary bg-secondary/20" />
                 </div>
-
-                <hr className="border-secondary" />
-
-                {/* Review toggle */}
-                <div className="h-16 w-full rounded-xl border border-secondary bg-secondary/20" />
+                {/* Right — leaderboard skeleton */}
+                <aside className="order-last w-full md:w-[420px] lg:w-[460px] shrink-0">
+                    <div className="lg:sticky lg:top-[72px] rounded-2xl border border-secondary p-6 flex flex-col gap-4 animate-pulse">
+                        <div className="h-6 w-40 rounded-lg bg-secondary" />
+                        <div className="h-4 w-56 rounded bg-secondary" />
+                        <div className="h-10 w-full rounded-lg bg-secondary" />
+                        {[...Array(5)].map((_, i) => (
+                            <div key={i} className="h-12 w-full rounded-xl bg-secondary" />
+                        ))}
+                    </div>
+                </aside>
             </div>
         </div>
     </div>
@@ -199,7 +208,10 @@ export const ResultScreen = () => {
         <div className="flex min-h-dvh flex-col bg-primary">
             <PlaygroundNavbar />
             <div className="flex-1 px-4 py-8 md:px-8">
-                <div className="mx-auto flex w-full max-w-3xl flex-col gap-8">
+                <div className="mx-auto flex w-full max-w-container flex-1 flex-col gap-6 lg:flex-row md:gap-8 lg:gap-12">
+
+                    {/* LEFT — result content */}
+                    <div className="flex flex-1 flex-col gap-8 min-w-0 w-full order-first self-start">
 
                     {/* Score Summary */}
                     <div className="flex flex-col items-center gap-6 text-center">
@@ -231,21 +243,16 @@ export const ResultScreen = () => {
 
                     {/* Statistics Grid */}
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-                        {/* Score Card */}
                         <div className="rounded-xl border border-secondary bg-secondary/20 p-5 text-center flex flex-col gap-1.5 shadow-xs">
                             <span className="text-xs font-semibold text-tertiary uppercase tracking-wider">Skor Akhir</span>
                             <span className="text-3xl font-bold text-primary">{scorePercentage}%</span>
                             <span className="text-xs text-tertiary">Akurasi jawaban</span>
                         </div>
-
-                        {/* Time Duration Card */}
                         <div className="rounded-xl border border-secondary bg-secondary/20 p-5 text-center flex flex-col gap-1.5 shadow-xs">
                             <span className="text-xs font-semibold text-tertiary uppercase tracking-wider">Durasi</span>
                             <span className="text-3xl font-bold text-primary">{durationStr}</span>
                             <span className="text-xs text-tertiary">Waktu pengerjaan</span>
                         </div>
-
-                        {/* Correct answers count */}
                         <div className="rounded-xl border border-secondary bg-secondary/20 p-5 text-center flex flex-col gap-1.5 shadow-xs">
                             <span className="text-xs font-semibold text-tertiary uppercase tracking-wider">Rincian Jawaban</span>
                             <span className="text-3xl font-bold text-primary">{correctAnswersCount} / {gradableQuestions.length}</span>
@@ -292,14 +299,12 @@ export const ResultScreen = () => {
                                                 try {
                                                     const userAnsArr = JSON.parse(userAnswerRaw || "[]");
                                                     const correctAnsArr = q.answer.split("|->").map(a => a.trim());
-
                                                     let totalSimilarity = 0;
                                                     correctAnsArr.forEach((correct, i) => {
                                                         totalSimilarity += calculateSimilarity(userAnsArr[i] || "", correct);
                                                     });
                                                     similarity = correctAnsArr.length > 0 ? totalSimilarity / correctAnsArr.length : 0;
                                                     isCorrect = similarity >= 0.9;
-
                                                     userAnsDisplay = Array.isArray(userAnsArr) ? userAnsArr.join(", ") : userAnswerRaw;
                                                 } catch {
                                                     similarity = calculateSimilarity(userAnswerRaw, q.answer);
@@ -329,7 +334,9 @@ export const ResultScreen = () => {
                                                         )}>
                                                             {isCorrect ? <CheckCircle className="size-4" /> : <XCircle className="size-4" />}
                                                             {isCorrect ? "Benar" : "Salah"}
-                                                            {(isWriting || q.skill.toLowerCase() === "speaking") && <span className="text-xs text-tertiary ml-1">({Math.round(similarity * 100)}% match)</span>}
+                                                            {(isWriting || q.skill.toLowerCase() === "speaking") && (
+                                                                <span className="text-xs text-tertiary ml-1">({Math.round(similarity * 100)}% match)</span>
+                                                            )}
                                                         </div>
                                                     )}
                                                 </div>
@@ -374,6 +381,17 @@ export const ResultScreen = () => {
                             </div>
                         </div>
                     </div>
+                    </div>
+                    {/* end LEFT */}
+
+                    {/* RIGHT on desktop / BOTTOM on mobile — leaderboard */}
+                    <LeaderboardSidebar
+                        showTokenCard
+                        title="Papan Peringkat"
+                        description="Lihat posisi kamu setelah menyelesaikan ujian ini."
+                        className="order-last w-full lg:w-[460px] shrink-0"
+                    />
+
                 </div>
             </div>
 

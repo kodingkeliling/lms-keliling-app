@@ -3,8 +3,7 @@
 import { useEffect, useState } from "react";
 import { PlaygroundNavbar } from "@/components/layout/navbar/playground";
 import { PlaygroundExamList } from "@/components/playground/exam-list";
-import { TokenStatusCard } from "@/components/playground/token-status-card";
-import { Leaderboard } from "@/components/leaderboard";
+import { LeaderboardSidebar } from "@/components/shared-assets/leaderboard-sidebar";
 import { ArrowUp } from "@untitledui/icons";
 import { cx } from "@/utils/cx";
 
@@ -50,17 +49,14 @@ export const PlaygroundHome = () => {
 
             <main className="flex flex-1 flex-col">
                 {/* Two-column layout */}
-                <div className="mx-auto flex w-full max-w-container flex-1 flex-col gap-6 px-4 py-6 md:flex-row md:gap-8 md:px-8 md:py-8 lg:gap-12 items-start">
-                    {/* RIGHT — form generator (order-first on mobile) */}
-                    <aside className="order-first md:order-last w-full md:w-[420px] lg:w-[460px] shrink-0 flex flex-col gap-4">
-                        <TokenStatusCard />
-                        <div className="md:sticky md:top-24">
-                            <Leaderboard />
-                        </div>
-                    </aside>
+                <div className="mx-auto flex w-full max-w-container flex-1 flex-col gap-6 px-4 py-6 md:flex-row md:gap-8 md:px-8 md:py-8 lg:gap-12">
+                    {/* RIGHT — sidebar (order-first on mobile) */}
+                    <LeaderboardSidebar
+                        showTokenCard
+                    />
 
                     {/* LEFT — exam list */}
-                    <section className="flex-1 min-w-0 w-full order-last md:order-first">
+                    <section className="flex-1 min-w-0 w-full order-last md:order-first self-start">
                         <PlaygroundExamList />
                     </section>
                 </div>
