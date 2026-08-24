@@ -12,6 +12,7 @@ import { cx } from "@/utils/cx";
 import { LogoWithTitle } from "@/components/shared-assets/logo-with-title";
 import { MCPGuideModal } from "@/components/layout/mcp-guide-modal";
 import { UserDropdown } from "@/components/layout/user-dropdown";
+import { AuthButtons } from "@/components/shared-assets/auth-buttons";
 
 const NAV_ITEMS = [
     { label: "Beranda", href: "/" },
@@ -67,12 +68,7 @@ export const Navbar = () => {
                         ) : isAuthenticated ? (
                             <UserDropdown />
                         ) : (
-                            <>
-                                <Button size="sm" color="secondary" href="/login" className="hidden sm:flex">
-                                    Masuk
-                                </Button>
-                                <Button size="sm" href="/register" className="hidden md:flex">Daftar Gratis</Button>
-                            </>
+                            <AuthButtons size="sm" className="hidden sm:flex" />
                         )}
 
                         {/* Mobile hamburger */}
@@ -109,10 +105,7 @@ export const Navbar = () => {
                             );
                         })}
                         {!isAuthReady ? null : !isAuthenticated && (
-                            <div className="flex gap-2 pt-2 border-t border-secondary mt-2">
-                                <Button size="sm" color="secondary" href="/login" className="flex-1">Masuk</Button>
-                                <Button size="sm" href="/register" className="flex-1">Daftar Gratis</Button>
-                            </div>
+                            <AuthButtons size="sm" className="pt-2 border-t border-secondary mt-2 flex-1" />
                         )}
                     </div>
                 )}

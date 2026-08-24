@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@/components/base/buttons/button";
 import { useAuthStore } from "@/store/use-auth-store";
 import { SOCIAL_LINKS } from "@/data/social-links";
 import { LogoWithTitle } from "@/components/shared-assets/logo-with-title";
+import { AuthButtons } from "@/components/shared-assets/auth-buttons";
 
 const NAV_LINKS = [
     { label: "Beranda", href: "/" },
@@ -35,14 +35,7 @@ export const Footer = () => {
                     {isAuthReady && !isAuthenticated && (
                         <div className="flex flex-col gap-3">
                             <p className="text-sm font-semibold text-secondary">Mulai sekarang, gratis</p>
-                            <div className="flex flex-col gap-2 sm:flex-row">
-                                <Button size="md" color="secondary" href="/login">
-                                    Masuk
-                                </Button>
-                                <Button size="md" href="/register">
-                                    Daftar Gratis
-                                </Button>
-                            </div>
+                            <AuthButtons size="md" className="flex-col sm:flex-row" />
                         </div>
                     )}
                 </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, useParams } from "next/navigation";
-import { CheckCircle, ChevronDown, Home01, RefreshCcw01, XCircle, Zap, Lock01, LogIn01 } from "@untitledui/icons";
+import { CheckCircle, ChevronDown, RefreshCcw01, XCircle, Zap } from "@untitledui/icons";
 import { Button } from "../../components/base/buttons/button";
 import { FeaturedIcon } from "../../components/foundations/featured-icon/featured-icon";
 import { useEffect, useState } from "react";
@@ -12,6 +12,7 @@ import { Markdown } from "../../components/shared-assets/markdown";
 import { calculateSimilarity } from "../../utils/string-similarity";
 import { PlaygroundNavbar } from "../../components/layout/playground-navbar";
 import ConfirmationModal from "@/components/layout/confirmation-modal";
+import { AuthGate } from "@/components/shared-assets/auth-gate";
 
 export const ResultScreen = () => {
     const router = useRouter();
@@ -72,46 +73,11 @@ export const ResultScreen = () => {
         return (
             <div className="flex min-h-dvh flex-col bg-primary">
                 <PlaygroundNavbar />
-                <div className="flex flex-1 flex-col items-center justify-center px-4 py-16">
-                    <div className="w-full max-w-md rounded-2xl border border-secondary bg-primary p-10 shadow-xl text-center flex flex-col items-center gap-6">
-                        <div className="flex size-16 items-center justify-center rounded-full bg-brand-100 text-brand-600">
-                            <Lock01 className="size-8" />
-                        </div>
-                        <div className="flex flex-col gap-2">
-                            <h1 className="text-2xl font-semibold text-primary">Login untuk Melihat Hasil</h1>
-                            <p className="text-sm text-tertiary leading-relaxed">
-                                Hasil ujianmu sudah siap! Buat akun atau login terlebih dahulu untuk melihat skor dan ulasan jawaban kamu.
-                            </p>
-                        </div>
-                        <div className="flex flex-col w-full gap-3">
-                            <Button
-                                size="lg"
-                                iconLeading={LogIn01}
-                                onClick={() => router.push(`/login?redirect=/result/${id}`)}
-                                className="w-full"
-                            >
-                                Login Sekarang
-                            </Button>
-                            <Button
-                                size="lg"
-                                color="secondary"
-                                onClick={() => router.push("/register")}
-                                className="w-full"
-                            >
-                                Daftar Gratis
-                            </Button>
-                            <Button
-                                size="sm"
-                                color="tertiary"
-                                iconLeading={Home01}
-                                onClick={() => router.push("/")}
-                                className="w-full"
-                            >
-                                Kembali ke Beranda
-                            </Button>
-                        </div>
-                    </div>
-                </div>
+                <AuthGate
+                    redirectAfterLogin={`/result/${id}`}
+                    title="Login untuk Melihat Hasil"
+                    description="Hasil ujianmu sudah siap! Buat akun atau login terlebih dahulu untuk melihat skor dan ulasan jawaban kamu."
+                />
             </div>
         );
     }
