@@ -14,6 +14,7 @@ interface ConfirmationModalProps {
   confirmColor?: "primary-destructive" | "primary" | "secondary";
   iconColor?: "error" | "warning" | "brand" | "gray" | "success";
   isLoading?: boolean;
+  hideCancelButton?: boolean;
 }
 
 export const ConfirmationModal = ({
@@ -27,6 +28,7 @@ export const ConfirmationModal = ({
   confirmColor = "primary-destructive",
   iconColor = "error",
   isLoading = false,
+  hideCancelButton = false,
 }: ConfirmationModalProps) => {
   return (
     <Modal
@@ -44,7 +46,7 @@ export const ConfirmationModal = ({
         color: confirmColor,
         isLoading,
       }}
-      secondaryAction={{
+      secondaryAction={hideCancelButton ? undefined : {
         label: cancelLabel,
         onClick: onClose,
       }}

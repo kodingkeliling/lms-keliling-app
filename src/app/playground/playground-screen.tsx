@@ -35,6 +35,7 @@ export const PlaygroundScreen = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isConfirmModalOpen, setIsConfirmModalOpen] = useState(false);
     const [isExitModalOpen, setIsExitModalOpen] = useState(false);
+    const [isTimeUpModalOpen, setIsTimeUpModalOpen] = useState(false);
     const [isShortcutModalOpen, setIsShortcutModalOpen] = useState(false);
     const { isAuthenticated, user } = useAuthStore();
     const showAds = !user?.planId || !PAID_PLAN_IDS.includes(user.planId);
@@ -97,7 +98,7 @@ export const PlaygroundScreen = () => {
 
             if (remaining <= 0) {
                 finishExam();
-                toastWarning("Waktu ujian telah habis! Hasil ujian Anda telah otomatis disimpan.", "Waktu Habis");
+                setIsTimeUpModalOpen(true);
             }
         };
 
@@ -967,6 +968,21 @@ export const PlaygroundScreen = () => {
                 cancelLabel="Batal"
                 confirmColor="primary-destructive"
                 iconColor="error"
+            />
+
+            <ConfirmationModal
+                isOpen={isTimeUpModalOpen}
+                onClose={() => setIsTimeUpModalOpen(false)}
+                onConfirm={() => {
+                    setIsTimeUpModalOpen(false);
+                    router.push(`/result/${activeExam?.id}`);
+                }}
+                title="Waktu Ujian Habis!"
+                description="Waktu ujian kamu telah habis. Jawaban yang sudah kamu isi telah otomatis disimpan. Klik tombol di bawah untuk melihat hasil ujianmu."
+                confirmLabel="Lihat Hasil"
+                confirmColor="primary"
+                iconColor="warning"
+                hideCancelButton
             />
 
             <Modal
