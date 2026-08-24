@@ -3,7 +3,8 @@
 import type { AnchorHTMLAttributes, ButtonHTMLAttributes, DetailedHTMLProps, FC, ReactNode } from "react";
 import React, { isValidElement } from "react";
 import type { ButtonProps as AriaButtonProps } from "react-aria-components";
-import { Button as AriaButton, Link as AriaLink } from "react-aria-components";
+import { Button as AriaButton } from "react-aria-components";
+import NextLink from "next/link";
 import { cx, sortCx } from "@/utils/cx";
 import { isReactComponent } from "@/utils/is-react-component";
 import { LoadingIndicator } from "@/components/application/loading-indicator/loading-indicator";
@@ -185,53 +186,23 @@ export const Button = ({
     ...otherProps
 }: Props) => {
     const href = "href" in otherProps ? otherProps.href : undefined;
-    const Component = href ? AriaLink : AriaButton;
 
     const isIcon = (IconLeading || IconTrailing) && !children;
     const isLinkType = ["link-gray", "link-color", "link-destructive"].includes(color);
-
     noTextPadding = isLinkType || noTextPadding;
 
-    let props = {};
+    const sharedClassName = cx(
+        styles.common.root,
+        styles.sizes[size].root,
+        styles.colors[color].root,
+        isLinkType && styles.sizes[size].linkRoot,
+        (loading || (href && (disabled || loading))) && "pointer-events-none",
+        loading && (showTextWhileLoading ? "[&>*:not([data-icon=loading]):not([data-text])]:hidden" : "[&>*:not([data-icon=loading])]:invisible"),
+        className,
+    );
 
-    if (href) {
-        props = {
-            ...otherProps,
-
-            href: disabled ? undefined : href,
-
-            // Since anchor elements do not support the `disabled` attribute and state,
-            // we need to specify `data-rac` and `data-disabled` in order to be able
-            // to use the `disabled:` selector in classes.
-            ...(disabled ? { "data-rac": true, "data-disabled": true } : {}),
-        };
-    } else {
-        props = {
-            ...otherProps,
-
-            type: otherProps.type || "button",
-            isPending: loading,
-            isDisabled: disabled,
-        };
-    }
-
-    return (
-        <Component
-            data-loading={loading ? true : undefined}
-            data-icon-only={isIcon ? true : undefined}
-            {...props}
-            className={cx(
-                styles.common.root,
-                styles.sizes[size].root,
-                styles.colors[color].root,
-                isLinkType && styles.sizes[size].linkRoot,
-                (loading || (href && (disabled || loading))) && "pointer-events-none",
-                // If in `loading` state, hide everything except the loading icon (and text if `showTextWhileLoading` is true).
-                loading && (showTextWhileLoading ? "[&>*:not([data-icon=loading]):not([data-text])]:hidden" : "[&>*:not([data-icon=loading])]:invisible"),
-                className,
-            )}
-        >
-            {/* Leading icon */}
+    const innerContent = (
+        <>
             {isValidElement(IconLeading) && IconLeading}
             {isReactComponent(IconLeading) && <IconLeading data-icon="leading" className={styles.common.icon} />}
 
@@ -245,9 +216,39 @@ export const Button = ({
                 </span>
             )}
 
-            {/* Trailing icon */}
             {isValidElement(IconTrailing) && IconTrailing}
             {isReactComponent(IconTrailing) && <IconTrailing data-icon="trailing" className={styles.common.icon} />}
-        </Component>
+        </>
+    );
+
+    if (href) {
+        const { href: _href, ...anchorRest } = otherProps as DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>;
+        return (
+            <NextLink
+                href={disabled ? "#" : href}
+                data-loading={loading ? true : undefined}
+                data-icon-only={isIcon ? true : undefined}
+                {...(disabled ? { "aria-disabled": true, tabIndex: -1 } : {})}
+                {...(anchorRest as object)}
+                className={sharedClassName}
+                onClick={disabled ? (e) => e.preventDefault() : (anchorRest as { onClick?: React.MouseEventHandler }).onClick}
+            >
+                {innerContent}
+            </NextLink>
+        );
+    }
+
+    return (
+        <AriaButton
+            data-loading={loading ? true : undefined}
+            data-icon-only={isIcon ? true : undefined}
+            {...(otherProps as Omit<AriaButtonProps, "className">)}
+            type={(otherProps as { type?: "button" | "submit" | "reset" }).type || "button"}
+            isPending={loading}
+            isDisabled={disabled}
+            className={sharedClassName}
+        >
+            {innerContent}
+        </AriaButton>
     );
 };
