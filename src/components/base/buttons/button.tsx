@@ -88,11 +88,11 @@ export const styles = sortCx({
         },
         "link-color": {
             root: [
-                "justify-normal rounded p-0! text-brand-secondary hover:text-brand-secondary_hover",
+                "justify-normal rounded p-0! text-brand-secondary dark:text-brand-400 hover:text-brand-secondary_hover dark:hover:text-brand-300",
                 // Inner text underline
                 "*:data-text:underline *:data-text:decoration-transparent *:data-text:underline-offset-2 hover:*:data-text:decoration-current",
                 // Icon styles
-                "*:data-icon:text-fg-brand-secondary_alt hover:*:data-icon:text-fg-brand-secondary_hover",
+                "*:data-icon:text-fg-brand-secondary_alt dark:*:data-icon:text-brand-400 hover:*:data-icon:text-fg-brand-secondary_hover dark:hover:*:data-icon:text-brand-300",
             ].join(" "),
         },
         "primary-destructive": {

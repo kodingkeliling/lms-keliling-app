@@ -48,7 +48,7 @@ export const PLANS: PricingPlan[] = [
   {
     id: 'ultimate-1000',
     name: 'Luxury',
-    description: 'Paket maksimal untuk persiapan ujian penuh',
+    description: 'Paket maksimal untuk persiapan ujian',
     price: 20000,
     currency: 'Rp',
     questionLimit: 1000,
