@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { loginUser } from "@/api/auth";
-import { COOKIE_NAME } from "@/lib/auth-cookie";
+import { COOKIE_NAME, SESSION_INDICATOR_COOKIE } from "@/lib/auth-cookie";
 
 export async function POST(req: NextRequest) {
     try {
@@ -18,13 +18,18 @@ export async function POST(req: NextRequest) {
 
         const response = NextResponse.json({ user }, { status: 200 });
 
-        response.cookies.set(COOKIE_NAME, token, {
-            httpOnly: true,
+        const cookieOpts = {
             secure: process.env.NODE_ENV === "production",
-            sameSite: "lax",
+            sameSite: "lax" as const,
             maxAge: 60 * 60 * 24 * 7, // 7 days
             path: "/",
-        });
+        };
+
+        // httpOnly — carries the real JWT, not readable by JS
+        response.cookies.set(COOKIE_NAME, token, { ...cookieOpts, httpOnly: true });
+
+        // Non-httpOnly — readable by JS, used only as a fast "session exists" signal
+        response.cookies.set(SESSION_INDICATOR_COOKIE, "1", { ...cookieOpts, httpOnly: false });
 
         return response;
     } catch (error) {

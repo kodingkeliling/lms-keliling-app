@@ -45,7 +45,10 @@ export const useAuthStore = create<AuthState>()(
                 isAuthenticated: state.isAuthenticated,
             }),
             onRehydrateStorage: () => (state) => {
-                if (state) state.isHydrated = true;
+                // Use set() via the store API so React re-renders subscribers
+                if (state) {
+                    useAuthStore.setState({ isHydrated: true });
+                }
             },
         }
     )

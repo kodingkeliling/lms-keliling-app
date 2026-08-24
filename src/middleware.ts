@@ -4,7 +4,7 @@ import { COOKIE_NAME } from "@/lib/auth-cookie";
 
 const JWT_SECRET = process.env.JWT_SECRET ?? "fraise-secret-key-change-in-production";
 
-const PROTECTED_PREFIXES = ["/dashboard"];
+const PROTECTED_PREFIXES = ["/dashboard", "/playground"];
 const AUTH_PAGES = ["/login", "/register", "/forgot-password", "/reset-password"];
 
 export async function middleware(req: NextRequest) {
@@ -43,7 +43,7 @@ export async function middleware(req: NextRequest) {
 
     // Role-based access control
     if (isProtected && role) {
-        // SUPER_ADMIN → only /dashboard
+        // SUPER_ADMIN → only /dashboard, not /playground
         if (role === "SUPER_ADMIN" && pathname.startsWith("/playground")) {
             return NextResponse.redirect(new URL("/dashboard", req.url));
         }

@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu01, X } from "@untitledui/icons";
 import { Button } from "@/components/base/buttons/button";
 import { ThemeToggle } from "@/components/foundations/theme-toggle";
@@ -27,7 +27,16 @@ export const Navbar = () => {
     const [mobileOpen, setMobileOpen] = useState(false);
     const [mcpModalOpen, setMcpModalOpen] = useState(false);
 
-    const { isAuthenticated, isAuthReady, isHydrated } = useAuthStore();
+    const { isAuthenticated, isAuthReady } = useAuthStore();
+    // isMounted tracks client-side hydration independently of Zustand
+    const [isMounted, setIsMounted] = useState(false);
+    useEffect(() => { setIsMounted(true); }, []);
+
+    // Read the non-httpOnly indicator cookie synchronously after mount.
+    // If it's absent we know for sure there's no session → skip skeleton.
+    const hasSessionCookie = isMounted
+        ? document.cookie.split(";").some((c) => c.trim().startsWith("has_session="))
+        : true; // assume true until mounted so we don't flash buttons on SSR
 
     return (
         <>
@@ -62,14 +71,18 @@ export const Navbar = () => {
                     <div className="flex items-center gap-3">
                         <ThemeToggle />
 
-                        {/* Skeleton until localStorage is hydrated.
-                            Then: if authenticated, wait for server check before showing avatar.
-                            If not authenticated after hydration, show buttons immediately. */}
-                        {!isHydrated ? (
+                        {/* No session cookie → definitely not logged in, skip skeleton.
+                            Has session cookie but auth not ready → show skeleton while verifying.
+                            Auth ready → render final state. */}
+                        {!isMounted || (!hasSessionCookie && !isAuthReady) ? (
+                            !isMounted ? (
+                                <div className="h-9 w-24 animate-pulse rounded-lg bg-secondary" />
+                            ) : (
+                                <AuthButtons size="sm" className="hidden sm:flex" />
+                            )
+                        ) : !isAuthReady ? (
                             <div className="h-9 w-24 animate-pulse rounded-lg bg-secondary" />
-                        ) : isAuthenticated && !isAuthReady ? (
-                            <div className="h-9 w-24 animate-pulse rounded-lg bg-secondary" />
-                        ) : isAuthenticated && isAuthReady ? (
+                        ) : isAuthenticated ? (
                             <UserDropdown />
                         ) : (
                             <AuthButtons size="sm" className="hidden sm:flex" />
@@ -108,7 +121,7 @@ export const Navbar = () => {
                                 </Link>
                             );
                         })}
-                        {!isHydrated || (!isAuthReady && isAuthenticated) ? null : !isAuthenticated && (
+                        {!isMounted || (!isAuthReady && hasSessionCookie) ? null : !isAuthenticated && (
                             <AuthButtons size="sm" className="pt-2 border-t border-secondary mt-2 flex-1" />
                         )}
                     </div>

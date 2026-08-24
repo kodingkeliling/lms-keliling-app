@@ -2,6 +2,7 @@ import { NextResponse, NextRequest } from "next/server";
 import { prisma } from "@/lib/prisma";
 import jwt from "jsonwebtoken";
 import crypto from "crypto";
+import { SESSION_INDICATOR_COOKIE } from "@/lib/auth-cookie";
 
 const JWT_SECRET = process.env.JWT_SECRET ?? "fraise-secret-key-change-in-production";
 
@@ -98,13 +99,16 @@ export async function GET(req: NextRequest) {
         }
 
         const res = NextResponse.redirect(new URL(redirectPath, req.url));
-        res.cookies.set("token", token, {
-            httpOnly: true,
+
+        const cookieOpts = {
             secure: process.env.NODE_ENV === "production",
-            sameSite: "lax",
+            sameSite: "lax" as const,
             maxAge: 7 * 24 * 60 * 60, // 7 days
             path: "/",
-        });
+        };
+
+        res.cookies.set("token", token, { ...cookieOpts, httpOnly: true });
+        res.cookies.set(SESSION_INDICATOR_COOKIE, "1", { ...cookieOpts, httpOnly: false });
 
         return res;
     } catch (error) {

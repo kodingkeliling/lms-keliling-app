@@ -29,6 +29,20 @@ export const TokenStatusCard = () => {
     const isLow = remaining <= 3;
     const isEmpty = remaining === 0;
 
+    // Loading skeleton
+    if (trial === null) {
+        return (
+            <div className="flex w-full flex-col gap-3 rounded-xl border border-secondary p-4 shadow-xs animate-pulse">
+                <div className="flex items-center justify-between">
+                    <div className="h-4 w-24 rounded-md bg-secondary" />
+                    <div className="h-4 w-12 rounded-md bg-secondary" />
+                </div>
+                <div className="h-1.5 w-full rounded-full bg-secondary" />
+                <div className="h-3 w-36 rounded-md bg-secondary" />
+            </div>
+        );
+    }
+
     return (
         <div className={cx(
             "flex w-full flex-col gap-3 rounded-xl border p-4 shadow-xs transition-all duration-300",

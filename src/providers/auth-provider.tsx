@@ -4,31 +4,45 @@ import { useEffect } from "react";
 import { useAuthStore } from "@/store/use-auth-store";
 import { AvatarPickerGate } from "@/components/profile/avatar-picker-gate";
 
-export function AuthProvider({ children }: { children: React.ReactNode }) {
-    const { logout, setUser, setAuthReady } = useAuthStore();
+const AUTH_CHECK_TIMEOUT_MS = 8000; // 8s hard cap — skeleton never stuck forever
 
+export function AuthProvider({ children }: { children: React.ReactNode }) {
     useEffect(() => {
+        let settled = false;
+
+        const settle = () => {
+            if (settled) return;
+            settled = true;
+            useAuthStore.getState().setAuthReady();
+        };
+
+        // Hard timeout so skeleton never hangs if fetch stalls
+        const timeout = setTimeout(() => {
+            useAuthStore.getState().logout();
+            settle();
+        }, AUTH_CHECK_TIMEOUT_MS);
+
         const checkAuth = async () => {
             try {
                 const res = await fetch("/api/auth/me");
                 if (res.ok) {
                     const data = await res.json();
-                    setUser(data.user);
+                    useAuthStore.getState().setUser(data.user);
                 } else {
-                    // Token rejected by server — clear the cookie so middleware
-                    // stops treating the user as authenticated.
                     await fetch("/api/auth/logout", { method: "POST" }).catch(() => {});
-                    logout();
+                    useAuthStore.getState().logout();
                 }
             } catch {
-                logout();
+                useAuthStore.getState().logout();
             } finally {
-                // Mark auth check as done — UI can now render auth-sensitive content
-                setAuthReady();
+                clearTimeout(timeout);
+                settle();
             }
         };
 
         checkAuth();
+
+        return () => clearTimeout(timeout);
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     return (

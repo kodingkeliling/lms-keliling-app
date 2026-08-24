@@ -11,7 +11,7 @@ import { getAvatarUrl } from "@/data/avatars";
 import { EditProfileModal } from "@/components/profile/edit-profile-modal";
 import { APP_LOGO, APP_NAME } from "@/config";
 import { useExamStore } from "@/store/use-exam-store";
-import { Tooltip } from "@/components/base/tooltip/tooltip";
+import { Tooltip, TooltipTrigger } from "@/components/base/tooltip/tooltip";
 
 export function UserDropdown() {
     const pathname = usePathname() ?? "";
@@ -59,15 +59,19 @@ export function UserDropdown() {
                     }
                 >
                     {/* Avatar circle */}
-                    <img
-                        src={getAvatarUrl(user?.avatarId)}
-                        alt={user?.name || "User Avatar"}
-                        className="size-7 shrink-0 rounded-full object-cover"
-                    />
+                    {user ? (
+                        <img
+                            src={getAvatarUrl(user.avatarId)}
+                            alt={user.name || "User Avatar"}
+                            className="size-7 shrink-0 rounded-full object-cover"
+                        />
+                    ) : (
+                        <div className="size-7 shrink-0 rounded-full bg-secondary animate-pulse" />
+                    )}
                     <Tooltip title={user?.name || user?.email || ""} placement="bottom">
-                        <span className="hidden sm:block max-w-[120px] truncate font-medium text-primary">
-                            {user?.name || user?.email}
-                        </span>
+                        <TooltipTrigger className="hidden sm:block max-w-[120px] truncate font-medium text-primary text-left">
+                            {user ? (user.name || user.email) : <span className="inline-block h-3 w-20 rounded bg-secondary animate-pulse" />}
+                        </TooltipTrigger>
                     </Tooltip>
                     {/* Chevron */}
                     <ChevronDown className="size-3 text-tertiary transition-transform duration-200 group-data-[open]:rotate-180" />
@@ -77,10 +81,14 @@ export function UserDropdown() {
                     <div className="flex items-center justify-between border-b border-secondary px-4 py-3">
                         <div className="flex flex-col min-w-0 pr-2">
                             <Tooltip title={user?.name || "User"} placement="bottom">
-                                <p className="text-sm font-semibold text-primary truncate">{user?.name || "User"}</p>
+                                <TooltipTrigger className="text-sm font-semibold text-primary truncate max-w-full text-left">
+                                    {user?.name || "User"}
+                                </TooltipTrigger>
                             </Tooltip>
                             <Tooltip title={user?.email || ""} placement="bottom">
-                                <p className="text-xs text-tertiary truncate">{user?.email}</p>
+                                <TooltipTrigger className="text-xs text-tertiary truncate max-w-full text-left">
+                                    {user?.email || <span className="inline-block h-3 w-32 rounded bg-secondary animate-pulse" />}
+                                </TooltipTrigger>
                             </Tooltip>
                         </div>
                         <button
