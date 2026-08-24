@@ -4,7 +4,7 @@ import { COOKIE_NAME } from "@/lib/auth-cookie";
 
 const JWT_SECRET = process.env.JWT_SECRET ?? "fraise-secret-key-change-in-production";
 
-const PROTECTED_PREFIXES = ["/dashboard", "/playground"];
+const PROTECTED_PREFIXES = ["/dashboard"];
 const AUTH_PAGES = ["/login", "/register", "/forgot-password", "/reset-password"];
 
 export async function middleware(req: NextRequest) {
