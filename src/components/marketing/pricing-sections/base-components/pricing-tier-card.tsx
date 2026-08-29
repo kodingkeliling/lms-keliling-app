@@ -372,11 +372,11 @@ export const PricingTierCardBanner = (props: {
 
             <div>
                 <div className="flex flex-col items-center px-6 pt-8 text-center md:px-8">
-                    <div className="relative flex items-center gap-1">
+                    <div className="relative md:flex items-center gap-1">
                         {props.originalPrice && (
-                           <p className="font-semibold text-lg absolute top-[-15px] left-0 right-0"> 
-                            PROMO{" "}
-                            <span className="font-medium text-tertiary line-through">{props.originalPrice}</span>
+                            <p className="font-semibold text-lg md:absolute top-[-15px] left-0 right-0 text-brand-600">
+                                PROMO{" "}
+                                <span className="font-medium text-tertiary line-through">{props.originalPrice}</span>
                             </p>
                         )}
                         <p className={"text-display-md font-semibold text-primary md:text-display-lg"}>{props.subtitle}</p>
@@ -385,7 +385,7 @@ export const PricingTierCardBanner = (props: {
                     <p className="mt-1 text-md text-tertiary">{props.description}</p>
                 </div>
 
-                  <div className="mt-auto flex flex-col gap-3 px-6 py-8 md:px-8">
+                <div className="mt-auto flex flex-col gap-3 px-6 py-8 md:px-8">
                     {props.waLink ? (
                         <Button
                             size="xl"

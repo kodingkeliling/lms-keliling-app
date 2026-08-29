@@ -134,26 +134,26 @@ function LeaderboardRow({ usr, tab, isFloating = false }: LeaderboardRowProps) {
                             </Badge>
                         )}
                     </div>
-                    <span className="text-xs text-tertiary">
+                    <span className="text-xs text-tertiary whitespace-nowrap">
                         {(usr.examsCompleted ?? 0)} Ujian Selesai
                     </span>
                 </div>
             </div>
 
             {/* Right side */}
-            <div className="flex flex-col items-end shrink-0">
+            <div className="flex flex-col items-end w-fit shrink-0">
                 {isPoints ? (
-                    <div className={cx("flex items-center gap-1 font-bold text-sm", metricColor)}>
-                        <Zap className="size-4 text-warning-500 fill-warning-500" />
+                    <div className={cx("flex items-center gap-1 font-bold text-sm whitespace-nowrap", metricColor)}>
+                        <Zap className="size-4 text-warning-500 fill-warning-500 shrink-0" />
                         <span>{(usr.points ?? 0).toLocaleString("id-ID")} pts</span>
                     </div>
                 ) : (
-                    <div className={cx("flex items-center gap-1 font-bold text-sm", metricColor)}>
+                    <div className={cx("flex items-center gap-1 font-bold text-sm whitespace-nowrap", metricColor)}>
                         <span>Rp{(usr.totalSpend ?? 0).toLocaleString("id-ID")}</span>
                     </div>
                 )}
                 {usr.badgeLabel && (
-                    <PlanBadge label={usr.badgeLabel} size="sm" className="mt-0.5 text-[10px]" />
+                    <PlanBadge label={usr.badgeLabel} size="sm" className="mt-0.5 text-[10px] shrink-0" />
                 )}
             </div>
         </div>
