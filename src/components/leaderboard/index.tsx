@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Tabs, TabList, Tab, TabPanel } from "@/components/application/tabs/tabs";
 import { Badge } from "@/components/base/badges/badges";
 import { PlanBadge } from "@/components/base/badges/plan-badge";
+import { Tooltip, TooltipTrigger } from "@/components/base/tooltip/tooltip";
 import { Trophy01, Zap, Award01 } from "@untitledui/icons";
 import { cx } from "@/utils/cx";
 import { useExamStore } from "@/store/use-exam-store";
@@ -84,6 +85,7 @@ interface LeaderboardRowProps {
 }
 
 function LeaderboardRow({ usr, tab, isFloating = false }: LeaderboardRowProps) {
+    const [isOpen, setIsOpen] = useState(false);
     const isPoints = tab === "points";
     const accentBorder = isPoints
         ? "border-brand-300 bg-brand-50/50 dark:bg-brand-950/20 dark:border-brand-800"
@@ -110,53 +112,69 @@ function LeaderboardRow({ usr, tab, isFloating = false }: LeaderboardRowProps) {
         ? (isPoints ? "ring-brand-300" : "ring-emerald-300")
         : "ring-border-secondary";
 
-    return (
-        <div className={cx(
-            "flex items-center justify-between gap-3 rounded-xl border p-3.5 transition-all",
-            usr.isCurrentUser || isFloating
-                ? accentBorder
-                : "border-secondary bg-primary_alt hover:bg-primary_hover hover:shadow-xs"
-        )}>
-            {/* Left side */}
-            <div className="flex items-center gap-3 min-w-0">
-                {rankBubble}
-                <img
-                    src={usr.avatar}
-                    alt={usr.name}
-                    className={cx("size-9 rounded-full object-cover ring-1 shrink-0", avatarRing)}
-                />
-                <div className="flex flex-col min-w-0">
-                    <div className="flex items-center gap-1.5 min-w-0">
-                        <span className="text-sm font-semibold text-primary truncate">{usr.name}</span>
-                        {(usr.isCurrentUser || isFloating) && (
-                            <Badge type="pill-color" color={badgeColor} size="sm" className="text-[10px] py-0 px-1.5 shrink-0">
-                                Kamu
-                            </Badge>
-                        )}
-                    </div>
-                    <span className="text-xs text-tertiary whitespace-nowrap">
-                        {(usr.examsCompleted ?? 0)} Ujian Selesai
-                    </span>
-                </div>
-            </div>
+    const metricText = isPoints
+        ? `${(usr.points ?? 0).toLocaleString("id-ID")} pts`
+        : `Rp${(usr.totalSpend ?? 0).toLocaleString("id-ID")}`;
 
-            {/* Right side */}
-            <div className="flex flex-col items-end w-fit shrink-0">
-                {isPoints ? (
-                    <div className={cx("flex items-center gap-1 font-bold text-sm whitespace-nowrap", metricColor)}>
-                        <Zap className="size-4 text-warning-500 fill-warning-500 shrink-0" />
-                        <span>{(usr.points ?? 0).toLocaleString("id-ID")} pts</span>
-                    </div>
-                ) : (
-                    <div className={cx("flex items-center gap-1 font-bold text-sm whitespace-nowrap", metricColor)}>
-                        <span>Rp{(usr.totalSpend ?? 0).toLocaleString("id-ID")}</span>
-                    </div>
+    return (
+        <Tooltip
+            title={usr.name}
+            description={`Peringkat #${usr.rank} • ${(usr.examsCompleted ?? 0)} Ujian Selesai • ${metricText}`}
+            arrow={true}
+            placement="top"
+            isOpen={isOpen}
+            onOpenChange={setIsOpen}
+        >
+            <TooltipTrigger
+                onPress={() => setIsOpen((prev) => !prev)}
+                className={cx(
+                    "!w-full flex items-center justify-between gap-3 rounded-xl border p-3.5 transition-all text-left cursor-pointer select-none",
+                    usr.isCurrentUser || isFloating
+                        ? accentBorder
+                        : "border-secondary bg-primary_alt hover:bg-primary_hover hover:shadow-xs"
                 )}
-                {usr.badgeLabel && (
-                    <PlanBadge label={usr.badgeLabel} size="sm" className="mt-0.5 text-[10px] shrink-0" />
-                )}
-            </div>
-        </div>
+            >
+                {/* Left side */}
+                <div className="flex items-center gap-3 min-w-0">
+                    {rankBubble}
+                    <img
+                        src={usr.avatar}
+                        alt={usr.name}
+                        className={cx("size-9 rounded-full object-cover ring-1 shrink-0", avatarRing)}
+                    />
+                    <div className="flex flex-col min-w-0">
+                        <div className="flex items-center gap-1.5 min-w-0">
+                            <span className="text-sm font-semibold text-primary truncate">{usr.name}</span>
+                            {(usr.isCurrentUser || isFloating) && (
+                                <Badge type="pill-color" color={badgeColor} size="sm" className="text-[10px] py-0 px-1.5 shrink-0">
+                                    Kamu
+                                </Badge>
+                            )}
+                        </div>
+                        <span className="text-xs text-tertiary whitespace-nowrap">
+                            {(usr.examsCompleted ?? 0)} Ujian Selesai
+                        </span>
+                    </div>
+                </div>
+
+                {/* Right side */}
+                <div className="flex flex-col items-end w-fit shrink-0">
+                    {isPoints ? (
+                        <div className={cx("flex items-center gap-1 font-bold text-sm whitespace-nowrap", metricColor)}>
+                            <Zap className="size-4 text-warning-500 fill-warning-500 shrink-0" />
+                            <span>{(usr.points ?? 0).toLocaleString("id-ID")} pts</span>
+                        </div>
+                    ) : (
+                        <div className={cx("flex items-center gap-1 font-bold text-sm whitespace-nowrap", metricColor)}>
+                            <span>Rp{(usr.totalSpend ?? 0).toLocaleString("id-ID")}</span>
+                        </div>
+                    )}
+                    {usr.badgeLabel && (
+                        <PlanBadge label={usr.badgeLabel} size="sm" className="mt-0.5 text-[10px] shrink-0" />
+                    )}
+                </div>
+            </TooltipTrigger>
+        </Tooltip>
     );
 }
 
