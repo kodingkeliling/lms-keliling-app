@@ -88,30 +88,22 @@ export const MCPGuideModal = ({ isOpen, onClose }: MCPGuideModalProps) => {
             iconTheme="modern"
             iconColor="gray"
             showFooter={false}
-            bodyClassName="!overflow-hidden"
         >
-            <div className="flex flex-col">
-                {/* Tabs */}
-                <div className="px-6 pt-2 pb-4">
-                    <Select
-                        aria-label="Tabs"
-                        size="md"
-                        selectedKey={activeTool}
-                        onSelectionChange={handleToolChange}
-                        items={TAB_ITEMS}
-                        className="w-full sm:hidden"
-                    >
-                        {(item) => <Select.Item id={item.id}>{item.label}</Select.Item>}
-                    </Select>
-                    <Tabs selectedKey={activeTool} onSelectionChange={handleToolChange} className="w-full max-sm:hidden">
-                        <Tabs.List type="button-minimal" items={TAB_ITEMS} className="w-full bg-secondary/30 rounded-lg p-1">
-                            {(tab) => <Tabs.Item {...tab} className="w-fit text-center" />}
-                        </Tabs.List>
-                    </Tabs>
-                </div>
+            <div className="flex flex-col gap-3">
+                {/* Segmented Tabs (ChatGPT | Claude) */}
+                <Tabs selectedKey={activeTool} onSelectionChange={handleToolChange} className="w-full">
+                    <Tabs.List type="button-minimal" items={TAB_ITEMS} className="w-full grid grid-cols-2 bg-secondary/30 rounded-lg p-1">
+                        {(tab) => (
+                            <Tabs.Item
+                                {...tab}
+                                className="w-full text-center justify-center py-2 text-xs sm:text-sm font-semibold"
+                            />
+                        )}
+                    </Tabs.List>
+                </Tabs>
 
                 {/* MCP URL copy */}
-                <div className="mx-6 mb-4 flex items-center gap-2 rounded-xl border border-secondary bg-secondary/30 px-4 py-2.5">
+                <div className="flex items-center gap-2 rounded-xl border border-secondary bg-secondary/30 px-3 sm:px-4 py-2 sm:py-2.5">
                     <Link01 className="size-4 shrink-0 text-tertiary" />
                     <span className="flex-1 truncate text-xs font-mono text-secondary">{MCP_ENDPOINT}</span>
                     <Button
@@ -119,14 +111,14 @@ export const MCPGuideModal = ({ isOpen, onClose }: MCPGuideModalProps) => {
                         color="link-color"
                         iconLeading={Copy01}
                         onClick={handleCopy}
-                        className="px-0 py-0 h-auto"
+                        className="px-0 py-0 h-auto text-xs sm:text-sm shrink-0"
                     >
                         Salin
                     </Button>
                 </div>
 
                 {/* Carousel image */}
-                <div className="mx-6 mb-3 overflow-hidden rounded-xl border border-secondary bg-secondary/20">
+                <div className="overflow-hidden rounded-xl border border-secondary bg-secondary/20">
                     <div className="relative aspect-video w-full">
                         <Image
                             key={`${activeTool}-${step}`}
@@ -143,7 +135,7 @@ export const MCPGuideModal = ({ isOpen, onClose }: MCPGuideModalProps) => {
                 </div>
 
                 {/* Caption */}
-                <p className="mx-6 mb-6 text-sm text-secondary text-center leading-relaxed h-10 flex items-center justify-center">
+                <p className="text-xs sm:text-sm text-secondary text-center leading-relaxed min-h-[2.5rem] py-1 flex items-center justify-center px-1">
                     <span>
                         <span className="font-semibold text-brand-700 dark:text-brand-400">Langkah {step + 1}.</span>{" "}
                         {currentStep.caption}
@@ -151,7 +143,7 @@ export const MCPGuideModal = ({ isOpen, onClose }: MCPGuideModalProps) => {
                 </p>
 
                 {/* Navigation */}
-                <div className="flex items-center justify-between gap-3 px-6 pb-6">
+                <div className="flex items-center justify-between gap-2 sm:gap-3 pt-1 pb-1">
                     <Button
                         size="sm"
                         color="secondary"
@@ -161,19 +153,23 @@ export const MCPGuideModal = ({ isOpen, onClose }: MCPGuideModalProps) => {
                             setStep((s) => Math.max(0, s - 1));
                         }}
                         isDisabled={step === 0}
+                        className="px-2.5 sm:px-3 text-xs sm:text-sm shrink-0"
                     >
-                        Sebelumnya
+                        <span className="hidden sm:inline">Sebelumnya</span>
+                        <span className="sm:hidden">Sblm</span>
                     </Button>
 
-                    <PaginationDot
-                        size="md"
-                        page={step + 1}
-                        total={totalSteps}
-                        onPageChange={(page) => {
-                            setIsImageLoaded(false);
-                            setStep(page - 1);
-                        }}
-                    />
+                    <div className="shrink-0 flex items-center justify-center">
+                        <PaginationDot
+                            size="md"
+                            page={step + 1}
+                            total={totalSteps}
+                            onPageChange={(page) => {
+                                setIsImageLoaded(false);
+                                setStep(page - 1);
+                            }}
+                        />
+                    </div>
 
                     {step < totalSteps - 1 ? (
                         <Button
@@ -184,11 +180,18 @@ export const MCPGuideModal = ({ isOpen, onClose }: MCPGuideModalProps) => {
                                 setIsImageLoaded(false);
                                 setStep((s) => Math.min(totalSteps - 1, s + 1));
                             }}
+                            className="px-2.5 sm:px-3 text-xs sm:text-sm shrink-0"
                         >
-                            Berikutnya
+                            <span className="hidden sm:inline">Berikutnya</span>
+                            <span className="sm:hidden">Lanjut</span>
                         </Button>
                     ) : (
-                        <Button size="sm" color="primary" onClick={onClose}>
+                        <Button
+                            size="sm"
+                            color="primary"
+                            onClick={onClose}
+                            className="px-2.5 sm:px-3 text-xs sm:text-sm shrink-0"
+                        >
                             Selesai 🎉
                         </Button>
                     )}

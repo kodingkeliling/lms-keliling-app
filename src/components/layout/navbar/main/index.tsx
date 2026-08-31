@@ -63,20 +63,22 @@ export const Navbar = () => {
                         <ThemeToggle />
                         <NavbarAuthSlot size="sm" authButtonsClassName="hidden sm:flex" />
 
-                        {/* Mobile hamburger */}
-                        <Button
-                            size="sm"
-                            color="tertiary"
-                            className="flex md:hidden"
-                            iconLeading={mobileOpen ? X : Menu01}
-                            onClick={() => setMobileOpen(!mobileOpen)}
-                            aria-label="Toggle menu"
-                        />
+                        {/* Mobile hamburger - only show when NOT authenticated */}
+                        {(!isMounted || !isAuthReady || !isAuthenticated) && (
+                            <Button
+                                size="sm"
+                                color="tertiary"
+                                className="flex md:hidden"
+                                iconLeading={mobileOpen ? X : Menu01}
+                                onClick={() => setMobileOpen(!mobileOpen)}
+                                aria-label="Toggle menu"
+                            />
+                        )}
                     </div>
                 </div>
 
-                {/* Mobile menu */}
-                {mobileOpen && (
+                {/* Mobile menu - only show when NOT authenticated */}
+                {mobileOpen && (!isMounted || !isAuthReady || !isAuthenticated) && (
                     <div className="md:hidden border-t border-secondary bg-primary px-4 py-4 flex flex-col gap-1 animate-in fade-in slide-in-from-top-2 duration-200">
                         {NAV_ITEMS.map((item) => {
                             const isActive = pathname === item.href;

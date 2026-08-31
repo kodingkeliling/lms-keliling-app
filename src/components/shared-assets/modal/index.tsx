@@ -116,7 +116,7 @@ export const Modal = ({
 
     const renderHeader = () => (
         <div className={cx(
-            `flex flex-col gap-3 px-4 pt-5 sm:px-6 sm:pt-6 pb-4 shrink-0 bg-primary`,
+            `flex flex-col gap-3 px-4 pt-5 sm:px-6 sm:pt-6 pb-4 shrink-0 bg-primary overflow-hidden rounded-t-2xl relative`,
             headerBorder ? 'border-b border-secondary' : '',
             isStickyHeader && 'sticky top-0 z-20',
             effectiveShowClose && (isDrawer ? 'pr-14' : 'pr-12')
@@ -132,7 +132,7 @@ export const Modal = ({
                     <BackgroundPattern
                         pattern="circle"
                         size="sm"
-                        className="absolute top-1/2 left-1/2 z-0 -translate-x-1/2 -translate-y-1/2"
+                        className="absolute top-1/2 left-1/2 z-0 -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-60"
                     />
                 </div>
             )}

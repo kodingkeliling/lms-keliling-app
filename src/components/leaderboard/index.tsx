@@ -59,18 +59,18 @@ function RankBadge({ rank }: { rank: number }) {
 // ─── Skeleton Row ─────────────────────────────────────────────────────────────
 function SkeletonRow() {
     return (
-        <div className="flex items-center justify-between gap-3 rounded-xl border border-secondary bg-primary_alt p-3.5 animate-pulse">
-            <div className="flex items-center gap-3">
+        <div className="flex items-center justify-between gap-2 sm:gap-3 rounded-xl border border-secondary bg-primary_alt p-3 sm:p-3.5 animate-pulse min-w-0 w-full overflow-hidden">
+            <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
                 <div className="size-7 rounded-full bg-secondary shrink-0" />
-                <div className="size-9 rounded-full bg-secondary shrink-0" />
-                <div className="flex flex-col gap-1.5">
-                    <div className="h-4 w-28 rounded bg-secondary" />
-                    <div className="h-3 w-16 rounded bg-secondary" />
+                <div className="size-8 sm:size-9 rounded-full bg-secondary shrink-0" />
+                <div className="flex flex-col gap-1.5 min-w-0 flex-1">
+                    <div className="h-4 w-20 sm:w-28 max-w-full rounded bg-secondary" />
+                    <div className="h-3 w-14 sm:w-16 max-w-full rounded bg-secondary" />
                 </div>
             </div>
-            <div className="flex flex-col items-end gap-1.5">
-                <div className="h-4 w-16 rounded bg-secondary" />
-                <div className="h-3 w-12 rounded bg-secondary" />
+            <div className="flex flex-col items-end gap-1.5 shrink-0">
+                <div className="h-4 w-12 sm:w-16 rounded bg-secondary" />
+                <div className="h-3 w-10 sm:w-12 rounded bg-secondary" />
             </div>
         </div>
     );
@@ -128,7 +128,7 @@ function LeaderboardRow({ usr, tab, isFloating = false }: LeaderboardRowProps) {
             <TooltipTrigger
                 onPress={() => setIsOpen((prev) => !prev)}
                 className={cx(
-                    "!w-full flex items-center justify-between gap-3 rounded-xl border p-3.5 transition-all text-left cursor-pointer select-none",
+                    "!w-full flex items-center justify-between gap-2 sm:gap-3 rounded-xl border p-3 sm:p-3.5 transition-all text-left cursor-pointer select-none min-w-0 overflow-hidden",
                     usr.isCurrentUser || isFloating
                         ? accentBorder
                         : "border-secondary bg-primary_alt hover:bg-primary_hover hover:shadow-xs"
@@ -353,12 +353,12 @@ export const Leaderboard = ({
     const currentSub = subscriptionsData.find(matchUser);
 
     const tabs = [
-        { id: "points", label: "Point Tertinggi", icon: Trophy01 },
+        { id: "points", label: "Poin Tertinggi", icon: Trophy01 },
         { id: "subscriptions", label: "Langganan Terbanyak", icon: Award01 },
     ];
 
     return (
-        <div className={cx("flex w-full flex-col gap-4 rounded-2xl border border-secondary bg-primary p-6 shadow-sm", className)}>
+        <div className={cx("flex w-full flex-col gap-4 rounded-2xl border border-secondary bg-primary p-4 sm:p-6 shadow-sm", className)}>
             {/* Header */}
             <div className="flex flex-col gap-1">
                 <div className="flex items-center gap-2">
@@ -374,9 +374,9 @@ export const Leaderboard = ({
             <Tabs selectedKey={selectedTab} onSelectionChange={(key) => setSelectedTab(key as string)} className="w-full mt-2">
                 <TabList type="button-minimal" className="w-full grid grid-cols-2" items={tabs}>
                     {tabs.map((tab) => (
-                        <Tab key={tab.id} id={tab.id} className="w-full text-center justify-center py-2.5">
-                            <tab.icon className="size-4 mr-1.5" />
-                            <span>{tab.label}</span>
+                        <Tab key={tab.id} id={tab.id} className="w-full min-w-0 text-center justify-center px-1.5 sm:px-3 py-2 sm:py-2.5">
+                            <tab.icon className="size-3.5 sm:size-4 shrink-0 mr-1 sm:mr-1.5" />
+                            <span className="truncate text-xs sm:text-sm font-semibold">{tab.label}</span>
                         </Tab>
                     ))}
                 </TabList>
