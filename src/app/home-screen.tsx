@@ -1,6 +1,7 @@
 "use client";
 
 import { PageLayout } from "@/components/layout/page-layout";
+import { PaperAirplaneScrollTrack } from "@/components/marketing/airplane-scroll-track";
 import { HeroSection } from "@/components/exam/hero-section";
 import { PricingPlansSection } from "@/components/marketing/pricing-sections/pricing-plans-section";
 import { LeaderboardSection } from "@/components/marketing/leaderboard-section";
@@ -10,6 +11,7 @@ import { ContactSection } from "@/components/marketing/contact-section";
 export const HomeScreen = () => {
     return (
         <PageLayout>
+            <PaperAirplaneScrollTrack />
             <div className="w-full animate-[fadeSlideUp_0.7s_ease-out_0.2s_both]">
                 <HeroSection />
             </div>
