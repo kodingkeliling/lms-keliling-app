@@ -1,21 +1,21 @@
 "use client";
 
-import { BookOpen01, Zap, PlayCircle, CheckVerified01 } from "@untitledui/icons";
+import { BookOpen01, Zap, PlayCircle, CheckVerified01, Star01 } from "@untitledui/icons";
 import { FeaturedIcon } from "../../foundations/featured-icon/featured-icon";
 import { Button } from "@/components/base/buttons/button";
 
 export const HeroContent = () => {
     return (
-        <div className="flex max-w-xl flex-col gap-6 text-center lg:sticky lg:top-4 lg:self-start lg:text-left">
-            <div className="flex justify-center lg:justify-start">
+        <div className="flex max-w-xl flex-col gap-6 text-center lg:sticky lg:top-24 lg:self-start lg:text-left">
+            {/* <div className="flex justify-center lg:justify-start">
                 <FeaturedIcon icon={Zap} color="brand" theme="light" size="lg" />
-            </div>
+            </div> */}
 
-            <div className="flex flex-col gap-4">
-                <h1 className="text-display-md font-semibold text-primary lg:text-display-md">
-                    Temukan cara baru belajar bahasa menggunakan MCP. ⭐
+            <div className="flex flex-col gap-3">
+                <h1 className="text-display-sm font-semibold text-primary lg:text-display-md">
+                    Temukan cara baru belajar bahasa menggunakan MCP.
                 </h1>
-                <p className="text-lg text-tertiary lg:text-lg">
+                <p className="text-base text-tertiary lg:text-lg">
                     <strong>LMS Keliling (Language Management System)</strong> Buat soal ujian lebih gampang. Latih Reading, Writing, Speaking, dan Listening dalam 14+ bahasa dengan soal yang selalu unik. Dan hasil penilaian langsung muncul tanpa harus menunggu.
                 </p>
             </div>

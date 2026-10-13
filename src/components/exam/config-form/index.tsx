@@ -97,7 +97,7 @@ export const ConfigForm = ({ isPlayground = false }: { isPlayground?: boolean })
                     {!hasUsedTrial && (
                         <div className="inline-flex items-center gap-2 rounded-md bg-green-50 px-3 py-2 text-sm font-medium text-green-700 dark:bg-green-500/10 dark:text-green-400 border border-green-200 dark:border-green-500/20 w-fit mt-1">
                             <div>
-                                ✨ Terdapat free trial max 100 soal tersimpan untuk akun baru! Coba sekarang dengan
+                                Terdapat free trial max 100 soal tersimpan untuk akun baru! Coba sekarang dengan
                                 {isAuthenticated ? (
                                     <Button size="sm" color="link-color" onClick={() => setIsGuideModalOpen(true)} className="ml-2">
                                         Tambah Ujian
